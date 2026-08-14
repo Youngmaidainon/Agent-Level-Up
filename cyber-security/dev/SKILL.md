@@ -13,6 +13,7 @@ license: MIT
 metadata:
   category: application-security
   version: "2.0.0"
+  skills_count: 817
   standards:
     - OWASP Top 10 & OWASP API Security Top 10
     - OWASP Top 10 for LLM Applications & Agentic AI

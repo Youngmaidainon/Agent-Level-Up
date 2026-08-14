@@ -1,4 +1,20 @@
-﻿# 🛡️ Master Cybersecurity & CTF Skills Compendium (817 Complete Operational Skills)
+---
+name: cyber-security
+description: |
+  Master Cybersecurity & CTF Operational Playbook containing 817 complete skills across offensive security,
+  red teaming, penetration testing, digital forensics and incident response (DFIR), malware analysis,
+  reverse engineering, cryptography, binary exploitation (pwn), web/API security, cloud/container security,
+  active directory exploitation, AI/LLM security, and OT/ICS security.
+  TRIGGER when: working on CTF challenges, offensive security operations, penetration testing, vulnerability exploitation,
+  reverse engineering binaries, malware triage, forensics investigations, threat hunting, security auditing, or hardening systems.
+license: MIT
+metadata:
+  category: cybersecurity-ctf
+  version: "2.0.0"
+  skills_count: 817
+---
+
+# 🛡️ Master Cybersecurity & CTF Skills Compendium (817 Complete Operational Skills)
 
 > **Operational Field Manual & CTF Playbook**
 > Unified reference containing all 817 cybersecurity operational skills across Offensive Security, CTF Operations, Red Teaming, DFIR, Malware Analysis, Threat Hunting, Active Directory, Cloud Security, Web/API Security, Reverse Engineering, Cryptography, AI Security, and OT/ICS.
