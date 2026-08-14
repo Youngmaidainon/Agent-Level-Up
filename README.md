@@ -71,7 +71,7 @@ Up-Skill-For-Agent/
   10. **OT / ICS / SCADA Security**: การวิเคราะห์โปรโตคอลอุตสาหกรรม (Modbus, DNP3, S7comm), Purdue Model Architecture
 * **โครงสร้างการใช้งาน:**
   * `dev/SKILL.md` (~7.5 MB): คู่มือมาตรฐาน **Secure Software Development Lifecycle (SSDLC)**, กฎเหล็ก 8 ข้อการเขียนโค้ดที่ปลอดภัย (Secure Coding), ระบบ DevSecOps CI/CD และคลังขั้นตอนปฏิบัติการความปลอดภัย 817 ทักษะ
-  * `ctf/SKILL.md` (~22.4 MB): ดัชนีรวมและ Field Manual สำหรับการแข่งขัน CTF / Pentest พร้อมลิงก์เชื่อมต่อไปยังสคริปต์ใน `CTF/scripts/`
+  * `ctf/SKILL.md` (~22.4 MB): ดัชนีรวมและ Field Manual สำหรับการแข่งขัน CTF / Pentest พร้อมลิงก์เชื่อมต่อไปยังสคริปต์ใน `ctf/scripts/`
   * `ctf/scripts/`: คลัง Automation Scripts ปฏิบัติการจริง 817 ทักษะ (รวม 1,095 ไฟล์) แยกโฟลเดอร์ตาม Skill ID พร้อมใช้งาน
 
 ---
