@@ -16,9 +16,9 @@ Up-Skill-For-Agent/
 │   └── caveman-review/                  # ตรวจสอบโค้ดและสรุปสิ่งที่ต้องแก้ใน 1 บรรทัด
 │
 ├── 🛡️ cyber-security/                 # คลังความรู้ Cyber Security และ CTF รวม 817 ทักษะ
-│   ├── Antigravity IDE/
+│   ├── dev/
 │   │   └── SKILL.md                    # ขั้นตอนพัฒนาซอฟต์แวร์ให้ปลอดภัยทางไซเบอร์ 817 รายการ
-│   └── CTF/
+│   └── ctf/
 │       ├── SKILL.md                    # คู่มือภาคสนาม CTF 817 ทักษะ พร้อมลิงก์เชื่อมโยงสคริปต์
 │       └── scripts/                    # คลัง Automation Scripts ปฏิบัติการจริง 817 ทักษะ (1,095 สคริปต์)
 │
@@ -70,9 +70,9 @@ Up-Skill-For-Agent/
   9. **Threat Hunting & SIEM**: การสร้างกฎ Sigma Rules, Splunk SPL, KQL, Elastic SIEM, Velociraptor, OpenCTI, MITRE ATT&CK Mapping
   10. **OT / ICS / SCADA Security**: การวิเคราะห์โปรโตคอลอุตสาหกรรม (Modbus, DNP3, S7comm), Purdue Model Architecture
 * **โครงสร้างการใช้งาน:**
-  * `Antigravity IDE/SKILL.md` (~7.5 MB): คู่มือมาตรฐาน **Secure Software Development Lifecycle (SSDLC)**, กฎเหล็ก 8 ข้อการเขียนโค้ดที่ปลอดภัย (Secure Coding), ระบบ DevSecOps CI/CD และคลังขั้นตอนปฏิบัติการความปลอดภัย 817 ทักษะ
-  * `CTF/SKILL.md` (~22.4 MB): ดัชนีรวมและ Field Manual สำหรับการแข่งขัน CTF / Pentest พร้อมลิงก์เชื่อมต่อไปยังสคริปต์ใน `CTF/scripts/`
-  * `CTF/scripts/`: คลัง Automation Scripts ปฏิบัติการจริง 817 ทักษะ (รวม 1,095 ไฟล์) แยกโฟลเดอร์ตาม Skill ID พร้อมใช้งาน
+  * `dev/SKILL.md` (~7.5 MB): คู่มือมาตรฐาน **Secure Software Development Lifecycle (SSDLC)**, กฎเหล็ก 8 ข้อการเขียนโค้ดที่ปลอดภัย (Secure Coding), ระบบ DevSecOps CI/CD และคลังขั้นตอนปฏิบัติการความปลอดภัย 817 ทักษะ
+  * `ctf/SKILL.md` (~22.4 MB): ดัชนีรวมและ Field Manual สำหรับการแข่งขัน CTF / Pentest พร้อมลิงก์เชื่อมต่อไปยังสคริปต์ใน `CTF/scripts/`
+  * `ctf/scripts/`: คลัง Automation Scripts ปฏิบัติการจริง 817 ทักษะ (รวม 1,095 ไฟล์) แยกโฟลเดอร์ตาม Skill ID พร้อมใช้งาน
 
 ---
 
