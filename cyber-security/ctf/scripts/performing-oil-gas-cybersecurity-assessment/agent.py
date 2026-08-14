@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing oil & gas sector cybersecurity assessment based on IEC 62443 and NIST frameworks."""
 
 import json

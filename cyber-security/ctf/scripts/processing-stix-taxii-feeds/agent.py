@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """STIX/TAXII threat intelligence feed processor using taxii2-client and stix2."""
 
 import json

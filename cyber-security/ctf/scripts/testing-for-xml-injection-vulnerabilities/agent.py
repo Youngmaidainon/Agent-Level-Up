@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing XML injection vulnerabilities.
 
 Tests web applications for XXE (XML External Entity), XPath

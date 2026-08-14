@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 EvilGinx3 Session Analysis and Cookie Export Script
 

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for auditing serverless function security across AWS Lambda."""
 
 import boto3

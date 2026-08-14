@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing and validating ransomware recovery procedures.
 
 Measures RTO/RPO against targets, validates backup restore integrity,

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing OAuth 2.0 implementation flaws.
 
 Tests OAuth authorization code flow, redirect URI validation,

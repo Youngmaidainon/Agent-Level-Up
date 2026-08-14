@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for iOS app reverse engineering with Frida.
 
 Uses frida-tools to attach to iOS processes, hook Objective-C

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing API authentication weaknesses.
 
 Tests JWT implementation flaws, unauthenticated endpoint access,

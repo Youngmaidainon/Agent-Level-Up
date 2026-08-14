@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Second-Order SQL Injection agent — detects stored SQL injection payloads
 by analyzing database content and tracing data flow from input to secondary
 query execution points."""

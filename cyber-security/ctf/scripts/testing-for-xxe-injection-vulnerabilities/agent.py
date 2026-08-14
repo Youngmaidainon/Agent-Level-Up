@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing XXE injection vulnerabilities during authorized assessments."""
 
 import requests

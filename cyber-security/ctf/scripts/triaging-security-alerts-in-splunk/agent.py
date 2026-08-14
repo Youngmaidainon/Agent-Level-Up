@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for triaging security alerts in Splunk Enterprise Security."""
 
 import splunklib.client as splunk_client

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing lateral movement detection and simulation with WMIExec — authorized testing only."""
 
 import json

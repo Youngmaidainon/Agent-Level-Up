@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for SSL/TLS inspection configuration validation.
 
 Verifies TLS inspection is working by comparing certificate issuers,

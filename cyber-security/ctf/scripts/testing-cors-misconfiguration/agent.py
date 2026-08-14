@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing CORS misconfiguration vulnerabilities during authorized assessments."""
 
 import os

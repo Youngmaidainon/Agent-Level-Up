@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # For authorized AI red-team testing and educational environments only.
 # Usage against systems without prior written consent is illegal.
 """RAG prompt-injection testing agent.

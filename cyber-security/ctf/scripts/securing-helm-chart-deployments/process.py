@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Helm Chart Security Scanner - Render Helm templates and scan
 for security misconfigurations in Kubernetes manifests.

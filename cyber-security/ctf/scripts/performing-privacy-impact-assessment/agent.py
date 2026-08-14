@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing automated Privacy Impact Assessments (PIA/DPIA).
 
 Implements the NIST Privacy Framework PRAM methodology and ICO DPIA guidance

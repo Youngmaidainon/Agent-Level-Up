@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for sector-specific threat landscape assessment.
 
 Uses the attackcti library to query MITRE ATT&CK for threat groups

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing memory forensics with Volatility3 plugins."""
 
 import json

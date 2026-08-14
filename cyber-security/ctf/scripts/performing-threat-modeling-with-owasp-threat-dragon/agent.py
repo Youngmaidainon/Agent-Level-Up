@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for threat modeling with OWASP Threat Dragon.
 
 Programmatically creates Threat Dragon JSON threat models, applies

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing lateral movement detection.
 
 Analyzes Windows event logs and network flow data to detect

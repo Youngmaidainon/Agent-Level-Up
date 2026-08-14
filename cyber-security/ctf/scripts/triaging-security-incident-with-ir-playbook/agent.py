@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for triaging security incidents with IR playbooks.
 
 Classifies alerts by incident type, assigns severity using a

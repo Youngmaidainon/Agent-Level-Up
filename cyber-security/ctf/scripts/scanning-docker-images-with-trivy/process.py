@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Trivy Docker Image Scanner - Automated scanning and reporting tool.
 

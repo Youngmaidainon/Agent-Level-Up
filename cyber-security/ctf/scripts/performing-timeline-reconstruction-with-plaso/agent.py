@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Forensic timeline reconstruction agent using Plaso subprocess wrappers."""
 
 import subprocess

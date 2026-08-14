@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """SOC tabletop exercise management agent with scenario generation and scoring."""
 
 import datetime

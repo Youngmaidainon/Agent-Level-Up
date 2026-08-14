@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for scanning Kubernetes manifests with Kubesec.
 
 Runs Kubesec security risk analysis on K8s manifests, evaluates

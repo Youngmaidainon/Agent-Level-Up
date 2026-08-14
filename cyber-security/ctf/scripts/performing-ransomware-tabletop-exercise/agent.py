@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Ransomware Tabletop Exercise agent — generates scenario injects, tracks
 participant decisions, scores response effectiveness, and produces an
 after-action report."""

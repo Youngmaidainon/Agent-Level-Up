@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing log analysis for forensic investigation.
 
 Parses Windows EVTX, Linux syslog, and web access logs to build

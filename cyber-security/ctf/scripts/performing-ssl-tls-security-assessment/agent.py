@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing SSL/TLS security assessment using sslyze.
 
 Scans TLS server configurations to evaluate cipher suites,

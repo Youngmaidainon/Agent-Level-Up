@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for red team operations with Covenant C2 framework.
 
 Automates Covenant C2 operations through its REST API: listener

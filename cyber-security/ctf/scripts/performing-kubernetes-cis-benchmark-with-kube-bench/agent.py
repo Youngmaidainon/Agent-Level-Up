@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing Kubernetes CIS benchmark assessment with kube-bench."""
 
 import json

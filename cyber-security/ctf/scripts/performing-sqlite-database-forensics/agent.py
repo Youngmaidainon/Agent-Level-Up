@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for SQLite database forensics.
 
 Parses SQLite file headers, analyzes freelist pages for deleted records,

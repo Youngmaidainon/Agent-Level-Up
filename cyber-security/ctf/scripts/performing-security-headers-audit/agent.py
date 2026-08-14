@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing security headers audit.
 
 Analyzes HTTP response headers for HSTS, CSP, X-Frame-Options,

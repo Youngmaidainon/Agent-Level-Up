@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Privileged Account Discovery agent — enumerates privileged accounts across
 Active Directory using ldap3 and flags shadow admin paths."""
 

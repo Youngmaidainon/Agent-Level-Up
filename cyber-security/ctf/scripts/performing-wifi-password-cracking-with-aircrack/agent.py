@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """WiFi password cracking assessment agent using aircrack-ng subprocess wrappers."""
 
 import subprocess

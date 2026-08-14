@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for wireless security assessment with Kismet.
 
 Interfaces with Kismet's REST API for device enumeration,

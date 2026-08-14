@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing OAuth scope minimization review.
 
 Audits OAuth 2.0 permission grants in Microsoft Entra ID (Azure AD)

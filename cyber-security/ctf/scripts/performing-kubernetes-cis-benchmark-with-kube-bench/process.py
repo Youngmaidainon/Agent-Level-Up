@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 kube-bench CIS Benchmark Reporter - Parse kube-bench JSON output
 and generate compliance reports with trend tracking.

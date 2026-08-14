@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Web application penetration test agent using requests and subprocess."""
 
 import subprocess

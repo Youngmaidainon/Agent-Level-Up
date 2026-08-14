@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for prioritizing vulnerabilities with CVSS scoring.
 
 Calculates CVSS v3.1 base scores from metric vectors, enriches

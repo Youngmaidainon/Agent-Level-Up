@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Subdomain Enumeration Pipeline with Subfinder
 Automates subdomain discovery, validation, and reporting.

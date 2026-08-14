@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing physical intrusion assessment — checklist management and finding documentation."""
 
 import json

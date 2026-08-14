@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for auditing Kubernetes cluster security posture on managed cloud platforms."""
 
 from kubernetes import client, config

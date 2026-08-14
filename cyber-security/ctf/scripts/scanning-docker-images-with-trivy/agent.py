@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for scanning Docker images with Trivy.
 
 Performs comprehensive vulnerability scanning of Docker images

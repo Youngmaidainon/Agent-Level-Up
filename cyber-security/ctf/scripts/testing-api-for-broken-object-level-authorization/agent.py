@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing APIs for Broken Object Level Authorization (BOLA).
 
 Tests REST and GraphQL APIs for IDOR/BOLA vulnerabilities by

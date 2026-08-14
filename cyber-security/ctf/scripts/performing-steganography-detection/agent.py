@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Steganography detection agent using Pillow, numpy, and subprocess tools."""
 
 import os

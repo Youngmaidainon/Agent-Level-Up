@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Ransomware Tabletop Exercise Generator and Evaluator
 

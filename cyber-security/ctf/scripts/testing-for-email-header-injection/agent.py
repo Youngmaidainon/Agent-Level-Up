@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing email header injection vulnerabilities.
 
 Tests web application email functionality for SMTP header injection

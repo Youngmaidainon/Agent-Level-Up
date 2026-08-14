@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for subdomain enumeration using subfinder and httpx.
 
 Runs ProjectDiscovery subfinder for passive subdomain discovery,

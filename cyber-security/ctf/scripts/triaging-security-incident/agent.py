@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for triaging security incidents using NIST SP 800-61 and SANS PICERL frameworks."""
 
 import requests

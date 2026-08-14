@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for web application scanning with Nikto.
 
 Runs Nikto via subprocess for web server vulnerability scanning,

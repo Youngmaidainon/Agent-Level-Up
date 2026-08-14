@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """SCA Dependency Scanning with Snyk agent — runs Snyk CLI to test
 project dependencies for known vulnerabilities, generates SARIF output,
 and enforces quality gates."""

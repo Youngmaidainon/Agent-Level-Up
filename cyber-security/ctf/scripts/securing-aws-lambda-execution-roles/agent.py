@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for auditing and securing AWS Lambda execution roles."""
 
 import boto3

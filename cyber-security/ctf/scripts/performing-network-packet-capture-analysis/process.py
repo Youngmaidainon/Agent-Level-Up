@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """PCAP Forensic Analyzer - Analyzes packet captures for forensic investigation."""
 import json, os, sys
 from collections import defaultdict, Counter

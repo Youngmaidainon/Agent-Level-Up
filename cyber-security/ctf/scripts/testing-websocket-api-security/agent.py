@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing WebSocket API security.
 
 Tests WebSocket endpoints for missing authentication, Cross-Site

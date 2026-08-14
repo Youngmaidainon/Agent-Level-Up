@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing mobile API authentication security.
 
 Tests mobile app backend APIs for broken authentication, insecure

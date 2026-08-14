@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """SSVC Vulnerability Triage Processor.
 
 Evaluates vulnerabilities against CISA's Stakeholder-Specific Vulnerability

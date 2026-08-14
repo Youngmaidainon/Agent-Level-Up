@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing packet injection testing.
 
 Crafts and sends test packets using Scapy for authorized security

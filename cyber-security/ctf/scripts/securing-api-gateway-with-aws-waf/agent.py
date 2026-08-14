@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for managing AWS WAF Web ACLs protecting API Gateway endpoints."""
 
 import boto3

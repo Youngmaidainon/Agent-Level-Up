@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing WAF bypass techniques.
 
 Sends encoded, obfuscated, and protocol-level bypass payloads

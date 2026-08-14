@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing Kubernetes penetration testing — authorized testing only."""
 
 import json

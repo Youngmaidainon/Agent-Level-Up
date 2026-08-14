@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing Linux privilege escalation enumeration — authorized testing only."""
 
 import json

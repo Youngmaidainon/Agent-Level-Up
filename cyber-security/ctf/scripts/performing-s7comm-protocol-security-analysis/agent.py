@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """S7comm Protocol Security Analysis agent — analyzes Siemens S7 protocol
 traffic from PCAP files using pyshark to detect unauthorized PLC access,
 password brute-force, and dangerous write operations."""

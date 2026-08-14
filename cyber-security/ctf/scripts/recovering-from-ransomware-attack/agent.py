@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for ransomware attack recovery coordination.
 
 Manages recovery workflow: backup verification, system rebuild

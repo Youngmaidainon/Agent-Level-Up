@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing privilege escalation assessment.
 
 Enumerates potential privilege escalation vectors on Linux systems

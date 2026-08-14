@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 NIST CSF 2.0 Maturity Assessment Automation
 

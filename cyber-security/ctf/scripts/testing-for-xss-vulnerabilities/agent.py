@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing Cross-Site Scripting (XSS) vulnerabilities during authorized assessments."""
 
 import requests

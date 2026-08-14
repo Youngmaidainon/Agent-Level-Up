@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for YARA rule development and testing.
 
 Creates YARA rules from malware samples by extracting unique strings

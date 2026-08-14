@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing network forensics with Wireshark/pyshark.
 
 Analyzes PCAP files to extract conversations, DNS queries, HTTP

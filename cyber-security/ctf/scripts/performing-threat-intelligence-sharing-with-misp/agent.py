@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """MISP Threat Intelligence Sharing agent - creates events, manages attributes, searches IOCs, and validates sharing configuration via PyMISP"""
 
 import argparse

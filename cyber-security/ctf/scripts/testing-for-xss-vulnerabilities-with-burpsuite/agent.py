@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for XSS testing workflows complementing Burp Suite during authorized assessments."""
 
 import requests

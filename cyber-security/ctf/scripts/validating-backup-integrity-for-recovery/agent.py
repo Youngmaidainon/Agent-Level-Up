@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for validating backup integrity for disaster recovery.
 
 Computes cryptographic hashes, compares manifests, detects corruption,

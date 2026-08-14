@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing network traffic analysis with Zeek (Bro) log files."""
 
 import json

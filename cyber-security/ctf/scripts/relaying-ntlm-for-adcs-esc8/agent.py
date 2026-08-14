@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # For authorized penetration testing and educational environments only.
 # Coercing/relaying authentication against systems without prior mutual written
 # consent is illegal. It is the end user's responsibility to obey all laws.

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for automating service account credential rotation.
 
 Rotates credentials for AWS IAM access keys, Azure service principals,

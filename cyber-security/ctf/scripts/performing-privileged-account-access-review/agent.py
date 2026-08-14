@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Privileged Account Access Review agent — audits privileged accounts for
 compliance with least-privilege and periodic recertification requirements."""
 

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for wireless network penetration testing.
 
 Runs aircrack-ng suite tools via subprocess for WiFi reconnaissance,

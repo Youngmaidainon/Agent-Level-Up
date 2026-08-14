@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing ICS asset discovery with Claroty xDome/CTD API."""
 
 import json

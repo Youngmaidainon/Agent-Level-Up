@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Threat hunting agent for Elastic SIEM using elasticsearch-py."""
 
 import os

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # For authorized penetration testing and lab environments only
 """GoPhish Campaign Agent - Automates phishing simulation setup, launch, and analysis."""
 

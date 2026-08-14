@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for tracking threat actor infrastructure.
 
 Uses passive DNS, certificate transparency, Shodan, WHOIS, and

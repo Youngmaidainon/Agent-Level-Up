@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """SCADA HMI Security Assessment agent — analyzes SCADA HMI configurations
 for security weaknesses including default credentials, unencrypted protocols,
 and missing access controls."""

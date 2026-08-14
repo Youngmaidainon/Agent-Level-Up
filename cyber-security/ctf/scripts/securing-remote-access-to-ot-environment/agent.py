@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for securing remote access to OT environments.
 
 Manages remote access sessions with MFA verification, session

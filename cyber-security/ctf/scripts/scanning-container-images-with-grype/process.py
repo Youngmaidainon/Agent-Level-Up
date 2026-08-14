@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
 Grype Container Image Scanner - Automated scanning and reporting utility.
 

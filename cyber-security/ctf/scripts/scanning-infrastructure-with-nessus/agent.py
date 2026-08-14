@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for scanning infrastructure with Tenable Nessus.
 
 Interacts with the Nessus REST API to create scan policies,

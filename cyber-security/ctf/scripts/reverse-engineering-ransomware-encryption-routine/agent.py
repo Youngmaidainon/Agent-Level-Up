@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for reverse engineering ransomware encryption routines.
 
 Identifies encryption algorithms, extracts key material from

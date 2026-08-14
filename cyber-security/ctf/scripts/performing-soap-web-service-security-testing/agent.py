@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for security testing SOAP web services.
 
 Parses WSDL definitions using zeep/lxml, tests for XXE, SQL injection,

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing phishing simulation campaigns with GoPhish API."""
 
 import json

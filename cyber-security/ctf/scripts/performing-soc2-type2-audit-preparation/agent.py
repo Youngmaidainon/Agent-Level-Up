@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for SOC 2 Type II audit preparation, evidence collection, and compliance monitoring."""
 
 import os

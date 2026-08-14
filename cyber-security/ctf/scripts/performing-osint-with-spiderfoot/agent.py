@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """OSINT automation agent using SpiderFoot REST API for target profiling and reconnaissance."""
 
 import os

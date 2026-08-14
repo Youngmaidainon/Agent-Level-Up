@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing IOC enrichment automation.
 
 Orchestrates multi-source IOC lookups across VirusTotal, AbuseIPDB,

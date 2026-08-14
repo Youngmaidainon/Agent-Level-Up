@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Trivy scanning helper.
 
 Wraps the Trivy CLI to scan container images, filesystems/IaC, and SBOMs,

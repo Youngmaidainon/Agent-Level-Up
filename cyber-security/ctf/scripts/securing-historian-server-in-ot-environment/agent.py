@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for securing historian servers in OT environments.
 
 Audits network exposure, authentication configuration, data

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """System-prompt leakage tester.
 
 Sends a battery of extraction payloads to an OpenAI-compatible chat endpoint and

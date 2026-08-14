@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing Kerberoasting attack simulation and detection — authorized testing only."""
 
 import json

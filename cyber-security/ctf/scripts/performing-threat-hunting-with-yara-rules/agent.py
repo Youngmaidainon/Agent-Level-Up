@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Threat hunting agent using YARA rules.
 
 Scans files and directories with yara-python, supports rule compilation,

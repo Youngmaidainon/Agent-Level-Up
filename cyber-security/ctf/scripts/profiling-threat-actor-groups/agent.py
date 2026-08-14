@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Threat actor profiling agent using MITRE ATT&CK STIX data and STIX2 library."""
 
 import json

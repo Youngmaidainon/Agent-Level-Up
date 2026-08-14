@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for automated API security testing against OWASP API Security Top 10."""
 
 import os

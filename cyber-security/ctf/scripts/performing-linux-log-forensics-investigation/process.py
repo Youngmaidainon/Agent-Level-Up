@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Linux Log Forensic Analyzer - Parses auth.log for forensic investigation."""
 import re, json, os, sys
 from datetime import datetime

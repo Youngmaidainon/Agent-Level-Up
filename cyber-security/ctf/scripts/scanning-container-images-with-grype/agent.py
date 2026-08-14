@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for scanning container images with Anchore Grype.
 
 Runs Grype CLI against container images, parses JSON results,

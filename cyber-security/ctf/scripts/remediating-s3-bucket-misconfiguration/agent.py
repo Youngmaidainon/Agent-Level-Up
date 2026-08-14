@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """S3 bucket misconfiguration remediation agent using boto3."""
 
 import json

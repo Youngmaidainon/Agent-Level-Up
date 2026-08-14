@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # For authorized penetration testing and lab environments only
 """iOS App Security Assessment Agent - Automates Frida-based iOS security testing including
 SSL pinning bypass, keychain extraction, IPA static analysis, and runtime method hooking."""

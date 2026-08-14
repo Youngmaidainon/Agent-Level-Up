@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Network traffic analysis agent using tshark and pyshark for PCAP analysis."""
 
 import json

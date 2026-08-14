@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for securing GitHub Actions workflows.
 
 Audits GitHub Actions workflow files for security issues including

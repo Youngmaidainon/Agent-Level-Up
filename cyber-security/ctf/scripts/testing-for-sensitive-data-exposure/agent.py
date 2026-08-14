@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing sensitive data exposure vulnerabilities during authorized assessments."""
 
 import requests

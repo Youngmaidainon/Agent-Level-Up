@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing network packet capture analysis with scapy and tshark."""
 
 import json

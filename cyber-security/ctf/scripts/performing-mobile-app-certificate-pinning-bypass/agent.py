@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing mobile app certificate pinning bypass testing — authorized testing only."""
 
 import json

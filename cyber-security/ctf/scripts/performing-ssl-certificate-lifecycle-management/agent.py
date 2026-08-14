@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for SSL/TLS certificate lifecycle management.
 
 Generates CSRs, parses X.509 certificates using the cryptography

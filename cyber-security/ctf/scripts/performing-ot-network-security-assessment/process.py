@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """OT Network Security Assessment - Automated Discovery and Analysis.
 
 This script performs passive OT network discovery from pcap captures,

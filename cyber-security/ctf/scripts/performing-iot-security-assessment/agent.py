@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing IoT security assessment.
 
 Automates IoT device reconnaissance, firmware extraction with binwalk,

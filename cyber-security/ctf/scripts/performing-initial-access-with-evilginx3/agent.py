@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing initial access simulation with Evilginx3 phishlet analysis — educational/authorized pentest use."""
 
 import json

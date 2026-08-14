@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for auditing container registry image security: scanning, signing, and SBOM."""
 
 import boto3

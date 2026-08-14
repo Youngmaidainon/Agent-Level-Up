@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for Windows artifact analysis with Eric Zimmerman tools.
 
 Runs EZ tools (MFTECmd, PECmd, LECmd, JLECmd, ShellBags Explorer CLI)

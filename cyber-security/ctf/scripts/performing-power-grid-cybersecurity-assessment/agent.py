@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing power grid cybersecurity assessment based on NERC CIP standards."""
 
 import json

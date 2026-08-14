@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing Android intents for vulnerabilities.
 
 Uses ADB and Drozer to enumerate exported components, test

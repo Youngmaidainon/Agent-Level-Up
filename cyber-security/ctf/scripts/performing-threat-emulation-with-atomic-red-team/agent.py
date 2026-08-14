@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for threat emulation with Atomic Red Team test execution."""
 
 import json

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for triaging vulnerabilities with the SSVC framework.
 
 Implements CISA's Stakeholder-Specific Vulnerability Categorization

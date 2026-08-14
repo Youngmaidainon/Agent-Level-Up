@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing insider threat investigation.
 
 Analyzes user activity logs, detects behavioral anomalies, builds

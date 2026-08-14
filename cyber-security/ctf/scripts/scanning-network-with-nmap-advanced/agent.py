@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Automated network scanning agent using python-nmap for authorized assessments."""
 
 import nmap

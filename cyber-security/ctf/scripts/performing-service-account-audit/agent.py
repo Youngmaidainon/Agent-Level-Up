@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for auditing service accounts across AD, cloud, and databases.
 
 Discovers service accounts via LDAP queries, AWS IAM, and Azure AD,

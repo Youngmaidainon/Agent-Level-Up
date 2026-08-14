@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for auditing and hardening AWS IAM permissions using least-privilege principles."""
 
 import boto3

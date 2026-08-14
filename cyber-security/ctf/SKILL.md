@@ -1,4 +1,4 @@
-# 🛡️ Master Cybersecurity & CTF Skills Compendium (817 Complete Operational Skills)
+﻿# 🛡️ Master Cybersecurity & CTF Skills Compendium (817 Complete Operational Skills)
 
 > **Operational Field Manual & CTF Playbook**
 > Unified reference containing all 817 cybersecurity operational skills across Offensive Security, CTF Operations, Red Teaming, DFIR, Malware Analysis, Threat Hunting, Active Directory, Cloud Security, Web/API Security, Reverse Engineering, Cryptography, AI Security, and OT/ICS.
@@ -3608,7 +3608,7 @@ yara -s -r rules.yar firmware.rom   # Show matching strings
 
 **NIST CSF:** `RS.AN-03`, `DE.AE-02`, `RS.MA-01`
 
-**Scripts:** [`agent.py`](scripts/analyzing-browser-forensics-with-hindsight/agent.py) · [`process.py`](scripts/analyzing-browser-forensics-with-hindsight/process.py)
+**Scripts:** [`agent.py`](scripts/analyzing-browser-forensics-with-hindsight/agent.py), [`process.py`](scripts/analyzing-browser-forensics-with-hindsight/process.py)
 
 **Description:** Parse Chromium-based browser databases with Hindsight to extract and correlate browsing history, downloads, cookies, cached content, autofill data, saved passwords, and extensions from Chrome, Edge, Brave, Opera, and Vivaldi into a unified timeline (XLSX, JSON, or SQLite output). Use during incident response, insider-threat investigations, or criminal cases when you need to reconstruct a user's web activity from a browser profile.
 
@@ -3941,7 +3941,7 @@ Correlate browser activity with system timeline
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-05`, `DE.CM-01`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/analyzing-campaign-attribution-evidence/agent.py) · [`process.py`](scripts/analyzing-campaign-attribution-evidence/process.py)
+**Scripts:** [`agent.py`](scripts/analyzing-campaign-attribution-evidence/agent.py), [`process.py`](scripts/analyzing-campaign-attribution-evidence/process.py)
 
 **Description:** Systematically evaluate cyber-campaign evidence to attribute an operation to a threat actor, using the Diamond Model and Analysis of Competing Hypotheses (ACH) to weigh infrastructure overlaps, TTP consistency, malware code similarity, and timing/language artifacts into confidence-weighted attribution assessments. Use when an incident investigation needs a defensible attribution confidence level.
 
@@ -4505,7 +4505,7 @@ aws cloudtrail lookup-events \
 
 **NIST CSF:** `DE.AE-02`, `RS.AN-03`, `ID.RA-01`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/analyzing-cobalt-strike-beacon-configuration/agent.py) · [`process.py`](scripts/analyzing-cobalt-strike-beacon-configuration/process.py)
+**Scripts:** [`agent.py`](scripts/analyzing-cobalt-strike-beacon-configuration/agent.py), [`process.py`](scripts/analyzing-cobalt-strike-beacon-configuration/process.py)
 
 **Description:** Extract and analyze Cobalt Strike beacon configuration from PE files and memory dumps to identify C2 infrastructure, malleable profiles, and operator tradecraft.
 
@@ -7463,7 +7463,7 @@ pip install mythril
 
 **NIST CSF:** `DE.AE-02`, `RS.AN-03`, `ID.RA-01`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/analyzing-golang-malware-with-ghidra/agent.py) · [`process.py`](scripts/analyzing-golang-malware-with-ghidra/process.py)
+**Scripts:** [`agent.py`](scripts/analyzing-golang-malware-with-ghidra/agent.py), [`process.py`](scripts/analyzing-golang-malware-with-ghidra/process.py)
 
 **Description:** Reverse engineer Go-compiled malware in Ghidra by parsing Go buildinfo and pclntab structures, recovering stripped/obfuscated function names (e.g. via GoResolver), and extracting embedded module/dependency strings and types from Go binaries. Use when analyzing a Go-language malware sample, deobfuscating a garble-packed Go binary, or recovering function names and third-party dependencies from a stripped Go executable.
 
@@ -8085,7 +8085,7 @@ curl "https://api.shodan.io/shodan/host/<ip>?key=$SHODAN_KEY"
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/analyzing-ios-app-security-with-objection/agent.py) · [`process.py`](scripts/analyzing-ios-app-security-with-objection/process.py)
+**Scripts:** [`agent.py`](scripts/analyzing-ios-app-security-with-objection/agent.py), [`process.py`](scripts/analyzing-ios-app-security-with-objection/process.py)
 
 **Description:** Runtime iOS app security testing with Objection (Frida): inspect keychain and filesystem data, explore app internals at runtime, and validate/bypass client-side protections during authorized mobile assessments.
 
@@ -10115,7 +10115,7 @@ aide --compare                 # Compare databases
 
 **NIST CSF:** `RS.AN-03`, `DE.AE-02`, `RS.MA-01`
 
-**Scripts:** [`agent.py`](scripts/analyzing-lnk-file-and-jump-list-artifacts/agent.py) · [`process.py`](scripts/analyzing-lnk-file-and-jump-list-artifacts/process.py)
+**Scripts:** [`agent.py`](scripts/analyzing-lnk-file-and-jump-list-artifacts/agent.py), [`process.py`](scripts/analyzing-lnk-file-and-jump-list-artifacts/process.py)
 
 **Description:** Analyze Windows LNK shortcut files and Jump List artifacts with LECmd, JLECmd, and manual Shell Link Binary Format parsing to establish evidence of file access, program execution, and user activity that persists even after the target file is deleted. Use when investigating Windows user activity, reconstructing file-access or program-execution timelines, or examining recent/frequently-used file evidence in a forensic exam.
 
@@ -11148,7 +11148,7 @@ Detections: 45/72
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/analyzing-malicious-url-with-urlscan/agent.py) · [`process.py`](scripts/analyzing-malicious-url-with-urlscan/process.py)
+**Scripts:** [`agent.py`](scripts/analyzing-malicious-url-with-urlscan/agent.py), [`process.py`](scripts/analyzing-malicious-url-with-urlscan/process.py)
 
 **Description:** URLScan.io is a free service for scanning and analyzing suspicious URLs. It captures screenshots, DOM content, HTTP transactions, JavaScript behavior, and network connections of web pages in an isolat
 
@@ -12849,7 +12849,7 @@ diff pslist.txt psscan.txt
 
 **NIST CSF:** `RS.AN-03`, `DE.AE-02`, `RS.MA-01`
 
-**Scripts:** [`agent.py`](scripts/analyzing-mft-for-deleted-file-recovery/agent.py) · [`process.py`](scripts/analyzing-mft-for-deleted-file-recovery/process.py)
+**Scripts:** [`agent.py`](scripts/analyzing-mft-for-deleted-file-recovery/agent.py), [`process.py`](scripts/analyzing-mft-for-deleted-file-recovery/process.py)
 
 **Description:** Analyze the NTFS Master File Table ($MFT) with MFTECmd, analyzeMFT, and X-Ways Forensics to recover metadata and content of deleted files by examining MFT record entries, $LogFile, $UsnJrnl, and MFT slack space. Use when recovering evidence of deleted files, reconstructing NTFS file-system timelines, or detecting anti-forensic timestomping during a Windows forensic examination.
 
@@ -19255,7 +19255,7 @@ See SKILL.md for detailed step-by-step procedures.
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-05`, `DE.CM-01`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/analyzing-threat-actor-ttps-with-mitre-attack/agent.py) · [`process.py`](scripts/analyzing-threat-actor-ttps-with-mitre-attack/process.py)
+**Scripts:** [`agent.py`](scripts/analyzing-threat-actor-ttps-with-mitre-attack/agent.py), [`process.py`](scripts/analyzing-threat-actor-ttps-with-mitre-attack/process.py)
 
 **Description:** Systematically map threat actor behavior and observed IOCs to the MITRE ATT&CK framework, build technique coverage heatmaps with the ATT&CK Navigator, identify detection gaps, and produce actionable threat intelligence reports across the Enterprise, Mobile, and ICS matrices. Use when analyzing threat actor TTPs, correlating IOCs to specific ATT&CK techniques, or assessing defensive detection coverage against adversary behavior.
 
@@ -22953,7 +22953,7 @@ rip.pl -r SYSTEM -p shutdown
 
 **NIST CSF:** `RS.AN-03`, `DE.AE-02`, `RS.MA-01`
 
-**Scripts:** [`agent.py`](scripts/analyzing-windows-shellbag-artifacts/agent.py) · [`process.py`](scripts/analyzing-windows-shellbag-artifacts/process.py)
+**Scripts:** [`agent.py`](scripts/analyzing-windows-shellbag-artifacts/agent.py), [`process.py`](scripts/analyzing-windows-shellbag-artifacts/process.py)
 
 **Description:** Analyze Windows Shellbag (BagMRU) registry artifacts with SBECmd and Shellbags Explorer to reconstruct folder browsing activity and prove user interaction with directories, including removable media and network shares, even after the folders are deleted. Use when reconstructing a user's folder access history or proving access to a since-removed directory in DFIR work.
 
@@ -29338,7 +29338,7 @@ ACTIONS:
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/building-c2-infrastructure-with-sliver-framework/agent.py) · [`process.py`](scripts/building-c2-infrastructure-with-sliver-framework/process.py)
+**Scripts:** [`agent.py`](scripts/building-c2-infrastructure-with-sliver-framework/agent.py), [`process.py`](scripts/building-c2-infrastructure-with-sliver-framework/process.py)
 
 **Description:** Deploy and harden a Sliver C2 team server (BishopFox's Go-based adversary emulation framework) with multi-protocol listeners (mTLS, HTTP/S, DNS, WireGuard), redirectors, domain fronting, and multi-operator support for authorized red-team operations. Use when standing up resilient C2 for a red-team engagement or generating beacon/session implants that must survive blue-team detection.
 
@@ -30385,7 +30385,7 @@ CommonSecurityLog | where DestinationIP in (TI)
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `RS.MA-01`, `DE.AE-06`
 
-**Scripts:** [`agent.py`](scripts/building-detection-rule-with-splunk-spl/agent.py) · [`process.py`](scripts/building-detection-rule-with-splunk-spl/process.py)
+**Scripts:** [`agent.py`](scripts/building-detection-rule-with-splunk-spl/agent.py), [`process.py`](scripts/building-detection-rule-with-splunk-spl/process.py)
 
 **Description:** Build effective detection rules using Splunk Search Processing Language (SPL) correlation searches to identify security threats in SOC environments.
 
@@ -31172,7 +31172,7 @@ sigma check rule.yml
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/building-devsecops-pipeline-with-gitlab-ci/agent.py) · [`process.py`](scripts/building-devsecops-pipeline-with-gitlab-ci/process.py)
+**Scripts:** [`agent.py`](scripts/building-devsecops-pipeline-with-gitlab-ci/agent.py), [`process.py`](scripts/building-devsecops-pipeline-with-gitlab-ci/process.py)
 
 **Description:** Configure a GitLab CI/CD pipeline that embeds SAST (Semgrep, SpotBugs, Gosec, Bandit, NodeJsScan), DAST, container scanning, dependency scanning, and secret detection via GitLab's managed security templates. Use when building a shift-left DevSecOps pipeline in GitLab, adding automated vulnerability scanning stages to .gitlab-ci.yml, or triaging scanner findings with GitLab Duo AI before deployment.
 
@@ -31631,7 +31631,7 @@ Scanner detects vulnerability
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/building-identity-federation-with-saml-azure-ad/agent.py) · [`process.py`](scripts/building-identity-federation-with-saml-azure-ad/process.py)
+**Scripts:** [`agent.py`](scripts/building-identity-federation-with-saml-azure-ad/agent.py), [`process.py`](scripts/building-identity-federation-with-saml-azure-ad/process.py)
 
 **Description:** Configure SAML 2.0 identity federation between on-premises Active Directory (via AD FS or a third-party IdP) and Microsoft Entra ID, covering federation models (AD FS, password hash sync, pass-through auth, third-party IdP) and the SAML authentication flow. Use when extending on-premises authentication authority to cloud resources or designing hybrid identity SSO architecture for Entra ID.
 
@@ -32950,7 +32950,7 @@ Target MTTR: 4 hours
 
 **NIST CSF:** `RS.MA-01`, `RS.MA-02`, `RS.AN-03`, `RC.RP-01`
 
-**Scripts:** [`agent.py`](scripts/building-incident-timeline-with-timesketch/agent.py) · [`process.py`](scripts/building-incident-timeline-with-timesketch/process.py)
+**Scripts:** [`agent.py`](scripts/building-incident-timeline-with-timesketch/agent.py), [`process.py`](scripts/building-incident-timeline-with-timesketch/process.py)
 
 **Description:** Build collaborative forensic incident timelines using Timesketch to ingest, normalize, and analyze multi-source event data (including Plaso output) for attack chain reconstruction and investigation documentation. Use when reconstructing the sequence of events during an incident investigation or when multiple analysts need to jointly tag, annotate, and search a shared DFIR timeline.
 
@@ -33633,7 +33633,7 @@ Body: STIX Bundle JSON
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-05`, `DE.CM-01`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/building-ioc-enrichment-pipeline-with-opencti/agent.py) · [`process.py`](scripts/building-ioc-enrichment-pipeline-with-opencti/process.py)
+**Scripts:** [`agent.py`](scripts/building-ioc-enrichment-pipeline-with-opencti/agent.py), [`process.py`](scripts/building-ioc-enrichment-pipeline-with-opencti/process.py)
 
 **Description:** Build an automated IOC enrichment pipeline on OpenCTI (STIX 2.1 native threat intel platform) using its internal enrichment connectors to pull context from VirusTotal, Shodan, AbuseIPDB, and GreyNoise, correlate indicators with known actors/campaigns, and score them for analyst prioritization. Use when deploying OpenCTI or automating enrichment and confidence scoring of newly ingested indicators.
 
@@ -34002,7 +34002,7 @@ query {
 
 **NIST CSF:** `RS.MA-01`, `RS.MA-02`, `RS.AN-03`, `RC.RP-01`
 
-**Scripts:** [`agent.py`](scripts/building-malware-incident-communication-template/agent.py) · [`process.py`](scripts/building-malware-incident-communication-template/process.py)
+**Scripts:** [`agent.py`](scripts/building-malware-incident-communication-template/agent.py), [`process.py`](scripts/building-malware-incident-communication-template/process.py)
 
 **Description:** Build structured communication templates for malware incidents (ransomware, wiper, trojan, worm), covering internal stakeholder notifications, executive briefings, technical advisories for IT teams, customer notifications, and regulatory disclosures, with severity-based escalation procedures. Use when drafting or standardizing incident communications and notification workflows for a malware outbreak.
 
@@ -34550,7 +34550,7 @@ END: Customer Notification Complete
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/building-patch-tuesday-response-process/agent.py) · [`process.py`](scripts/building-patch-tuesday-response-process/process.py)
+**Scripts:** [`agent.py`](scripts/building-patch-tuesday-response-process/agent.py), [`process.py`](scripts/building-patch-tuesday-response-process/process.py)
 
 **Description:** Establish a repeatable operational process for triaging, testing, and deploying Microsoft Patch Tuesday security updates (Windows, Office, Exchange, SQL Server, Azure) via WSUS/SCCM within risk-based remediation SLAs, from advisory review through validation. Use when building or improving a monthly patch management workflow or prioritizing which CVEs to remediate first.
 
@@ -34903,7 +34903,7 @@ Week 4:
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/building-phishing-reporting-button-workflow/agent.py) · [`process.py`](scripts/building-phishing-reporting-button-workflow/process.py)
+**Scripts:** [`agent.py`](scripts/building-phishing-reporting-button-workflow/agent.py), [`process.py`](scripts/building-phishing-reporting-button-workflow/process.py)
 
 **Description:** Implement a phishing report button (Microsoft 365 built-in Report button or third-party like KnowBe4/Cofense) in email clients with a SOAR-driven automated triage workflow that classifies reported emails, extracts IOCs, takes remediation actions, and gives feedback to reporters. Use when deploying user-reported phishing intake or automating triage of the resulting reporting mailbox.
 
@@ -35443,7 +35443,7 @@ Returns ransomware family name, available decryptors, and known TTPs.
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/building-red-team-c2-infrastructure-with-havoc/agent.py) · [`process.py`](scripts/building-red-team-c2-infrastructure-with-havoc/process.py)
+**Scripts:** [`agent.py`](scripts/building-red-team-c2-infrastructure-with-havoc/agent.py), [`process.py`](scripts/building-red-team-c2-infrastructure-with-havoc/process.py)
 
 **Description:** Deploy and configure the Havoc C2 framework (teamserver, HTTPS/HTTP/SMB listeners, Nginx redirectors, and Demon agents) with malleable traffic profiles and OPSEC-hardened infrastructure for authorized red team operations. Use when standing up or hardening Havoc C2 infrastructure for a written, authorized adversary emulation engagement.
 
@@ -36082,7 +36082,7 @@ resource "aws_security_group" "redirector_sg" {
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/building-role-mining-for-rbac-optimization/agent.py) · [`process.py`](scripts/building-role-mining-for-rbac-optimization/process.py)
+**Scripts:** [`agent.py`](scripts/building-role-mining-for-rbac-optimization/agent.py), [`process.py`](scripts/building-role-mining-for-rbac-optimization/process.py)
 
 **Description:** Apply bottom-up and top-down role mining techniques, including clustering algorithms and formal concept analysis, to discover optimal RBAC roles from existing user-permission assignments, consolidating overlapping roles and enforcing least privilege. Use when an identity program needs to reduce role explosion or redesign its RBAC role set from access data.
 
@@ -36414,7 +36414,7 @@ Mining produces N candidate roles
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `RS.MA-01`, `DE.AE-06`
 
-**Scripts:** [`agent.py`](scripts/building-soc-escalation-matrix/agent.py) · [`process.py`](scripts/building-soc-escalation-matrix/process.py)
+**Scripts:** [`agent.py`](scripts/building-soc-escalation-matrix/agent.py), [`process.py`](scripts/building-soc-escalation-matrix/process.py)
 
 **Description:** Build a structured SOC escalation matrix defining severity tiers, response SLAs, tiered escalation paths, and notification procedures for security incidents, using context-driven criteria that combine business risk, asset criticality, and data sensitivity. Use when designing or revising how a SOC triages and escalates incidents across analyst tiers.
 
@@ -38145,7 +38145,7 @@ curl "https://misp.example.org/taxii2/collections"
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/building-threat-hunt-hypothesis-framework/agent.py) · [`process.py`](scripts/building-threat-hunt-hypothesis-framework/process.py)
+**Scripts:** [`agent.py`](scripts/building-threat-hunt-hypothesis-framework/agent.py), [`process.py`](scripts/building-threat-hunt-hypothesis-framework/process.py)
 
 **Description:** Build a systematic threat-hunt workflow that turns threat intelligence and ATT&CK gap analysis into testable hypotheses, then executes and validates them via EDR/SIEM queries (CrowdStrike, Defender, Splunk, Elastic, Sysmon, Velociraptor, Sigma) and documents findings in a standardized hunt report. Use when planning or running a proactive threat hunt or scoping compromise from an intel- or anomaly-driven lead.
 
@@ -38439,7 +38439,7 @@ HuntHypothesis
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `RS.MA-01`, `DE.AE-06`
 
-**Scripts:** [`agent.py`](scripts/building-threat-intelligence-enrichment-in-splunk/agent.py) · [`process.py`](scripts/building-threat-intelligence-enrichment-in-splunk/process.py)
+**Scripts:** [`agent.py`](scripts/building-threat-intelligence-enrichment-in-splunk/agent.py), [`process.py`](scripts/building-threat-intelligence-enrichment-in-splunk/process.py)
 
 **Description:** Build automated IOC enrichment pipelines in Splunk Enterprise Security by ingesting threat feeds into KV Store collections and correlating them against security events via lookup tables, modular inputs, and the Threat Intelligence Framework. Use when wiring threat intel into Splunk correlation searches to flag IOC matches and cut SOC triage time.
 
@@ -39087,7 +39087,7 @@ Pushes indicators to the Splunk ES threat intelligence framework via REST API.
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-05`, `DE.CM-01`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/building-threat-intelligence-platform/agent.py) · [`process.py`](scripts/building-threat-intelligence-platform/process.py)
+**Scripts:** [`agent.py`](scripts/building-threat-intelligence-platform/agent.py), [`process.py`](scripts/building-threat-intelligence-platform/process.py)
 
 **Description:** Design and deploy a Threat Intelligence Platform (TIP) by integrating open-source CTI tools (MISP, OpenCTI, TheHive, Cortex) into a unified system with feed ingestion pipelines, enrichment workflows, STIX/TAXII interoperability, and analyst dashboards. Use when architecting or standing up a centralized CTI platform to collect, analyze, and disseminate threat intelligence across a security team.
 
@@ -39410,7 +39410,7 @@ OSINT/Commercial   Correlate    Knowledge Graph   VT/Shodan/AIPDB    Alerts/Case
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/building-vulnerability-aging-and-sla-tracking/agent.py) · [`process.py`](scripts/building-vulnerability-aging-and-sla-tracking/process.py)
+**Scripts:** [`agent.py`](scripts/building-vulnerability-aging-and-sla-tracking/agent.py), [`process.py`](scripts/building-vulnerability-aging-and-sla-tracking/process.py)
 
 **Description:** Implement a vulnerability aging dashboard and SLA tracking system that measures time-to-remediation against severity-based deadlines (e.g. 14 days critical, 30 days high, 60 days medium, 90 days low), with automated escalations and compliance metrics reporting. Use when designing SLA policies, building aging/remediation dashboards, or proving compliance with remediation timelines.
 
@@ -39667,7 +39667,7 @@ Week 4: Action items assigned, SLA adjustments if needed
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/building-vulnerability-dashboard-with-defectdojo/agent.py) · [`process.py`](scripts/building-vulnerability-dashboard-with-defectdojo/process.py)
+**Scripts:** [`agent.py`](scripts/building-vulnerability-dashboard-with-defectdojo/agent.py), [`process.py`](scripts/building-vulnerability-dashboard-with-defectdojo/process.py)
 
 **Description:** Deploy DefectDojo as a centralized vulnerability management dashboard that ingests findings from 200+ security scanners, deduplicates results, tracks remediation metrics, and integrates with CI/CD, Jira ticketing, and Slack notifications via its REST API. Use when consolidating scanner output into one dashboard or automating vulnerability ticketing and executive reporting.
 
@@ -40004,7 +40004,7 @@ curl -X POST "http://localhost:8080/api/v2/import-scan/" \
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/building-vulnerability-exception-tracking-system/agent.py) · [`process.py`](scripts/building-vulnerability-exception-tracking-system/process.py)
+**Scripts:** [`agent.py`](scripts/building-vulnerability-exception-tracking-system/agent.py), [`process.py`](scripts/building-vulnerability-exception-tracking-system/process.py)
 
 **Description:** Build a vulnerability exception and risk acceptance tracking system covering approval workflows, compensating controls documentation, and automatic expiration for vulnerabilities that miss SLA remediation timelines. Use when standing up a governance process for risk acceptance and exception approvals to support PCI DSS, SOC 2, or NIST CSF compliance.
 
@@ -41676,7 +41676,7 @@ Consolidates all gathered OSINT into a structured JSON report.
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-05`, `DE.CM-01`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/collecting-threat-intelligence-with-misp/agent.py) · [`process.py`](scripts/collecting-threat-intelligence-with-misp/process.py)
+**Scripts:** [`agent.py`](scripts/collecting-threat-intelligence-with-misp/agent.py), [`process.py`](scripts/collecting-threat-intelligence-with-misp/process.py)
 
 **Description:** Deploy MISP, configure threat feeds (MISP community, freetext, TAXII, CSV), and use the PyMISP API to programmatically fetch, add, and search events and IOCs, building automated collection pipelines that aggregate indicators from community and commercial sources. Use when gathering, storing, or correlating IOCs and threat intelligence, or when scripting MISP ingestion via PyMISP.
 
@@ -41982,7 +41982,7 @@ curl -H "Authorization: $KEY" "https://misp/events/restSearch/stix2"
 
 **NIST CSF:** `RS.MA-01`, `RS.MA-02`, `RS.AN-03`, `RC.RP-01`
 
-**Scripts:** [`agent.py`](scripts/collecting-volatile-evidence-from-compromised-host/agent.py) · [`process.py`](scripts/collecting-volatile-evidence-from-compromised-host/process.py)
+**Scripts:** [`agent.py`](scripts/collecting-volatile-evidence-from-compromised-host/agent.py), [`process.py`](scripts/collecting-volatile-evidence-from-compromised-host/process.py)
 
 **Description:** Collect volatile forensic evidence from a compromised host by following the order of volatility, preserving memory, network connections, running processes, and system state with documented chain of custody before they are lost. Use before isolating, shutting down, or remediating a compromised host, especially when fileless or memory-resident malware is suspected, root cause analysis is needed, or the evidence must hold up in legal proceedings.
 
@@ -43672,7 +43672,7 @@ Use `scripts/process.py` to score the register from a risk-input JSON (likelihoo
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/conducting-domain-persistence-with-dcsync/agent.py) · [`process.py`](scripts/conducting-domain-persistence-with-dcsync/process.py)
+**Scripts:** [`agent.py`](scripts/conducting-domain-persistence-with-dcsync/agent.py), [`process.py`](scripts/conducting-domain-persistence-with-dcsync/process.py)
 
 **Description:** Perform DCSync attacks by abusing MS-DRSR replication rights (DS-Replication-Get-Changes/-All) to impersonate a Domain Controller and extract KRBTGT, Domain Admin, and service account hashes for Golden Ticket forging, typically with Mimikatz. Use in authorized engagements after finding principals with replication rights, to establish long-term domain persistence, or to validate detections for replication abuse.
 
@@ -44239,7 +44239,7 @@ Consolidates all OSINT findings into a structured JSON report.
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/conducting-full-scope-red-team-engagement/agent.py) · [`process.py`](scripts/conducting-full-scope-red-team-engagement/process.py)
+**Scripts:** [`agent.py`](scripts/conducting-full-scope-red-team-engagement/agent.py), [`process.py`](scripts/conducting-full-scope-red-team-engagement/process.py)
 
 **Description:** Plan and execute a comprehensive, MITRE ATT&CK-aligned red team engagement spanning threat modeling, reconnaissance, initial access, and post-exploitation to evaluate an organization's detection, prevention, and response against APT-style behavior. Use when scoping or running a full-scope, objective-based engagement, or purple-teaming against a specific threat actor's TTPs.
 
@@ -44728,7 +44728,7 @@ START: Select Initial Access Vector
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-06`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/conducting-internal-network-penetration-test/agent.py) · [`process.py`](scripts/conducting-internal-network-penetration-test/process.py)
+**Scripts:** [`agent.py`](scripts/conducting-internal-network-penetration-test/agent.py), [`process.py`](scripts/conducting-internal-network-penetration-test/process.py)
 
 **Description:** Execute an internal network penetration test simulating an insider threat or post-breach attacker to identify lateral movement paths, privilege escalation vectors, and sensitive data exposure within the corporate network.
 
@@ -45169,7 +45169,7 @@ evidence/
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/conducting-internal-reconnaissance-with-bloodhound-ce/agent.py) · [`process.py`](scripts/conducting-internal-reconnaissance-with-bloodhound-ce/process.py)
+**Scripts:** [`agent.py`](scripts/conducting-internal-reconnaissance-with-bloodhound-ce/agent.py), [`process.py`](scripts/conducting-internal-reconnaissance-with-bloodhound-ce/process.py)
 
 **Description:** Conduct internal Active Directory reconnaissance using BloodHound Community Edition's graph database with the SharpHound (AD) and AzureHound (Entra ID) collectors, mapping ACLs, sessions, and group memberships into attack paths from a low-privileged foothold to Domain Admin. Use after an initial AD foothold to identify privilege escalation chains, or to validate that AD hardening closed known attack paths.
 
@@ -47030,7 +47030,7 @@ Classifies vulnerabilities by severity (Critical, High, Medium) based on script 
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/conducting-pass-the-ticket-attack/agent.py) · [`process.py`](scripts/conducting-pass-the-ticket-attack/process.py)
+**Scripts:** [`agent.py`](scripts/conducting-pass-the-ticket-attack/agent.py), [`process.py`](scripts/conducting-pass-the-ticket-attack/process.py)
 
 **Description:** Perform Pass-the-Ticket (PtT) lateral movement by extracting Kerberos TGT/TGS tickets from LSASS memory on a compromised host and injecting them into another session to impersonate the ticket owner without knowing their password. Use during authorized post-exploitation to move laterally or escalate access via stolen Kerberos tickets, or to validate detections for Kerberos ticket theft and reuse.
 
@@ -47628,7 +47628,7 @@ Rates phishing severity (Low/Medium/Critical) based on auth failures and malicio
 
 **NIST CSF:** `RS.MA-01`, `RS.MA-02`, `RS.AN-03`, `RC.RP-01`
 
-**Scripts:** [`agent.py`](scripts/conducting-post-incident-lessons-learned/agent.py) · [`process.py`](scripts/conducting-post-incident-lessons-learned/process.py)
+**Scripts:** [`agent.py`](scripts/conducting-post-incident-lessons-learned/agent.py), [`process.py`](scripts/conducting-post-incident-lessons-learned/process.py)
 
 **Description:** Facilitate structured post-incident reviews to identify root causes, document what worked and failed, and produce actionable recommendations to improve future incident response.
 
@@ -47945,7 +47945,7 @@ tags:
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-06`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/conducting-social-engineering-penetration-test/agent.py) · [`process.py`](scripts/conducting-social-engineering-penetration-test/process.py)
+**Scripts:** [`agent.py`](scripts/conducting-social-engineering-penetration-test/agent.py), [`process.py`](scripts/conducting-social-engineering-penetration-test/process.py)
 
 **Description:** Design and execute a social engineering penetration test combining OSINT-driven target profiling with phishing, vishing, smishing, and physical pretexting campaigns using tools like GoPhish, the Social Engineer Toolkit (SET), and Evilginx to measure human security resilience. Use when scoping or running an authorized human-attack-surface test and reporting results to identify security awareness training gaps.
 
@@ -48385,7 +48385,7 @@ Authorization & Scoping
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/conducting-social-engineering-pretext-call/agent.py) · [`process.py`](scripts/conducting-social-engineering-pretext-call/process.py)
+**Scripts:** [`agent.py`](scripts/conducting-social-engineering-pretext-call/agent.py), [`process.py`](scripts/conducting-social-engineering-pretext-call/process.py)
 
 **Description:** Plan and execute authorized vishing (voice phishing) pretext calls to assess employee susceptibility to social engineering and evaluate security awareness controls.
 
@@ -48736,7 +48736,7 @@ Select Pretext Based on Target Role
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/conducting-spearphishing-simulation-campaign/agent.py) · [`process.py`](scripts/conducting-spearphishing-simulation-campaign/process.py)
+**Scripts:** [`agent.py`](scripts/conducting-spearphishing-simulation-campaign/agent.py), [`process.py`](scripts/conducting-spearphishing-simulation-campaign/process.py)
 
 **Description:** Run a targeted spearphishing simulation for initial access by developing OSINT-derived pretexts, building payloads (HTML smuggling, macro docs, ISO/LNK, OneNote, QR codes), standing up look-alike-domain email infrastructure with SPF/DKIM/DMARC via GoPhish, and tracking results. Use in authorized engagements to gain initial access via personalized phishing against specific individuals, distinct from broad campaigns.
 
@@ -49620,7 +49620,7 @@ Implement Microsoft's Enhanced Security Admin Environment (ESAE) tiered administ
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/configuring-aws-verified-access-for-ztna/agent.py) · [`process.py`](scripts/configuring-aws-verified-access-for-ztna/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-aws-verified-access-for-ztna/agent.py), [`process.py`](scripts/configuring-aws-verified-access-for-ztna/process.py)
 
 **Description:** Configure AWS Verified Access to provide VPN-less zero trust network access to internal apps, combining identity trust providers (IAM Identity Center, Okta/OIDC), device posture providers (CrowdStrike, Jamf), Cedar policy authoring, and Terraform deployment. Use when replacing VPN access with ZTNA, writing Cedar access policies, or deploying Verified Access instances, groups, and endpoints across AWS accounts.
 
@@ -50259,7 +50259,7 @@ Step 4: Centralized Monitoring
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/configuring-certificate-authority-with-openssl/agent.py) · [`process.py`](scripts/configuring-certificate-authority-with-openssl/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-certificate-authority-with-openssl/agent.py), [`process.py`](scripts/configuring-certificate-authority-with-openssl/process.py)
 
 **Description:** Build a two-tier PKI Certificate Authority hierarchy (offline Root CA plus issuing Intermediate CA) using OpenSSL and the Python cryptography library, covering certificate extensions, CRL distribution points, OCSP responder configuration, and certificate policy management. Use when standing up an internal CA, issuing or revoking X.509 certificates, or designing PKI trust hierarchies for TLS, code-signing, or client-authentication use cases.
 
@@ -50536,7 +50536,7 @@ openssl ca -config intermediate/openssl.cnf -extensions server_cert \
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/configuring-host-based-intrusion-detection/agent.py) · [`process.py`](scripts/configuring-host-based-intrusion-detection/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-host-based-intrusion-detection/agent.py), [`process.py`](scripts/configuring-host-based-intrusion-detection/process.py)
 
 **Description:** Configures host-based intrusion detection systems (HIDS) to monitor endpoint file integrity, system calls, and configuration changes for security violations. Use when deploying OSSEC, Wazuh, or AIDE for endpoint monitoring, building file integrity monitoring (FIM) policies, or meeting compliance requirements for change detection. Activates for requests involving HIDS configuration, file integrity monitoring, OSSEC/Wazuh deployment, or host-based detection.
 
@@ -50898,7 +50898,7 @@ output.elasticsearch:
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/configuring-hsm-for-key-storage/agent.py) · [`process.py`](scripts/configuring-hsm-for-key-storage/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-hsm-for-key-storage/agent.py), [`process.py`](scripts/configuring-hsm-for-key-storage/process.py)
 
 **Description:** Configures Hardware Security Modules for cryptographic key storage using the PKCS#11 standard interface, covering key generation, signing, encryption, and key management on physical HSMs and SoftHSM2 for development. Use when protecting cryptographic keys so they never leave a hardened device boundary, or when building and testing PKCS#11-based key management workflows.
 
@@ -51186,7 +51186,7 @@ softhsm2-util --show-slots
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/configuring-identity-aware-proxy-with-google-iap/agent.py) · [`process.py`](scripts/configuring-identity-aware-proxy-with-google-iap/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-identity-aware-proxy-with-google-iap/agent.py), [`process.py`](scripts/configuring-identity-aware-proxy-with-google-iap/process.py)
 
 **Description:** Configures Google Cloud Identity-Aware Proxy (IAP) via gcloud to enforce per-request identity verification on Compute Engine, App Engine, Cloud Run, and GKE, including IAM bindings, Access Context Manager access levels, session/reauth settings, and service-account programmatic access. Use when replacing VPN access with identity-based access to GCP backends or configuring context-aware, zero-trust policies for Google Cloud services.
 
@@ -51797,7 +51797,7 @@ Harden LDAP directory services against common attacks including credential harve
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/configuring-microsegmentation-for-zero-trust/agent.py) · [`process.py`](scripts/configuring-microsegmentation-for-zero-trust/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-microsegmentation-for-zero-trust/agent.py), [`process.py`](scripts/configuring-microsegmentation-for-zero-trust/process.py)
 
 **Description:** Configures microsegmentation policies to enforce least-privilege workload-to-workload access using tools such as VMware NSX, Illumio, and Calico, preventing lateral movement in zero trust architectures. Use when designing or implementing network microsegmentation as part of a zero trust architecture aligned with NIST SP 800-207.
 
@@ -52271,7 +52271,7 @@ Alert: Unusual East-West Traffic Detected
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/configuring-multi-factor-authentication-with-duo/agent.py) · [`process.py`](scripts/configuring-multi-factor-authentication-with-duo/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-multi-factor-authentication-with-duo/agent.py), [`process.py`](scripts/configuring-multi-factor-authentication-with-duo/process.py)
 
 **Description:** Deploys Cisco Duo multi-factor authentication across enterprise applications, VPN, RDP, and SSH access points, covering Duo Authentication Proxy setup, adaptive authentication policies, device trust assessment, and phishing-resistant WebAuthn/FIDO2 deployment aligned with NIST 800-63B AAL2/AAL3. Use when adding or hardening MFA for remote access, VPN, or privileged logins with Duo.
 
@@ -53028,7 +53028,7 @@ NAPALM: `ios`, `nxos`, `eos`, `junos`
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/configuring-oauth2-authorization-flow/agent.py) · [`process.py`](scripts/configuring-oauth2-authorization-flow/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-oauth2-authorization-flow/agent.py), [`process.py`](scripts/configuring-oauth2-authorization-flow/process.py)
 
 **Description:** Configures secure OAuth 2.0 authorization flows, including Authorization Code with PKCE, Client Credentials, and Device Authorization Grant, covering flow selection, PKCE implementation, token lifecycle management, and scope design per OAuth 2.1. Use when implementing or hardening OAuth 2.0 authentication/authorization for web, mobile, SPA, or machine-to-machine clients.
 
@@ -54829,7 +54829,7 @@ suricatasc -c uptime              # Show uptime
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/configuring-tls-1-3-for-secure-communications/agent.py) · [`process.py`](scripts/configuring-tls-1-3-for-secure-communications/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-tls-1-3-for-secure-communications/agent.py), [`process.py`](scripts/configuring-tls-1-3-for-secure-communications/process.py)
 
 **Description:** Configures TLS 1.3 (RFC 8446) on servers, covering cipher suite and key-exchange group selection, and validates the resulting configuration with openssl s_client and testssl.sh. Use when deploying or hardening TLS 1.3 for secure communications, or when testing a server for common TLS misconfigurations and vulnerabilities.
 
@@ -55147,7 +55147,7 @@ Client                              Server
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/configuring-windows-defender-advanced-settings/agent.py) · [`process.py`](scripts/configuring-windows-defender-advanced-settings/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-windows-defender-advanced-settings/agent.py), [`process.py`](scripts/configuring-windows-defender-advanced-settings/process.py)
 
 **Description:** Configures Microsoft Defender for Endpoint (MDE) advanced protection settings including attack surface reduction rules, controlled folder access, network protection, and exploit protection. Use when hardening Windows endpoints beyond default Defender settings, deploying enterprise-grade endpoint protection, or meeting compliance requirements for advanced malware defense. Activates for requests involving Windows Defender configuration, ASR rules, MDE tuning, or Microsoft endpoint security.
 
@@ -55646,7 +55646,7 @@ Dashboard monitoring:
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/configuring-windows-event-logging-for-detection/agent.py) · [`process.py`](scripts/configuring-windows-event-logging-for-detection/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-windows-event-logging-for-detection/agent.py), [`process.py`](scripts/configuring-windows-event-logging-for-detection/process.py)
 
 **Description:** Configures Windows Event Logging with advanced audit policies to generate high-fidelity security events for threat detection and forensic investigation. Use when enabling audit policies for logon events, process creation, privilege use, and object access to feed SIEM detection rules. Activates for requests involving Windows audit policy, event log configuration, security logging, or detection-oriented logging.
 
@@ -55902,7 +55902,7 @@ Lateral Movement Indicators:
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/configuring-zscaler-private-access-for-ztna/agent.py) · [`process.py`](scripts/configuring-zscaler-private-access-for-ztna/process.py)
+**Scripts:** [`agent.py`](scripts/configuring-zscaler-private-access-for-ztna/agent.py), [`process.py`](scripts/configuring-zscaler-private-access-for-ztna/process.py)
 
 **Description:** Configures Zscaler Private Access (ZPA) to replace traditional VPN with zero trust network access by deploying App Connectors, defining application segments, configuring identity- and device-posture-based access policies, and integrating with IdPs. Use when replacing VPN concentrators with ZTNA or providing remote users secure access to internal applications without network-level connectivity.
 
@@ -58243,7 +58243,7 @@ vm.runInContext(code, context, { timeout: 5000 });
 
 **NIST CSF:** `DE.AE-02`, `RS.AN-03`, `ID.RA-01`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/deobfuscating-powershell-obfuscated-malware/agent.py) · [`process.py`](scripts/deobfuscating-powershell-obfuscated-malware/process.py)
+**Scripts:** [`agent.py`](scripts/deobfuscating-powershell-obfuscated-malware/agent.py), [`process.py`](scripts/deobfuscating-powershell-obfuscated-malware/process.py)
 
 **Description:** Systematically deobfuscates multi-layer PowerShell malware using AST analysis, dynamic tracing, and tools like PSDecode and PowerDecode to reveal hidden payloads and C2 infrastructure. Use during incident response or malware analysis when a PowerShell script is obfuscated with encoding, string manipulation, or invocation tricks and you need to recover the underlying commands, dropped payloads, or C2 endpoints.
 
@@ -58474,7 +58474,7 @@ By replacing `Invoke-Expression` (IEX) with `Write-Output`, analysts can safely 
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-06`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/deploying-active-directory-honeytokens/agent.py) · [`Deploy-ADHoneytokens.ps1`](scripts/deploying-active-directory-honeytokens/Deploy-ADHoneytokens.ps1)
+**Scripts:** [`agent.py`](scripts/deploying-active-directory-honeytokens/agent.py), [`Deploy-ADHoneytokens.ps1`](scripts/deploying-active-directory-honeytokens/Deploy-ADHoneytokens.ps1)
 
 **Description:** Deploys deception-based honeytokens in Active Directory including fake privileged accounts with AdminCount=1, fake SPNs for Kerberoasting detection (honeyroasting), decoy GPOs with cpassword traps, and fake BloodHound paths. Monitors Windows Security Event IDs 4769, 4625, 4662, 5136 for honeytoken interaction. Use when implementing AD deception defenses for detecting lateral movement, credential theft, and reconnaissance.
 
@@ -59254,7 +59254,7 @@ Cloud deception only works if a decoy touch is logged. Confirm these before depl
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/deploying-cloudflare-access-for-zero-trust/agent.py) · [`process.py`](scripts/deploying-cloudflare-access-for-zero-trust/process.py)
+**Scripts:** [`agent.py`](scripts/deploying-cloudflare-access-for-zero-trust/agent.py), [`process.py`](scripts/deploying-cloudflare-access-for-zero-trust/process.py)
 
 **Description:** Deploys Cloudflare Access with Cloudflare Tunnel for zero trust access to self-hosted apps, configuring identity-aware policies, device posture checks, and WARP client enrollment as a VPN replacement. Use when replacing VPN with Cloudflare One, exposing internal apps without open inbound ports, or securing contractor/third-party access to specific applications.
 
@@ -60060,7 +60060,7 @@ Logs file deletions including archived file content.
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/deploying-edr-agent-with-crowdstrike/agent.py) · [`process.py`](scripts/deploying-edr-agent-with-crowdstrike/process.py)
+**Scripts:** [`agent.py`](scripts/deploying-edr-agent-with-crowdstrike/agent.py), [`process.py`](scripts/deploying-edr-agent-with-crowdstrike/process.py)
 
 **Description:** Deploys and configures CrowdStrike Falcon EDR agents across enterprise endpoints to enable real-time threat detection, behavioral analysis, and automated response. Use when onboarding endpoints to EDR coverage, configuring detection policies, or integrating Falcon telemetry with SIEM platforms. Activates for requests involving CrowdStrike deployment, Falcon sensor installation, EDR policy configuration, or endpoint detection and response.
 
@@ -60902,7 +60902,7 @@ View triggers for a token (params `token`, `auth`).
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/deploying-osquery-for-endpoint-monitoring/agent.py) · [`process.py`](scripts/deploying-osquery-for-endpoint-monitoring/process.py)
+**Scripts:** [`agent.py`](scripts/deploying-osquery-for-endpoint-monitoring/agent.py), [`process.py`](scripts/deploying-osquery-for-endpoint-monitoring/process.py)
 
 **Description:** Deploys and configures osquery for real-time endpoint monitoring using SQL-based queries to inspect running processes, open ports, installed software, and system configuration. Use when building visibility into endpoint state, threat hunting across fleet, or implementing compliance monitoring. Activates for requests involving osquery deployment, endpoint visibility, fleet management, or SQL-based endpoint querying.
 
@@ -61717,7 +61717,7 @@ python agent.py --action test
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/deploying-software-defined-perimeter/agent.py) · [`process.py`](scripts/deploying-software-defined-perimeter/process.py)
+**Scripts:** [`agent.py`](scripts/deploying-software-defined-perimeter/agent.py), [`process.py`](scripts/deploying-software-defined-perimeter/process.py)
 
 **Description:** Deploys a Software-Defined Perimeter per the CSA v2.0 specification, configuring Single Packet Authorization, mutual TLS, and SDP controller/gateway components to enforce zero trust network access. Use when building or hardening zero trust network architecture, implementing SPA-based "invisible" infrastructure that cloaks services from unauthenticated scanning, or meeting compliance requirements for zero trust network access.
 
@@ -62156,7 +62156,7 @@ Incoming Packet to Gateway
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/deploying-tailscale-for-zero-trust-vpn/agent.py) · [`process.py`](scripts/deploying-tailscale-for-zero-trust-vpn/process.py)
+**Scripts:** [`agent.py`](scripts/deploying-tailscale-for-zero-trust-vpn/agent.py), [`process.py`](scripts/deploying-tailscale-for-zero-trust-vpn/process.py)
 
 **Description:** Deploys and configures Tailscale (or self-hosted Headscale) as a WireGuard-based zero trust mesh VPN, setting up identity-aware ACLs, exit nodes, subnet routers, and MagicDNS for encrypted peer-to-peer connectivity. Use when replacing traditional VPN servers with an identity-authenticated mesh network or enforcing granular per-device access control lists.
 
@@ -65306,7 +65306,7 @@ LIMIT 100;
 
 **NIST CSF:** `PR.IR-01`, `ID.AM-08`, `GV.SC-06`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/detecting-aws-guardduty-findings-automation/agent.py) · [`process.py`](scripts/detecting-aws-guardduty-findings-automation/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-aws-guardduty-findings-automation/agent.py), [`process.py`](scripts/detecting-aws-guardduty-findings-automation/process.py)
 
 **Description:** Build automated AWS GuardDuty finding response pipelines using EventBridge and Lambda to trigger real-time incident response, automatically quarantine compromised resources, and route security notifications. Use when designing automated remediation playbooks for GuardDuty findings across VPC Flow Logs, CloudTrail, DNS, EKS, or S3 data events, or when reducing mean time to respond to cloud threats.
 
@@ -65890,7 +65890,7 @@ SigninLogs
 
 **NIST CSF:** `PR.IR-01`, `ID.AM-08`, `GV.SC-06`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/detecting-azure-service-principal-abuse/agent.py) · [`process.py`](scripts/detecting-azure-service-principal-abuse/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-azure-service-principal-abuse/agent.py), [`process.py`](scripts/detecting-azure-service-principal-abuse/process.py)
 
 **Description:** Detect Azure service principal abuse in Microsoft Entra ID using KQL detection queries (Sentinel/Splunk) against Azure AD Audit and Sign-in Logs, covering added credentials, privileged role assignment, admin consent bypass, and service principal enumeration. Use when investigating suspected privilege escalation or persistence via service principals, or building threat-hunting queries for Entra ID identity abuse.
 
@@ -67054,7 +67054,7 @@ python agent.py --base-url https://api.example.com \
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/detecting-business-email-compromise/agent.py) · [`process.py`](scripts/detecting-business-email-compromise/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-business-email-compromise/agent.py), [`process.py`](scripts/detecting-business-email-compromise/process.py)
 
 **Description:** Detect Business Email Compromise (BEC) fraud, where attackers impersonate executives or vendors to trick employees into wire transfers or data disclosure without malicious links, using email gateway rules, behavioral analytics, and financial process controls. Use when investigating a suspected executive/vendor impersonation email or building detection rules for social-engineering fund-transfer fraud.
 
@@ -67331,7 +67331,7 @@ Vendor requests payment detail change
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/detecting-business-email-compromise-with-ai/agent.py) · [`process.py`](scripts/detecting-business-email-compromise-with-ai/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-business-email-compromise-with-ai/agent.py), [`process.py`](scripts/detecting-business-email-compromise-with-ai/process.py)
 
 **Description:** Deploy AI and NLP-powered detection systems to identify business email compromise attacks by analyzing writing style, behavioral patterns, and contextual anomalies that evade traditional rule-based filters.
 
@@ -68983,7 +68983,7 @@ az rest --method POST --url "https://graph.microsoft.com/v1.0/users/{id}/revokeS
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/detecting-container-drift-at-runtime/agent.py) · [`process.py`](scripts/detecting-container-drift-at-runtime/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-container-drift-at-runtime/agent.py), [`process.py`](scripts/detecting-container-drift-at-runtime/process.py)
 
 **Description:** Detect unauthorized runtime drift in containers by monitoring binary execution, file system changes, and configuration deviations from the original immutable image, using tools like Falco and Microsoft Defender for Kubernetes/container workloads. Use when investigating possible container compromise, validating immutable-infrastructure controls, or hunting for unexpected package installs and file modifications inside running containers.
 
@@ -69362,7 +69362,7 @@ python agent.py --container abc123 --all
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/detecting-container-escape-attempts/agent.py) · [`process.py`](scripts/detecting-container-escape-attempts/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-container-escape-attempts/agent.py), [`process.py`](scripts/detecting-container-escape-attempts/process.py)
 
 **Description:** Detect container escape attempts where an adversary breaks out of container isolation to reach the host or other containers, by monitoring namespace manipulation, capability abuse, kernel exploits, sensitive mounted paths, and anomalous syscalls with tools like Falco, Sysdig, and seccomp/audit rules. Use when hunting for privilege escalation from containerized workloads or investigating suspected breakout from a Docker/Kubernetes environment.
 
@@ -69900,7 +69900,7 @@ Step 5: Remediation
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/detecting-container-escape-with-falco-rules/agent.py) · [`process.py`](scripts/detecting-container-escape-with-falco-rules/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-container-escape-with-falco-rules/agent.py), [`process.py`](scripts/detecting-container-escape-with-falco-rules/process.py)
 
 **Description:** Write and tune Falco rules that monitor Linux syscalls to detect container escape techniques in real time, including host filesystem mounts, sensitive host path access, kernel module loading, and abuse of privileged container capabilities. Use when deploying or tuning Falco for a Kubernetes/container environment, or when investigating an alert tied to syscall-level escape behavior.
 
@@ -71670,7 +71670,7 @@ Install: `pip install safetensors`
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-dcsync-attack-in-active-directory/agent.py) · [`process.py`](scripts/detecting-dcsync-attack-in-active-directory/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-dcsync-attack-in-active-directory/agent.py), [`process.py`](scripts/detecting-dcsync-attack-in-active-directory/process.py)
 
 **Description:** Detect DCSync attacks (MITRE T1003.006) where adversaries abuse Active Directory replication privileges to extract password hashes, by auditing Event ID 4662 for the DS-Replication-Get-Changes GUIDs and flagging non-domain-controller accounts issuing DsGetNCChanges RPC calls. Use when hunting for credential theft via Mimikatz lsadump::dcsync or Impacket secretsdump, investigating lateral movement with domain admin credentials, or auditing AD replication permissions.
 
@@ -72619,7 +72619,7 @@ Install: `pip install owasp-depscan`
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-dll-sideloading-attacks/agent.py) · [`process.py`](scripts/detecting-dll-sideloading-attacks/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-dll-sideloading-attacks/agent.py), [`process.py`](scripts/detecting-dll-sideloading-attacks/process.py)
 
 **Description:** Detect DLL side-loading and search-order hijacking (MITRE T1574) where adversaries plant malicious DLLs for legitimate signed applications to load, by analyzing Sysmon Event ID 7 DLL-load events, checking signatures/hashes against known-good versions, and flagging path anomalies with EDR tools like CrowdStrike, MDE, or SentinelOne. Use when investigating EDR alerts on unsigned DLLs, hunting for APT persistence via trojanized applications, or triaging incidents involving DLL hijacking.
 
@@ -73459,7 +73459,7 @@ python agent.py --input audit_data.json --output report.json
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-email-forwarding-rules-attack/agent.py) · [`process.py`](scripts/detecting-email-forwarding-rules-attack/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-email-forwarding-rules-attack/agent.py), [`process.py`](scripts/detecting-email-forwarding-rules-attack/process.py)
 
 **Description:** Detect malicious inbox/mail-flow forwarding rules that adversaries create to maintain persistent access to email communications for intelligence collection and business email compromise. Use when hunting for suspicious auto-forwarding, hidden mailbox rules, or T1114-style email collection persistence after a compromised account or BEC incident.
 
@@ -74029,7 +74029,7 @@ az monitor diagnostic-settings create \
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/detecting-evasion-techniques-in-endpoint-logs/agent.py) · [`process.py`](scripts/detecting-evasion-techniques-in-endpoint-logs/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-evasion-techniques-in-endpoint-logs/agent.py), [`process.py`](scripts/detecting-evasion-techniques-in-endpoint-logs/process.py)
 
 **Description:** Detects defense evasion techniques used by adversaries in endpoint logs including log tampering, timestomping, process injection, and security tool disabling. Use when investigating suspicious endpoint behavior, building detection rules for evasion tactics, or conducting threat hunting for stealthy adversary activity. Activates for requests involving evasion detection, defense evasion analysis, log tampering detection, or MITRE ATT&CK TA0005.
 
@@ -74630,7 +74630,7 @@ index=zeek sourcetype=zeek_dns
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/detecting-fileless-attacks-on-endpoints/agent.py) · [`process.py`](scripts/detecting-fileless-attacks-on-endpoints/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-fileless-attacks-on-endpoints/agent.py), [`process.py`](scripts/detecting-fileless-attacks-on-endpoints/process.py)
 
 **Description:** Detects fileless malware and in-memory attacks that execute entirely in RAM without writing persistent files to disk, evading traditional antivirus. Use when building detections for PowerShell-based attacks, reflective DLL injection, WMI persistence, and registry-resident malware. Activates for requests involving fileless malware detection, in-memory attacks, PowerShell exploitation, or living-off-the-land techniques.
 
@@ -76000,7 +76000,7 @@ Key indicators:
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-insider-threat-behaviors/agent.py) · [`process.py`](scripts/detecting-insider-threat-behaviors/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-insider-threat-behaviors/agent.py), [`process.py`](scripts/detecting-insider-threat-behaviors/process.py)
 
 **Description:** Detect insider threat behavioral indicators including unusual data access, off-hours activity, mass file downloads, privilege abuse, and resignation-correlated data theft. Use when proactively threat-hunting for malicious or negligent insider activity, or when investigating a departing or disgruntled employee for potential data theft.
 
@@ -76421,7 +76421,7 @@ pip install elasticsearch>=8.0
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-kerberoasting-attacks/agent.py) · [`process.py`](scripts/detecting-kerberoasting-attacks/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-kerberoasting-attacks/agent.py), [`process.py`](scripts/detecting-kerberoasting-attacks/process.py)
 
 **Description:** Detect Kerberoasting attacks by monitoring for anomalous Kerberos TGS requests (Event ID 4769) targeting service accounts with SPNs, which attackers request offline to crack service account passwords. Use when hunting for MITRE T1558 credential access activity or investigating suspected service account password cracking attempts in Active Directory Kerberos logs.
 
@@ -77210,7 +77210,7 @@ index=wineventlog EventCode=4624 LogonType=3 AuthenticationPackageName=NTLM
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-lateral-movement-with-splunk/agent.py) · [`process.py`](scripts/detecting-lateral-movement-with-splunk/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-lateral-movement-with-splunk/agent.py), [`process.py`](scripts/detecting-lateral-movement-with-splunk/process.py)
 
 **Description:** Detect adversary lateral movement across networks using Splunk SPL queries against Windows authentication logs, SMB traffic, and remote service (WMI/PsExec/RDP) abuse. Use when hunting for MITRE ATT&CK TA0008 lateral movement activity or investigating suspected pivoting between hosts during an incident, with Splunk as the SIEM.
 
@@ -77579,7 +77579,7 @@ index=wineventlog EventCode=4624 Logon_Type=10
 
 **NIST CSF:** `PR.IR-01`, `DE.CM-01`, `ID.AM-03`, `PR.DS-02`
 
-**Scripts:** [`agent.py`](scripts/detecting-lateral-movement-with-zeek/agent.py) · [`process.py`](scripts/detecting-lateral-movement-with-zeek/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-lateral-movement-with-zeek/agent.py), [`process.py`](scripts/detecting-lateral-movement-with-zeek/process.py)
 
 **Description:** Detect lateral movement in network traffic using Zeek (formerly Bro) log analysis. Parses conn.log, smb_mapping.log, smb_files.log, dce_rpc.log, kerberos.log, and ntlm.log to identify SMB file transfers, NTLM account spray activity, remote service execution, and anomalous internal connections.
 
@@ -79036,7 +79036,7 @@ index=wineventlog EventCode=4698
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-mimikatz-execution-patterns/agent.py) · [`process.py`](scripts/detecting-mimikatz-execution-patterns/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-mimikatz-execution-patterns/agent.py), [`process.py`](scripts/detecting-mimikatz-execution-patterns/process.py)
 
 **Description:** Detect Mimikatz credential-dumping activity via command-line pattern matching, LSASS access signatures, binary/hash indicators, and in-memory detection of known Mimikatz modules. Use when threat hunting for T1003 credential access, triaging EDR/SIEM alerts on LSASS access, scoping compromise during incident response, or validating detection coverage in a purple team exercise.
 
@@ -79667,7 +79667,7 @@ az storage blob service-properties delete-policy update \
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/detecting-mobile-malware-behavior/agent.py) · [`process.py`](scripts/detecting-mobile-malware-behavior/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-mobile-malware-behavior/agent.py), [`process.py`](scripts/detecting-mobile-malware-behavior/process.py)
 
 **Description:** Detects and analyzes malicious behavior in mobile applications through behavioral analysis, permission abuse detection, network traffic monitoring, and dynamic instrumentation. Use when analyzing suspicious mobile applications for data exfiltration, command-and-control communication, credential stealing, SMS interception, or other malware indicators. Activates for requests involving mobile malware analysis, app behavior monitoring, trojan detection, or suspicious app investigation.
 
@@ -81326,7 +81326,7 @@ python agent.py --conn-log conn.log --port-threshold 25 --sweep-threshold 15
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-ntlm-relay-with-event-correlation/agent.py) · [`audit_smb_signing.ps1`](scripts/detecting-ntlm-relay-with-event-correlation/audit_smb_signing.ps1) · [`detect_ntlm_relay.py`](scripts/detecting-ntlm-relay-with-event-correlation/detect_ntlm_relay.py)
+**Scripts:** [`agent.py`](scripts/detecting-ntlm-relay-with-event-correlation/agent.py), [`audit_smb_signing.ps1`](scripts/detecting-ntlm-relay-with-event-correlation/audit_smb_signing.ps1), [`detect_ntlm_relay.py`](scripts/detecting-ntlm-relay-with-event-correlation/detect_ntlm_relay.py)
 
 **Description:** Detect NTLM relay attacks (T1557.001) by correlating Windows Event 4624 LogonType 3 for IP-to-hostname mismatches, identifying Responder/LLMNR poisoning artifacts, auditing SMB/LDAP signing, and flagging NTLMv2-to-NTLMv1 downgrades. Use for hunting credential relay in NTLM-enabled AD, investigating auth-source anomalies, building SIEM correlation rules, or responding to PetitPotam/DFSCoerce/PrinterBug alerts.
 
@@ -82551,7 +82551,7 @@ curl -H "Authorization: SSWS $OKTA_TOKEN" \
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-pass-the-hash-attacks/agent.py) · [`process.py`](scripts/detecting-pass-the-hash-attacks/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-pass-the-hash-attacks/agent.py), [`process.py`](scripts/detecting-pass-the-hash-attacks/process.py)
 
 **Description:** Detect Pass-the-Hash (T1550.002) attacks by analyzing NTLM authentication patterns, flagging Type 3 logons using NTLM where Kerberos would be expected, and correlating with credential-dumping indicators. Use when threat hunting for lateral movement via stolen NTLM hashes, triaging EDR/SIEM alerts on suspicious NTLM logons, scoping compromise during incident response, or validating detection coverage in a purple team exercise.
 
@@ -83474,7 +83474,7 @@ maxretry = 3
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-privilege-escalation-attempts/agent.py) · [`process.py`](scripts/detecting-privilege-escalation-attempts/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-privilege-escalation-attempts/agent.py), [`process.py`](scripts/detecting-privilege-escalation-attempts/process.py)
 
 **Description:** Detect privilege escalation attempts across Windows and Linux, including access token manipulation, UAC bypass, unquoted service path abuse, kernel exploits, and sudo/doas abuse. Use when threat hunting for T1068-style privilege escalation, triaging EDR/SIEM alerts on suspicious privilege changes, scoping compromise during incident response, or validating detection coverage in a purple team exercise.
 
@@ -83742,7 +83742,7 @@ SecurityEvent
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/detecting-privilege-escalation-in-kubernetes-pods/agent.py) · [`process.py`](scripts/detecting-privilege-escalation-in-kubernetes-pods/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-privilege-escalation-in-kubernetes-pods/agent.py), [`process.py`](scripts/detecting-privilege-escalation-in-kubernetes-pods/process.py)
 
 **Description:** Detect and prevent privilege escalation in Kubernetes pods by combining admission control (OPA policies), runtime monitoring (Falco), and audit log analysis of security contexts, Linux capabilities, and syscall patterns. Use when hardening pod security policies, investigating a pod running as root or privileged, or hunting for containers escaping their intended scope.
 
@@ -84118,7 +84118,7 @@ kubectl get pods -A -o json | jq '[.items[] | select(.spec.volumes[]?.hostPath!=
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-process-hollowing-technique/agent.py) · [`process.py`](scripts/detecting-process-hollowing-technique/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-process-hollowing-technique/agent.py), [`process.py`](scripts/detecting-process-hollowing-technique/process.py)
 
 **Description:** Detect process hollowing (MITRE T1055.012) by analyzing memory-mapped sections, hollowed process indicators, and parent-child anomalies using EDR telemetry, Volatility's malfind plugin, pe-sieve, Hollows Hunter, and Sysmon Event ID 25. Use when investigating a legitimate-looking process (svchost.exe, explorer.exe, rundll32.exe) suspected of hosting injected code via NtUnmapViewOfSection.
 
@@ -84886,7 +84886,7 @@ vol3 -f memory.dmp windows.vadinfo --pid 1234
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/detecting-qr-code-phishing-with-email-security/agent.py) · [`process.py`](scripts/detecting-qr-code-phishing-with-email-security/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-qr-code-phishing-with-email-security/agent.py), [`process.py`](scripts/detecting-qr-code-phishing-with-email-security/process.py)
 
 **Description:** Detect and prevent QR code phishing (quishing) attacks that embed malicious URLs inside QR code images to bypass link-based email security, using image-based threat detection, OCR/QR decoding, and mobile-side scanning (Microsoft Defender for O365, Proofpoint TAP, Barracuda Multimodal AI). Use when configuring gateway rules against QR phishing or investigating suspicious emails containing QR codes.
 
@@ -85480,7 +85480,7 @@ Microsoft-Windows-Kernel-File GUID: EDD08927-9CC4-4E65-B970-C2560FB5C289
 
 **NIST CSF:** `PR.DS-11`, `RS.MA-01`, `RC.RP-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/detecting-ransomware-precursors-in-network/agent.py) · [`process.py`](scripts/detecting-ransomware-precursors-in-network/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-ransomware-precursors-in-network/agent.py), [`process.py`](scripts/detecting-ransomware-precursors-in-network/process.py)
 
 **Description:** Detects early-stage ransomware indicators in network traffic before encryption begins, including initial access broker activity, command-and-control beaconing, credential harvesting, reconnaissance scanning, and staging behavior. Uses network detection tools (Zeek, Suricata, Arkime), SIEM correlation rules, and threat intelligence feeds to identify ransomware precursor patterns such as Cobalt Strike beacons, Mimikatz network signatures, and RDP brute-force attempts. Activates for requests involving pre-ransomware detection, network-based ransomware indicators, or early warning ransomware monitoring.
 
@@ -87898,7 +87898,7 @@ Identifies Lambda function URLs with `AuthType=NONE` that are publicly accessibl
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-service-account-abuse/agent.py) · [`process.py`](scripts/detecting-service-account-abuse/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-service-account-abuse/agent.py), [`process.py`](scripts/detecting-service-account-abuse/process.py)
 
 **Description:** Detect abuse of service accounts by hunting for anomalous interactive logons, privilege escalation, and lateral movement using EDR/SIEM telemetry (CrowdStrike Falcon, Microsoft Defender, Splunk, Elastic Security, Sysmon, Velociraptor) and Sigma detection rules. Use when hunting for service-account misuse or investigating a service account performing unexpected interactive logons.
 
@@ -88547,7 +88547,7 @@ Categories: storage, email, dev_tools, ai_ml, messaging, file_sharing, vpn_proxy
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/detecting-spearphishing-with-email-gateway/agent.py) · [`process.py`](scripts/detecting-spearphishing-with-email-gateway/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-spearphishing-with-email-gateway/agent.py), [`process.py`](scripts/detecting-spearphishing-with-email-gateway/process.py)
 
 **Description:** Detect and block spearphishing emails that use personalized, researched content to evade generic spam filters, by configuring email security gateway (SEG) impersonation protection, URL rewriting, attachment sandboxing, and custom detection rules in Microsoft Defender for Office 365, Proofpoint, Mimecast, or Barracuda. Use when hardening a mail gateway against targeted phishing or investigating a suspected spearphishing campaign.
 
@@ -89610,7 +89610,7 @@ Calendars.ReadWrite, Notes.ReadWrite.All
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-suspicious-powershell-execution/agent.py) · [`process.py`](scripts/detecting-suspicious-powershell-execution/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-suspicious-powershell-execution/agent.py), [`process.py`](scripts/detecting-suspicious-powershell-execution/process.py)
 
 **Description:** Hunt for suspicious PowerShell execution (T1059.001) such as encoded commands, download cradles, AMSI bypass, and constrained language mode evasion using EDR telemetry (CrowdStrike, Microsoft Defender for Endpoint), Sysmon, and SIEM queries (Splunk, Elastic). Use when proactively threat hunting, triaging EDR/SIEM alerts, or scoping an incident involving malicious PowerShell activity.
 
@@ -89928,7 +89928,7 @@ DeviceProcessEvents
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-t1003-credential-dumping-with-edr/agent.py) · [`process.py`](scripts/detecting-t1003-credential-dumping-with-edr/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-t1003-credential-dumping-with-edr/agent.py), [`process.py`](scripts/detecting-t1003-credential-dumping-with-edr/process.py)
 
 **Description:** Detect OS credential dumping (MITRE T1003) targeting LSASS memory, the SAM database, NTDS.dit, and cached credentials by correlating EDR telemetry, Sysmon process-access events, and Windows security event logs. Use when hunting for Mimikatz-style credential theft, triaging an EDR alert on LSASS access, or scoping an incident after suspected credential dumping.
 
@@ -90300,7 +90300,7 @@ index=wineventlog EventCode=4624 LogonType=3
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-t1055-process-injection-with-sysmon/agent.py) · [`process.py`](scripts/detecting-t1055-process-injection-with-sysmon/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-t1055-process-injection-with-sysmon/agent.py), [`process.py`](scripts/detecting-t1055-process-injection-with-sysmon/process.py)
 
 **Description:** Detect process injection techniques (T1055) - including DLL injection, process hollowing, and APC injection - by analyzing Sysmon Event IDs 1, 7, 8, 10, and 25 for cross-process memory operations, remote thread creation, and anomalous DLL loads. Use when hunting defense-evasion activity that hides code inside legitimate processes, investigating an EDR alert on suspicious cross-process access, or validating Sysmon coverage for injection detection.
 
@@ -90725,7 +90725,7 @@ For confirmed injection, capture process memory using:
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/detecting-t1548-abuse-elevation-control-mechanism/agent.py) · [`process.py`](scripts/detecting-t1548-abuse-elevation-control-mechanism/process.py)
+**Scripts:** [`agent.py`](scripts/detecting-t1548-abuse-elevation-control-mechanism/agent.py), [`process.py`](scripts/detecting-t1548-abuse-elevation-control-mechanism/process.py)
 
 **Description:** Detect abuse of elevation control mechanisms (T1548), including Windows UAC bypass via auto-elevating binaries like fodhelper.exe and Linux sudo/setuid/setgid exploitation, by monitoring registry changes, integrity-level transitions, and parent-child process relationships via Sysmon and Windows Security events. Use when hunting privilege-escalation activity or validating elevation-abuse detection coverage.
 
@@ -92443,7 +92443,7 @@ CloudFox writes to `<outdir>/cloudfox-output/<provider>/<account-or-sub>/`:
 
 **NIST CSF:** `RS.MA-01`, `RS.MA-02`, `RS.AN-03`, `RC.RP-01`
 
-**Scripts:** [`agent.py`](scripts/eradicating-malware-from-infected-systems/agent.py) · [`process.py`](scripts/eradicating-malware-from-infected-systems/process.py)
+**Scripts:** [`agent.py`](scripts/eradicating-malware-from-infected-systems/agent.py), [`process.py`](scripts/eradicating-malware-from-infected-systems/process.py)
 
 **Description:** Systematically map and remove malware, backdoors, and attacker persistence mechanisms (registry Run keys, scheduled tasks, WMI subscriptions, services, cron/init.d) from infected Windows and Linux systems using Autoruns, EDR/AV, and YARA, restoring a clean state while preventing re-infection. Use after containment and forensic analysis have identified all compromised systems and persistence mechanisms and you are ready to eradicate and recover.
 
@@ -94328,7 +94328,7 @@ Calculates click rate, submission rate, and report rate from campaign timeline e
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/executing-red-team-engagement-planning/agent.py) · [`process.py`](scripts/executing-red-team-engagement-planning/process.py)
+**Scripts:** [`agent.py`](scripts/executing-red-team-engagement-planning/agent.py), [`process.py`](scripts/executing-red-team-engagement-planning/process.py)
 
 **Description:** Build the foundational red team engagement plan - scope definition, Rules of Engagement (restrictions, communication plan, emergency stop procedures, legal authorization), MITRE ATT&CK-aligned threat profile selection, and operational timelines - producing an engagement brief for stakeholder approval. Use before any offensive testing begins, when scoping a full-scope, assumed-breach, objective-based, or purple-team engagement.
 
@@ -95110,7 +95110,7 @@ Compares executed vs. detected techniques. Outputs detection rate and missed tec
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/exploiting-active-directory-certificate-services-esc1/agent.py) · [`process.py`](scripts/exploiting-active-directory-certificate-services-esc1/process.py)
+**Scripts:** [`agent.py`](scripts/exploiting-active-directory-certificate-services-esc1/agent.py), [`process.py`](scripts/exploiting-active-directory-certificate-services-esc1/process.py)
 
 **Description:** Exploit misconfigured Active Directory Certificate Services (AD CS) ESC1 vulnerability to request certificates as high-privileged users and escalate domain privileges during authorized red team assessments.
 
@@ -95472,7 +95472,7 @@ secretsdump.py domain.local/administrator@DC01.domain.local -hashes :ntlmhash
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/exploiting-active-directory-with-bloodhound/agent.py) · [`process.py`](scripts/exploiting-active-directory-with-bloodhound/process.py)
+**Scripts:** [`agent.py`](scripts/exploiting-active-directory-with-bloodhound/agent.py), [`process.py`](scripts/exploiting-active-directory-with-bloodhound/process.py)
 
 **Description:** BloodHound is a graph-based Active Directory reconnaissance tool that uses graph theory to reveal hidden and unintended relationships within AD environments. Red teams use BloodHound to identify attac
 
@@ -98201,7 +98201,7 @@ RETURN u.name, c.name
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/exploiting-deeplink-vulnerabilities/agent.py) · [`process.py`](scripts/exploiting-deeplink-vulnerabilities/process.py)
+**Scripts:** [`agent.py`](scripts/exploiting-deeplink-vulnerabilities/agent.py), [`process.py`](scripts/exploiting-deeplink-vulnerabilities/process.py)
 
 **Description:** Tests and exploits deep link (URL scheme and App Link) vulnerabilities in Android and iOS mobile applications to identify unauthorized access, data injection, intent hijacking, and redirect manipulation. Use when assessing mobile app attack surface through custom URI schemes, Android App Links, iOS Universal Links, or intent-based navigation. Activates for requests involving deep link security testing, URL scheme exploitation, mobile intent abuse, or link hijacking.
 
@@ -99550,7 +99550,7 @@ Returns all accumulated findings with severity assessment.
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/exploiting-insecure-data-storage-in-mobile/agent.py) · [`process.py`](scripts/exploiting-insecure-data-storage-in-mobile/process.py)
+**Scripts:** [`agent.py`](scripts/exploiting-insecure-data-storage-in-mobile/agent.py), [`process.py`](scripts/exploiting-insecure-data-storage-in-mobile/process.py)
 
 **Description:** Identifies and exploits insecure local data storage vulnerabilities in Android and iOS mobile applications including unencrypted databases, world-readable files, insecure SharedPreferences, plaintext credential storage, and improper keychain/keystore usage. Use when performing mobile penetration testing focused on OWASP M9 (Insecure Data Storage) or assessing compliance with MASVS-STORAGE requirements. Activates for requests involving mobile data storage security, local storage exploitation, SharedPreferences analysis, or mobile data leakage assessment.
 
@@ -100932,7 +100932,7 @@ python3 jwt_tool.py <token> -X k -pk public.pem  # Key confusion
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/exploiting-kerberoasting-with-impacket/agent.py) · [`process.py`](scripts/exploiting-kerberoasting-with-impacket/process.py)
+**Scripts:** [`agent.py`](scripts/exploiting-kerberoasting-with-impacket/agent.py), [`process.py`](scripts/exploiting-kerberoasting-with-impacket/process.py)
 
 **Description:** Performs Kerberoasting (MITRE ATT&CK T1558.003) using Impacket's GetUserSPNs.py to request Kerberos TGS tickets for SPN-registered service accounts, then cracks the extracted RC4/AES-encrypted hashes offline to recover service account credentials. Use during authorized Active Directory penetration tests or red-team engagements for credential access against service accounts via Kerberos ticket-granting-service requests.
 
@@ -101749,7 +101749,7 @@ User.findByIdAndUpdate(id, { name, email })
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/exploiting-ms17-010-eternalblue-vulnerability/agent.py) · [`process.py`](scripts/exploiting-ms17-010-eternalblue-vulnerability/process.py)
+**Scripts:** [`agent.py`](scripts/exploiting-ms17-010-eternalblue-vulnerability/agent.py), [`process.py`](scripts/exploiting-ms17-010-eternalblue-vulnerability/process.py)
 
 **Description:** Detects and exploits MS17-010 (EternalBlue), a critical remote code execution flaw in Microsoft's SMBv1 implementation, using Nmap's ms-17-010 NSE script for detection and Metasploit's ms17_010_eternalblue/ms17_010_psexec modules for exploitation. Use during authorized red-team engagements or penetration tests against legacy Windows environments with unpatched SMBv1 to gain remote code execution.
 
@@ -102063,7 +102063,7 @@ meterpreter > portfwd add -l 445 -p 445 -r 10.0.1.1
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/exploiting-nopac-cve-2021-42278-42287/agent.py) · [`process.py`](scripts/exploiting-nopac-cve-2021-42278-42287/process.py)
+**Scripts:** [`agent.py`](scripts/exploiting-nopac-cve-2021-42278-42287/agent.py), [`process.py`](scripts/exploiting-nopac-cve-2021-42278-42287/process.py)
 
 **Description:** Exploits the noPac Active Directory privilege-escalation chain (CVE-2021-42278 sAMAccountName spoofing plus CVE-2021-42287 KDC PAC confusion) using Impacket and secretsdump.py to escalate from a standard domain user to Domain Admin. Use when red-teaming or pentesting Active Directory to validate machine-account impersonation and DCSync-based credential dumping.
 
@@ -102396,7 +102396,7 @@ SecurityEvent
 
 **NIST CSF:** `PR.PS-01`, `ID.RA-01`, `PR.DS-10`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/exploiting-nosql-injection-vulnerabilities/agent.py) · [`process.py`](scripts/exploiting-nosql-injection-vulnerabilities/process.py)
+**Scripts:** [`agent.py`](scripts/exploiting-nosql-injection-vulnerabilities/agent.py), [`process.py`](scripts/exploiting-nosql-injection-vulnerabilities/process.py)
 
 **Description:** Detects and exploits NoSQL injection vulnerabilities in MongoDB, CouchDB, and similar databases to demonstrate authentication bypass, data extraction, and unauthorized access via crafted query operators. Use when pentesting APIs or web applications backed by NoSQL databases to test input validation and injection defenses.
 
@@ -105740,7 +105740,7 @@ if ($_POST['token'] == $valid_token) { ... }
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/exploiting-vulnerabilities-with-metasploit-framework/agent.py) · [`process.py`](scripts/exploiting-vulnerabilities-with-metasploit-framework/process.py)
+**Scripts:** [`agent.py`](scripts/exploiting-vulnerabilities-with-metasploit-framework/agent.py), [`process.py`](scripts/exploiting-vulnerabilities-with-metasploit-framework/process.py)
 
 **Description:** Uses the Metasploit Framework (msfconsole and its exploit, auxiliary, and post-exploitation modules) to validate that identified CVEs and vulnerabilities are actually exploitable, gather post-exploitation evidence, and confirm patch remediation. Use when performing vulnerability management validation, penetration testing, or post-patch verification and you need to prove real-world exploitability rather than rely on a scanner score alone.
 
@@ -106646,7 +106646,7 @@ Orchestrates all tests and compiles findings.
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/exploiting-zerologon-vulnerability-cve-2020-1472/agent.py) · [`process.py`](scripts/exploiting-zerologon-vulnerability-cve-2020-1472/process.py)
+**Scripts:** [`agent.py`](scripts/exploiting-zerologon-vulnerability-cve-2020-1472/agent.py), [`process.py`](scripts/exploiting-zerologon-vulnerability-cve-2020-1472/process.py)
 
 **Description:** Exploits the Zerologon vulnerability (CVE-2020-1472) in the Netlogon Remote Protocol using Impacket to reset a domain controller's machine account password to empty, then runs DCSync via secretsdump.py to dump domain credentials. Use when red-teaming or validating unpatched Active Directory domain controllers for Zerologon, including restoring the machine account password afterward.
 
@@ -110053,7 +110053,7 @@ The agent produces two files:
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/hardening-docker-containers-for-production/agent.py) · [`process.py`](scripts/hardening-docker-containers-for-production/process.py)
+**Scripts:** [`agent.py`](scripts/hardening-docker-containers-for-production/agent.py), [`process.py`](scripts/hardening-docker-containers-for-production/process.py)
 
 **Description:** Harden Dockerfiles, images, and container runtime settings against the CIS Docker Benchmark v1.8.0: non-root users, dropped capabilities, read-only rootfs, seccomp/AppArmor, and minimal multi-stage images, validated with docker-bench-security, Hadolint, and Dockle. Use when preparing a container or Dockerfile for production, or auditing images/runtime configs against CIS Docker controls.
 
@@ -110596,7 +110596,7 @@ Host configuration:
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/hardening-docker-daemon-configuration/agent.py) · [`process.py`](scripts/hardening-docker-daemon-configuration/process.py)
+**Scripts:** [`agent.py`](scripts/hardening-docker-daemon-configuration/agent.py), [`process.py`](scripts/hardening-docker-daemon-configuration/process.py)
 
 **Description:** Harden the Docker daemon (dockerd) by configuring /etc/docker/daemon.json with user namespace remapping, TLS client authentication, seccomp profiles, and CIS Docker Benchmark controls such as icc, no-new-privileges, and live-restore. Use when securing a Docker host's daemon configuration to prevent privilege escalation, container breakout, or lateral movement, or when auditing daemon settings against CIS benchmark requirements.
 
@@ -111183,7 +111183,7 @@ curl -s http://127.0.0.1:9323/metrics | head -20
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/hardening-linux-endpoint-with-cis-benchmark/agent.py) · [`process.py`](scripts/hardening-linux-endpoint-with-cis-benchmark/process.py)
+**Scripts:** [`agent.py`](scripts/hardening-linux-endpoint-with-cis-benchmark/agent.py), [`process.py`](scripts/hardening-linux-endpoint-with-cis-benchmark/process.py)
 
 **Description:** Hardens Linux endpoints using CIS Benchmark recommendations for Ubuntu, RHEL, and CentOS to reduce attack surface, enforce security baselines, and meet compliance requirements. Use when deploying new Linux servers, remediating audit findings, or establishing security baselines for Linux infrastructure. Activates for requests involving Linux hardening, CIS benchmarks for Linux, server security baselines, or Linux configuration compliance.
 
@@ -111566,7 +111566,7 @@ lynis audit system --cronjob --quiet
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/hardening-windows-endpoint-with-cis-benchmark/agent.py) · [`process.py`](scripts/hardening-windows-endpoint-with-cis-benchmark/process.py)
+**Scripts:** [`agent.py`](scripts/hardening-windows-endpoint-with-cis-benchmark/agent.py), [`process.py`](scripts/hardening-windows-endpoint-with-cis-benchmark/process.py)
 
 **Description:** Hardens Windows endpoints using CIS (Center for Internet Security) Benchmark recommendations to reduce attack surface, enforce security baselines, and meet compliance requirements. Use when deploying new Windows workstations or servers, remediating audit findings, or establishing organization-wide security baselines. Activates for requests involving Windows hardening, CIS benchmarks, GPO security baselines, or endpoint configuration compliance.
 
@@ -113151,7 +113151,7 @@ Computer Configuration > Administrative Templates > Windows Components
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-beaconing-with-frequency-analysis/agent.py) · [`process.py`](scripts/hunting-for-beaconing-with-frequency-analysis/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-beaconing-with-frequency-analysis/agent.py), [`process.py`](scripts/hunting-for-beaconing-with-frequency-analysis/process.py)
 
 **Description:** Identify command-and-control beaconing patterns in network traffic by applying statistical frequency analysis, jitter calculation, and coefficient of variation scoring to detect periodic callbacks from compromised endpoints.
 
@@ -113841,7 +113841,7 @@ python3 jarm.py -p 8443 10.0.0.50 | grep -f cs_jarm_list.txt
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-command-and-control-beaconing/agent.py) · [`process.py`](scripts/hunting-for-command-and-control-beaconing/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-command-and-control-beaconing/agent.py), [`process.py`](scripts/hunting-for-command-and-control-beaconing/process.py)
 
 **Description:** Detect C2 beaconing patterns in network traffic using frequency analysis, jitter detection, and domain reputation to identify compromised endpoints communicating with adversary infrastructure.
 
@@ -114253,7 +114253,7 @@ Indicators of algorithmically generated domains:
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-data-exfiltration-indicators/agent.py) · [`process.py`](scripts/hunting-for-data-exfiltration-indicators/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-data-exfiltration-indicators/agent.py), [`process.py`](scripts/hunting-for-data-exfiltration-indicators/process.py)
 
 **Description:** Hunt for data exfiltration by analyzing Zeek and Suricata network telemetry for unusual data flows, DNS tunneling via large/frequent TXT queries, uploads to personal cloud storage, and encrypted-channel abuse, correlated against threat intel on destination domains. Use when hunting for data theft in a compromised environment, investigating unusual outbound data volumes, or determining what data was stolen during incident response.
 
@@ -114700,7 +114700,7 @@ tar -czf /tmp/staging/exfil.tar.gz /tmp/staging/*.pdf
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-dcom-lateral-movement/agent.py) · [`detect_dcom_lateral_movement.py`](scripts/hunting-for-dcom-lateral-movement/detect_dcom_lateral_movement.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-dcom-lateral-movement/agent.py), [`detect_dcom_lateral_movement.py`](scripts/hunting-for-dcom-lateral-movement/detect_dcom_lateral_movement.py)
 
 **Description:** Hunt for DCOM-based lateral movement (MITRE ATT&CK T1021.003) by detecting abuse of MMC20.Application, ShellBrowserWindow, and ShellWindows COM objects via Sysmon Event ID 1/3 correlation, WMI event analysis, and RPC endpoint mapper traffic on port 135. Use when investigating suspicious mmc.exe/dllhost.exe child processes, building T1021.003 detections, or auditing DCOM exposure during purple-team exercises.
 
@@ -116034,7 +116034,7 @@ dig AXFR example.com @ns1.example.com
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-dns-tunneling-with-zeek/agent.py) · [`process.py`](scripts/hunting-for-dns-tunneling-with-zeek/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-dns-tunneling-with-zeek/agent.py), [`process.py`](scripts/hunting-for-dns-tunneling-with-zeek/process.py)
 
 **Description:** Detects DNS tunneling and covert-channel data exfiltration by analyzing Zeek dns.log for high-entropy subdomain queries, excessive query volume, abnormally long query lengths, and unusual DNS record types (TXT/NULL/CNAME). Use when hunting for DNS-based data exfiltration or C2 covert channels in network traffic, or when triaging suspicious DNS query volume/patterns surfaced by Zeek logs.
 
@@ -116634,7 +116634,7 @@ wmic.exe                  -->  WmiPrvSE.exe
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-living-off-the-cloud-techniques/agent.py) · [`process.py`](scripts/hunting-for-living-off-the-cloud-techniques/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-living-off-the-cloud-techniques/agent.py), [`process.py`](scripts/hunting-for-living-off-the-cloud-techniques/process.py)
 
 **Description:** Hunts for adversary abuse of legitimate cloud services (Azure, AWS, GCP, and SaaS platforms) for command-and-control, data staging, and exfiltration, i.e. "living off the cloud" tradecraft that blends in with normal cloud API and service activity. Use when threat hunting for cloud-native C2 channels, abnormal use of storage/SaaS services for data staging, or exfiltration hidden in legitimate cloud traffic.
 
@@ -116912,7 +116912,7 @@ DeviceNetworkEvents
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-living-off-the-land-binaries/agent.py) · [`process.py`](scripts/hunting-for-living-off-the-land-binaries/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-living-off-the-land-binaries/agent.py), [`process.py`](scripts/hunting-for-living-off-the-land-binaries/process.py)
 
 **Description:** Proactively hunts for adversary abuse of legitimate, signed system binaries (LOLBins) used to execute malicious payloads, download files, or proxy execution while evading application allowlisting and defense-evasion controls. Use when building LOLBins detection rules for EDR/SIEM or when threat hunting for defense-evasion activity involving trusted system binaries.
 
@@ -117282,7 +117282,7 @@ Flag when these parent processes spawn LOLBins:
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-lolbins-execution-in-endpoint-logs/agent.py) · [`process.py`](scripts/hunting-for-lolbins-execution-in-endpoint-logs/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-lolbins-execution-in-endpoint-logs/agent.py), [`process.py`](scripts/hunting-for-lolbins-execution-in-endpoint-logs/process.py)
 
 **Description:** Hunts for LOLBins (Living Off the Land Binaries) abuse, mapped to MITRE T1218, by analyzing endpoint process-creation logs for suspicious execution patterns of legitimate Windows system binaries used for malicious purposes. Use when reviewing endpoint process telemetry for LOLBins-based defense evasion or building detections for signed-binary proxy execution.
 
@@ -117856,7 +117856,7 @@ Set-SmbServerConfiguration -RequireSecuritySignature $true -Force
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-persistence-mechanisms-in-windows/agent.py) · [`process.py`](scripts/hunting-for-persistence-mechanisms-in-windows/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-persistence-mechanisms-in-windows/agent.py), [`process.py`](scripts/hunting-for-persistence-mechanisms-in-windows/process.py)
 
 **Description:** Systematically hunts for adversary persistence mechanisms across Windows endpoints, covering registry Run/RunOnce keys, services, startup folders, scheduled tasks, and WMI event subscriptions. Use when performing a broad persistence sweep during incident response or building SIEM detections that cover the full range of Windows persistence techniques (MITRE T1547).
 
@@ -118226,7 +118226,7 @@ For each suspicious persistence entry:
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-persistence-via-wmi-subscriptions/agent.py) · [`process.py`](scripts/hunting-for-persistence-via-wmi-subscriptions/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-persistence-via-wmi-subscriptions/agent.py), [`process.py`](scripts/hunting-for-persistence-via-wmi-subscriptions/process.py)
 
 **Description:** Hunts for adversary persistence via WMI event subscriptions (MITRE T1546.003) by monitoring the creation of WMI event filters, consumers, and filter-to-consumer bindings that trigger malicious code execution on system events. Use when investigating fileless, trigger-based persistence on Windows hosts or auditing WMI repository contents for malicious event subscriptions.
 
@@ -118730,7 +118730,7 @@ Invoke-AtomicTest T1055.012
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-registry-persistence-mechanisms/agent.py) · [`process.py`](scripts/hunting-for-registry-persistence-mechanisms/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-registry-persistence-mechanisms/agent.py), [`process.py`](scripts/hunting-for-registry-persistence-mechanisms/process.py)
 
 **Description:** Hunts for registry-based persistence mechanisms (MITRE T1547) in Windows environments, including Run/RunOnce keys, Winlogon Shell/Userinit modifications, Image File Execution Options (IFEO) debugger injection, and COM hijacking via CLSID overrides. Use when auditing the registry for persistence artifacts or building detections for registry-based malware autostart techniques.
 
@@ -119175,7 +119175,7 @@ python agent.py --input registry_snapshot.json --output report.json
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-scheduled-task-persistence/agent.py) · [`process.py`](scripts/hunting-for-scheduled-task-persistence/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-scheduled-task-persistence/agent.py), [`process.py`](scripts/hunting-for-scheduled-task-persistence/process.py)
 
 **Description:** Runs a hypothesis-driven threat hunt for Windows Scheduled Task persistence (T1053), guiding SIEM/EDR queries against task creation events (e.g. Event ID 4698), suspicious task actions, and unusual scheduling patterns. Use when hunting for scheduled-task persistence, after threat intel flags related campaigns, during incident response, or when alerts fire on schtasks/at.exe activity.
 
@@ -119438,7 +119438,7 @@ DeviceEvents
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-shadow-copy-deletion/agent.py) · [`process.py`](scripts/hunting-for-shadow-copy-deletion/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-shadow-copy-deletion/agent.py), [`process.py`](scripts/hunting-for-shadow-copy-deletion/process.py)
 
 **Description:** Runs a hypothesis-driven threat hunt for Volume Shadow Copy deletion (T1490) by querying SIEM/EDR telemetry for vssadmin, wmic shadowcopy, and PowerShell shadow-copy-deletion commands. Use when hunting for ransomware preparation or anti-forensics activity, after threat intel flags active campaigns, or when alerts trigger on shadow-copy deletion commands.
 
@@ -119714,7 +119714,7 @@ DeviceProcessEvents
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-spearphishing-indicators/agent.py) · [`process.py`](scripts/hunting-for-spearphishing-indicators/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-spearphishing-indicators/agent.py), [`process.py`](scripts/hunting-for-spearphishing-indicators/process.py)
 
 **Description:** Hunt for spearphishing campaign indicators across email logs, endpoint telemetry, and network data to detect targeted email attacks.
 
@@ -120131,7 +120131,7 @@ specified duration. Returns detected events.
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-supply-chain-compromise/agent.py) · [`process.py`](scripts/hunting-for-supply-chain-compromise/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-supply-chain-compromise/agent.py), [`process.py`](scripts/hunting-for-supply-chain-compromise/process.py)
 
 **Description:** Runs a hypothesis-driven threat hunt for supply-chain compromise (T1195) by querying SIEM/EDR logs for trojanized software updates, compromised dependencies, unauthorized code modifications, and tampered build artifacts. Use when hunting after threat intel flags a compromised vendor/dependency, scoping a build-pipeline compromise, or reviewing update/build integrity.
 
@@ -120402,7 +120402,7 @@ DeviceProcessEvents
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-suspicious-scheduled-tasks/agent.py) · [`process.py`](scripts/hunting-for-suspicious-scheduled-tasks/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-suspicious-scheduled-tasks/agent.py), [`process.py`](scripts/hunting-for-suspicious-scheduled-tasks/process.py)
 
 **Description:** Hunts for adversary persistence and execution via Windows scheduled tasks (T1053.005) by analyzing Security Event ID 4698 task-creation events, suspicious task properties, and unusual execution patterns from schtasks.exe/at.exe. Use after detecting schtasks or at.exe in process creation logs, during incident response to enumerate persistence on compromised hosts, or when Event ID 4698 fires for an unusual task.
 
@@ -120768,7 +120768,7 @@ Install: `pip install python-evtx lxml`
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-unusual-network-connections/agent.py) · [`process.py`](scripts/hunting-for-unusual-network-connections/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-unusual-network-connections/agent.py), [`process.py`](scripts/hunting-for-unusual-network-connections/process.py)
 
 **Description:** Runs a hypothesis-driven threat hunt for command-and-control activity (T1071) by querying SIEM/EDR network telemetry for anomalous outbound traffic, rare destinations, non-standard ports, and unusual connection frequencies from endpoints. Use when hunting for beaconing/C2 traffic, after threat intel flags suspicious infrastructure, or when alerts fire on anomalous connections.
 
@@ -121185,7 +121185,7 @@ Counts risk distribution, top indicators, service account usage.
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `DE.AE-07`, `ID.RA-05`
 
-**Scripts:** [`agent.py`](scripts/hunting-for-webshell-activity/agent.py) · [`process.py`](scripts/hunting-for-webshell-activity/process.py)
+**Scripts:** [`agent.py`](scripts/hunting-for-webshell-activity/agent.py), [`process.py`](scripts/hunting-for-webshell-activity/process.py)
 
 **Description:** Runs a hypothesis-driven threat hunt for web shell deployment (T1505.003) on internet-facing servers by analyzing file creation in web directories, suspicious child-process spawning from web server processes, and anomalous HTTP request patterns. Use when hunting for web shells after a public-facing app compromise, when EDR/SIEM alerts fire on webserver process anomalies, or during incident response on internet-facing infrastructure.
 
@@ -121776,7 +121776,7 @@ Detection should pair with controls that make stolen tokens far less useful:
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/implementing-aes-encryption-for-data-at-rest/agent.py) · [`process.py`](scripts/implementing-aes-encryption-for-data-at-rest/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-aes-encryption-for-data-at-rest/agent.py), [`process.py`](scripts/implementing-aes-encryption-for-data-at-rest/process.py)
 
 **Description:** Guides implementing AES-256 encryption in GCM mode (FIPS 197) for files and data stores at rest, covering key derivation, IV/nonce management, and authenticated encryption. Use when deploying or configuring encryption for data at rest, establishing controls to meet compliance requirements, or reviewing an implementation during a security assessment.
 
@@ -122524,7 +122524,7 @@ True Positive Detection Rate: IMPROVED — 12 additional true positives caught p
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/implementing-anti-phishing-training-program/agent.py) · [`process.py`](scripts/implementing-anti-phishing-training-program/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-anti-phishing-training-program/agent.py), [`process.py`](scripts/implementing-anti-phishing-training-program/process.py)
 
 **Description:** Guides designing, deploying, and measuring an anti-phishing security awareness program - baseline phishing simulations, interactive training modules, just-in-time learning, and metric tracking - using platforms like KnowBe4, Proofpoint Security Awareness, or Cofense. Use when building or maturing a phishing awareness program, establishing training controls for compliance, or measuring phishing susceptibility and reporting rates over time.
 
@@ -125471,7 +125471,7 @@ curl "https://apigee.googleapis.com/v1/organizations/{org}/apis" \
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-application-whitelisting-with-applocker/agent.py) · [`process.py`](scripts/implementing-application-whitelisting-with-applocker/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-application-whitelisting-with-applocker/agent.py), [`process.py`](scripts/implementing-application-whitelisting-with-applocker/process.py)
 
 **Description:** Implements application whitelisting using Windows AppLocker to restrict unauthorized software execution on endpoints, reducing attack surface from malware, unauthorized tools, and shadow IT. Use when enforcing application control policies, meeting compliance requirements for software restriction, or preventing execution of unsigned or untrusted binaries. Activates for requests involving AppLocker, application whitelisting, software restriction, or executable control.
 
@@ -125975,7 +125975,7 @@ Computer Configuration > Policies > Windows Settings >
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/implementing-aqua-security-for-container-scanning/agent.py) · [`process.py`](scripts/implementing-aqua-security-for-container-scanning/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-aqua-security-for-container-scanning/agent.py), [`process.py`](scripts/implementing-aqua-security-for-container-scanning/process.py)
 
 **Description:** Deploy Aqua Security's Trivy scanner to detect vulnerabilities, misconfigurations, secrets, and license issues in container images across CI/CD pipelines and registries.
 
@@ -126402,7 +126402,7 @@ Prioritized patching based on exposure and severity
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-attack-path-analysis-with-xm-cyber/agent.py) · [`process.py`](scripts/implementing-attack-path-analysis-with-xm-cyber/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-attack-path-analysis-with-xm-cyber/agent.py), [`process.py`](scripts/implementing-attack-path-analysis-with-xm-cyber/process.py)
 
 **Description:** Deploys XM Cyber's continuous exposure management platform to build attack graphs that chain vulnerabilities, misconfigurations, identity risks, and credential weaknesses toward critical assets, identifying the small fraction of exposures sitting on converging "choke points". Use when mapping attack paths across an environment or prioritizing remediation within a continuous threat exposure management (CTEM) program.
 
@@ -127667,7 +127667,7 @@ ACCOUNT COMPLIANCE RANKING:
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-aws-iam-permission-boundaries/agent.py) · [`process.py`](scripts/implementing-aws-iam-permission-boundaries/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-aws-iam-permission-boundaries/agent.py), [`process.py`](scripts/implementing-aws-iam-permission-boundaries/process.py)
 
 **Description:** Configures AWS IAM permission boundaries that cap the maximum permissions an identity-based policy can grant to a user or role, so effective permissions are the intersection of the identity policy and the boundary even if the policy grants AdministratorAccess. Use when letting security teams delegate IAM role and policy creation to developers for self-service while enforcing least-privilege ceilings and preventing privilege escalation.
 
@@ -128127,7 +128127,7 @@ Monthly audit:
 
 **NIST CSF:** `PR.IR-01`, `ID.AM-08`, `GV.SC-06`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-aws-macie-for-data-classification/agent.py) · [`process.py`](scripts/implementing-aws-macie-for-data-classification/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-aws-macie-for-data-classification/agent.py), [`process.py`](scripts/implementing-aws-macie-for-data-classification/process.py)
 
 **Description:** Enable and configure Amazon Macie via AWS CLI/Terraform to discover, classify, and protect sensitive data (PII, financial data, credentials) in S3 using ML and pattern matching, including discovery jobs, custom data identifiers, allow lists, and EventBridge-based remediation. Use when setting up S3 data classification, cloud DLP, or auditing S3 for unprotected sensitive data.
 
@@ -129589,7 +129589,7 @@ AUTO-REMEDIATION ACTIONS (Last 30 Days):
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-azure-ad-privileged-identity-management/agent.py) · [`process.py`](scripts/implementing-azure-ad-privileged-identity-management/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-azure-ad-privileged-identity-management/agent.py), [`process.py`](scripts/implementing-azure-ad-privileged-identity-management/process.py)
 
 **Description:** Configure Microsoft Entra Privileged Identity Management (PIM) to convert standing privileged assignments into eligible, time-bound roles requiring justification, MFA, and approval, covering Entra roles, Azure resource roles, and PIM for Groups, plus access reviews. Use for role-assignment audits, just-in-time admin activation, or Zero Trust identity governance in Entra/Azure AD.
 
@@ -130375,7 +130375,7 @@ SECURITY ALERTS (Last 7 Days):
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-beyondcorp-zero-trust-access-model/agent.py) · [`process.py`](scripts/implementing-beyondcorp-zero-trust-access-model/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-beyondcorp-zero-trust-access-model/agent.py), [`process.py`](scripts/implementing-beyondcorp-zero-trust-access-model/process.py)
 
 **Description:** Implement Google's BeyondCorp zero trust access model using Cloud IAP, Access Context Manager, Endpoint Verification, Chrome Enterprise Premium, and BeyondCorp Enterprise Connectors to enforce identity- and device-aware access for VPN-less application access. Use for replacing VPN, enforcing device posture checks, or securing remote/hybrid access to GCP-hosted or on-prem apps; not for raw network-level protocols.
 
@@ -131894,7 +131894,7 @@ When a canary token is triggered, the webhook receives a POST with this payload:
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-cisa-zero-trust-maturity-model/agent.py) · [`process.py`](scripts/implementing-cisa-zero-trust-maturity-model/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-cisa-zero-trust-maturity-model/agent.py), [`process.py`](scripts/implementing-cisa-zero-trust-maturity-model/process.py)
 
 **Description:** Assess, gap-analyze, and progressively implement the CISA Zero Trust Maturity Model v2.0 across five pillars (Identity, Devices, Networks, Applications & Workloads, Data) and three cross-cutting capabilities (Visibility/Analytics, Automation/Orchestration, Governance), from Traditional through Optimal maturity. Use for a federal/enterprise ZTMM assessment, phased roadmap, or mapping controls to NIST SP 800-207 and EO 14028.
 
@@ -133516,7 +133516,7 @@ ALERTING STATUS:
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-cloud-vulnerability-posture-management/agent.py) · [`process.py`](scripts/implementing-cloud-vulnerability-posture-management/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-cloud-vulnerability-posture-management/agent.py), [`process.py`](scripts/implementing-cloud-vulnerability-posture-management/process.py)
 
 **Description:** Implement multi-cloud CSPM to detect cloud-native misconfigurations and vulnerabilities (IAM over-permissions, exposed storage, unencrypted data, missing network controls) using AWS Security Hub, Azure Defender for Cloud, and open-source Prowler and ScoutSuite scans, then aggregate results across clouds. Use when auditing multi-cloud environments for misconfiguration-driven vulnerabilities or building a consolidated cross-cloud posture report.
 
@@ -134287,7 +134287,7 @@ Key protection areas:
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/implementing-code-signing-for-artifacts/agent.py) · [`process.py`](scripts/implementing-code-signing-for-artifacts/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-code-signing-for-artifacts/agent.py), [`process.py`](scripts/implementing-code-signing-for-artifacts/process.py)
 
 **Description:** Implements code signing for build artifacts (binaries, packages, containers) using GPG, Sigstore, and platform-specific signing tools, establishing trust chains and verifying signatures in deployment pipelines. Use when establishing artifact integrity checks against supply-chain tampering, proving authenticity to customers, building zero-trust pipelines that reject unsigned artifacts, or meeting SLSA Level 2+ provenance requirements.
 
@@ -135038,7 +135038,7 @@ Full assessment with port scanning, control evaluation, and risk scoring.
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-container-image-minimal-base-with-distroless/agent.py) · [`process.py`](scripts/implementing-container-image-minimal-base-with-distroless/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-container-image-minimal-base-with-distroless/agent.py), [`process.py`](scripts/implementing-container-image-minimal-base-with-distroless/process.py)
 
 **Description:** Reduces container attack surface by building application images on Google distroless base images that contain only the app runtime with no shell, package manager, or OS utilities, using multi-stage Docker build patterns and debug/scanning techniques for distroless containers. Use when hardening container images, cutting attack surface in a container security architecture, or responding to a security assessment that flags bloated base images.
 
@@ -135479,7 +135479,7 @@ Install: `pip install kubernetes`
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-continuous-security-validation-with-bas/agent.py) · [`process.py`](scripts/implementing-continuous-security-validation-with-bas/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-continuous-security-validation-with-bas/agent.py), [`process.py`](scripts/implementing-continuous-security-validation-with-bas/process.py)
 
 **Description:** Deploys Breach and Attack Simulation (BAS) platforms such as SafeBreach, AttackIQ, Picus, Cymulate, Pentera, or SCYTHE to continuously validate endpoint, network, email-gateway, SIEM, and incident-response effectiveness by safely emulating MITRE ATT&CK techniques. Use when moving beyond point-in-time pentesting to continuous control validation, or standing up automated adversary emulation.
 
@@ -137520,7 +137520,7 @@ Password Age Violations: 3 (remediation in progress)
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-device-posture-assessment-in-zero-trust/agent.py) · [`process.py`](scripts/implementing-device-posture-assessment-in-zero-trust/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-device-posture-assessment-in-zero-trust/agent.py), [`process.py`](scripts/implementing-device-posture-assessment-in-zero-trust/process.py)
 
 **Description:** Implements device posture assessment as a zero trust access control by integrating endpoint health signals from CrowdStrike ZTA, Microsoft Intune, and Jamf into conditional access policies that enforce compliance before granting access. Use when requiring device health checks before app access, wiring posture signals into conditional access, or implementing the CISA Zero Trust device pillar.
 
@@ -138546,7 +138546,7 @@ gitleaks protect --staged --report-format json
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-05`, `DE.CM-01`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/implementing-diamond-model-analysis/agent.py) · [`process.py`](scripts/implementing-diamond-model-analysis/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-diamond-model-analysis/agent.py), [`process.py`](scripts/implementing-diamond-model-analysis/process.py)
 
 **Description:** The Diamond Model of Intrusion Analysis provides a structured framework for analyzing cyber intrusions by examining four core features - Adversary, Capability, Infrastructure, and Victim. This skill covers implementing the Diamond Model programmatically to classify and correlate intrusion events, build activity threads, and generate pivot-ready intelligence.
 
@@ -138764,7 +138764,7 @@ Counts unique values per vertex and confidence distribution.
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/implementing-digital-signatures-with-ed25519/agent.py) · [`process.py`](scripts/implementing-digital-signatures-with-ed25519/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-digital-signatures-with-ed25519/agent.py), [`process.py`](scripts/implementing-digital-signatures-with-ed25519/process.py)
 
 **Description:** Implements digital signatures using the Ed25519 algorithm (Curve25519), covering key-pair generation, signing, signature verification, and security tradeoffs versus RSA and ECDSA. Use when adding message or artifact signing and authentication-integrity checks to a system, or when advising on Ed25519 key properties and validation criteria.
 
@@ -139027,7 +139027,7 @@ Verifies file against `.ed25519.sig` JSON, checks hash match.
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-disk-encryption-with-bitlocker/agent.py) · [`process.py`](scripts/implementing-disk-encryption-with-bitlocker/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-disk-encryption-with-bitlocker/agent.py), [`process.py`](scripts/implementing-disk-encryption-with-bitlocker/process.py)
 
 **Description:** Implements full disk encryption using Microsoft BitLocker on Windows endpoints to protect data at rest from unauthorized access in case of device loss or theft. Use when deploying encryption for compliance requirements, securing mobile workstations, or implementing data protection controls across the enterprise. Activates for requests involving BitLocker encryption, disk encryption, TPM configuration, or data-at-rest protection.
 
@@ -139423,7 +139423,7 @@ Backup-BitLockerKeyProtector -MountPoint "C:" -KeyProtectorId $id
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/implementing-dmarc-dkim-spf-email-security/agent.py) · [`process.py`](scripts/implementing-dmarc-dkim-spf-email-security/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-dmarc-dkim-spf-email-security/agent.py), [`process.py`](scripts/implementing-dmarc-dkim-spf-email-security/process.py)
 
 **Description:** Configures SPF, DKIM, and DMARC DNS TXT records to authenticate outbound email, prevent domain spoofing, and enforce a rejection/quarantine policy on unauthenticated mail, including auditing a domain's current DNS state. Use when hardening a domain's email security posture or defending against phishing and spoofing attacks.
 
@@ -140593,7 +140593,7 @@ tetragon:
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/implementing-email-sandboxing-with-proofpoint/agent.py) · [`process.py`](scripts/implementing-email-sandboxing-with-proofpoint/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-email-sandboxing-with-proofpoint/agent.py), [`process.py`](scripts/implementing-email-sandboxing-with-proofpoint/process.py)
 
 **Description:** Email sandboxing detonates suspicious attachments and URLs in isolated environments to detect zero-day malware and evasive phishing payloads. Proofpoint Targeted Attack Protection (TAP) is an industry
 
@@ -140867,7 +140867,7 @@ Monthly:
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/implementing-end-to-end-encryption-for-messaging/agent.py) · [`process.py`](scripts/implementing-end-to-end-encryption-for-messaging/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-end-to-end-encryption-for-messaging/agent.py), [`process.py`](scripts/implementing-end-to-end-encryption-for-messaging/process.py)
 
 **Description:** Implements a simplified Signal Protocol-style end-to-end encryption scheme for messaging, covering key exchange, forward secrecy, and the core cryptographic components so no server or intermediary can decrypt messages. Use when designing or building E2EE messaging, or evaluating forward-secrecy and key-management tradeoffs for a messaging system.
 
@@ -141273,7 +141273,7 @@ Location: `/var/ossec/etc/decoders/local_decoder.xml`
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-endpoint-dlp-controls/agent.py) · [`process.py`](scripts/implementing-endpoint-dlp-controls/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-endpoint-dlp-controls/agent.py), [`process.py`](scripts/implementing-endpoint-dlp-controls/process.py)
 
 **Description:** Implements endpoint Data Loss Prevention (DLP) controls to detect and prevent sensitive data exfiltration through email, USB, cloud storage, and printing. Use when deploying DLP agents, creating content inspection policies, or preventing unauthorized data movement from endpoints. Activates for requests involving DLP, data exfiltration prevention, content inspection, or sensitive data protection on endpoints.
 
@@ -141501,7 +141501,7 @@ curl -X GET "https://api.crowdstrike.com/dlp/entities/policies/v1" \
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/implementing-envelope-encryption-with-aws-kms/agent.py) · [`process.py`](scripts/implementing-envelope-encryption-with-aws-kms/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-envelope-encryption-with-aws-kms/agent.py), [`process.py`](scripts/implementing-envelope-encryption-with-aws-kms/process.py)
 
 **Description:** Implements envelope encryption with AWS KMS, encrypting data locally with a data encryption key (DEK) and protecting that DEK with a KMS-managed key (KEK), covering the encrypt/decrypt flow, KMS key types, and security validation criteria. Use when designing key management for encrypting large or numerous data objects on AWS, or when reducing direct KMS API call volume.
 
@@ -141791,7 +141791,7 @@ pip install boto3>=1.28 cryptography>=41.0
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-epss-score-for-vulnerability-prioritization/agent.py) · [`process.py`](scripts/implementing-epss-score-for-vulnerability-prioritization/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-epss-score-for-vulnerability-prioritization/agent.py), [`process.py`](scripts/implementing-epss-score-for-vulnerability-prioritization/process.py)
 
 **Description:** Queries FIRST's Exploit Prediction Scoring System (EPSS) API to fetch exploitation-probability and percentile scores for CVEs, then uses those scores to prioritize vulnerability remediation. Use when triaging or ranking a vulnerability backlog by real-world 30-day exploitation likelihood rather than CVSS severity alone.
 
@@ -142255,7 +142255,7 @@ aide --init    # Direct command
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/implementing-fuzz-testing-in-cicd-with-aflplusplus/agent.py) · [`process.py`](scripts/implementing-fuzz-testing-in-cicd-with-aflplusplus/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-fuzz-testing-in-cicd-with-aflplusplus/agent.py), [`process.py`](scripts/implementing-fuzz-testing-in-cicd-with-aflplusplus/process.py)
 
 **Description:** Integrates AFL++ coverage-guided fuzzing into CI/CD pipelines, covering harness construction, AFL++/AddressSanitizer/CmpLog instrumentation builds, and persistent-mode fuzzing to discover memory-corruption and input-handling vulnerabilities in C/C++ code. Use when adding automated fuzz testing to a build pipeline or hunting for memory-safety bugs in native/compiled applications.
 
@@ -142707,7 +142707,7 @@ Update corpus to include edge case inputs
 
 **NIST CSF:** `PR.IR-01`, `ID.AM-08`, `GV.SC-06`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-gcp-binary-authorization/agent.py) · [`process.py`](scripts/implementing-gcp-binary-authorization/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-gcp-binary-authorization/agent.py), [`process.py`](scripts/implementing-gcp-binary-authorization/process.py)
 
 **Description:** Implements GCP Binary Authorization end to end, including creating KMS-backed attestors, Container Analysis notes, deploy-time policies, and signing image attestations, so that only trusted, verified images deploy to GKE and Cloud Run. Use when enforcing container supply-chain integrity or deploy-time attestation checks on GCP.
 
@@ -143098,7 +143098,7 @@ logName="projects/PROJECT/logs/binaryauthorization.googleapis.com%2Fcontinuous_v
 
 **NIST CSF:** `PR.IR-01`, `ID.AM-08`, `GV.SC-06`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-gcp-organization-policy-constraints/agent.py) · [`process.py`](scripts/implementing-gcp-organization-policy-constraints/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-gcp-organization-policy-constraints/agent.py), [`process.py`](scripts/implementing-gcp-organization-policy-constraints/process.py)
 
 **Description:** Implements GCP Organization Policy constraints via gcloud and Terraform, such as restricting external IPs, resource locations, default service accounts, and service account keys, plus dry-run testing of policy impact before enforcement. Use when enforcing security guardrails across an org's resource hierarchy, or hardening GCP config at the org, folder, or project level.
 
@@ -143906,7 +143906,7 @@ REMEDIATION ACTIONS COMPLETED:
 
 **NIST CSF:** `GV.OC-02`, `GV.PO-01`, `PR.DS-01`, `PR.AA-01`, `ID.AM-02`
 
-**Scripts:** [`agent.py`](scripts/implementing-gdpr-data-protection-controls/agent.py) · [`process.py`](scripts/implementing-gdpr-data-protection-controls/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-gdpr-data-protection-controls/agent.py), [`process.py`](scripts/implementing-gdpr-data-protection-controls/process.py)
 
 **Description:** Implements GDPR (EU 2016/679) technical and organizational measures — privacy by design/default, DPIAs, data subject rights management, 72-hour breach notification, and cross-border transfer mechanisms (SCCs, BCRs, adequacy). Use when designing or auditing GDPR controls, building a DPIA, handling data subject access/erasure requests, or assessing cross-border data transfers.
 
@@ -144998,7 +144998,7 @@ python agent.py --action dashboard
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/implementing-github-advanced-security-for-code-scanning/agent.py) · [`process.py`](scripts/implementing-github-advanced-security-for-code-scanning/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-github-advanced-security-for-code-scanning/agent.py), [`process.py`](scripts/implementing-github-advanced-security-for-code-scanning/process.py)
 
 **Description:** Configures GitHub Advanced Security (code scanning with CodeQL, secret scanning, dependency review, and Dependabot alerts) to perform automated static analysis and vulnerability detection across repositories at enterprise scale, including custom CodeQL queries and CI workflow integration. Use when setting up or tuning code scanning, rolling out CodeQL across an organization, or shifting SAST left into pull request workflows.
 
@@ -145978,7 +145978,7 @@ Shared Drive Creation:  ADMIN ONLY
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/implementing-google-workspace-phishing-protection/agent.py) · [`process.py`](scripts/implementing-google-workspace-phishing-protection/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-google-workspace-phishing-protection/agent.py), [`process.py`](scripts/implementing-google-workspace-phishing-protection/process.py)
 
 **Description:** Configures Google Workspace advanced phishing and malware protection settings in the Admin Console — pre-delivery message scanning, attachment protection, spoofing/impersonation detection, and Enhanced Safe Browsing enforcement. Use when hardening Gmail against phishing, spoofing, and malware, or when tuning Workspace email security policies.
 
@@ -146233,7 +146233,7 @@ User clicks URL in Gmail
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-google-workspace-sso-configuration/agent.py) · [`process.py`](scripts/implementing-google-workspace-sso-configuration/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-google-workspace-sso-configuration/agent.py), [`process.py`](scripts/implementing-google-workspace-sso-configuration/process.py)
 
 **Description:** Configures SAML 2.0 single sign-on for Google Workspace against a third-party identity provider (Okta, Azure AD/Entra ID, ADFS), with Workspace as the Service Provider, to centralize authentication and enable immediate access revocation. Use when setting up or troubleshooting Google Workspace SSO/SAML federation or migrating from native Google passwords to an external IdP.
 
@@ -147811,7 +147811,7 @@ Breach Notification Rule: **45 CFR §§164.400–414** (Subpart D).
 
 **NIST CSF:** `PR.DS-11`, `RS.MA-01`, `RC.RP-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-honeypot-for-ransomware-detection/agent.py) · [`process.py`](scripts/implementing-honeypot-for-ransomware-detection/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-honeypot-for-ransomware-detection/agent.py), [`process.py`](scripts/implementing-honeypot-for-ransomware-detection/process.py)
 
 **Description:** Deploys canary files, honeypot shares, and decoy systems to detect ransomware activity at the earliest possible stage. Configures canary tokens embedded in strategic file locations that trigger alerts when ransomware attempts encryption, uses honeypot network shares that mimic high-value targets, and deploys Thinkst Canary appliances for comprehensive deception-based detection. Activates for requests involving ransomware honeypots, canary files, deception technology for ransomware, or early ransomware alerting.
 
@@ -148726,7 +148726,7 @@ Deploy SailPoint IdentityNow or IdentityIQ for identity governance and administr
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-identity-verification-for-zero-trust/agent.py) · [`process.py`](scripts/implementing-identity-verification-for-zero-trust/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-identity-verification-for-zero-trust/agent.py), [`process.py`](scripts/implementing-identity-verification-for-zero-trust/process.py)
 
 **Description:** Implements continuous, risk-adaptive identity verification for zero trust using phishing-resistant MFA (FIDO2/WebAuthn), risk-based conditional access, and identity governance aligned with NIST SP 800-207 and the CISA Zero Trust Maturity Model Identity Pillar. Use when designing zero trust identity controls, deploying phishing-resistant MFA, or building conditional access policies based on device posture, behavior, and location.
 
@@ -149708,7 +149708,7 @@ VALIDATION RESULTS:
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-image-provenance-verification-with-cosign/agent.py) · [`process.py`](scripts/implementing-image-provenance-verification-with-cosign/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-image-provenance-verification-with-cosign/agent.py), [`process.py`](scripts/implementing-image-provenance-verification-with-cosign/process.py)
 
 **Description:** Signs and verifies container image provenance using Sigstore Cosign, covering key-based and keyless OIDC-based signing (Fulcio, Rekor transparency log), SLSA attestations, and enforcing signature verification via Kubernetes admission control. Use when signing container images for supply chain security, setting up keyless OIDC signing, attaching attestations, or enforcing verified-image-only policies at admission in a Kubernetes cluster.
 
@@ -150371,7 +150371,7 @@ python agent.py --repo s3:s3.amazonaws.com/my-backups --action full-pipeline \
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/implementing-infrastructure-as-code-security-scanning/agent.py) · [`process.py`](scripts/implementing-infrastructure-as-code-security-scanning/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-infrastructure-as-code-security-scanning/agent.py), [`process.py`](scripts/implementing-infrastructure-as-code-security-scanning/process.py)
 
 **Description:** Implements automated security scanning for Infrastructure as Code using Checkov, tfsec, and KICS to detect misconfigurations in Terraform, CloudFormation, Kubernetes manifests, and Helm charts, plus policy-based governance and CI/CD integration. Use when validating cloud infrastructure before deployment or blocking insecure changes (public S3 buckets, open security groups) in pull requests.
 
@@ -150796,7 +150796,7 @@ Terraform/IaC Code Change
 
 **NIST CSF:** `GV.OC-01`, `GV.RM-01`, `GV.PO-01`, `ID.RA-01`, `PR.DS-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-iso-27001-information-security-management/agent.py) · [`process.py`](scripts/implementing-iso-27001-information-security-management/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-iso-27001-information-security-management/agent.py), [`process.py`](scripts/implementing-iso-27001-information-security-management/process.py)
 
 **Description:** Guides implementation of an ISO/IEC 27001:2022 Information Security Management System (ISMS) end to end: gap analysis and scoping, risk assessment methodology, Annex A control selection, Statement of Applicability (SoA) creation, and continuous improvement. Use when scoping a new ISMS, preparing for ISO 27001 certification or audit, or selecting and documenting Annex A controls for a compliance program.
 
@@ -151529,7 +151529,7 @@ End
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-just-in-time-access-provisioning/agent.py) · [`process.py`](scripts/implementing-just-in-time-access-provisioning/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-just-in-time-access-provisioning/agent.py), [`process.py`](scripts/implementing-just-in-time-access-provisioning/process.py)
 
 **Description:** Implements Just-In-Time (JIT) access provisioning to eliminate standing privileges by granting temporary, time-bound access, covering approval workflows, automatic expiration/revocation, and PAM/IGA integration. Use when designing access approval workflows or replacing standing privileged accounts with time-bound, zero-trust-aligned grants.
 
@@ -151797,7 +151797,7 @@ curl -X POST "https://VAULT/PasswordVault/api/MyRequests" \
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/implementing-jwt-signing-and-verification/agent.py) · [`process.py`](scripts/implementing-jwt-signing-and-verification/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-jwt-signing-and-verification/agent.py), [`process.py`](scripts/implementing-jwt-signing-and-verification/process.py)
 
 **Description:** Implements secure JWT (RFC 7519) signing and verification using HMAC-SHA256, RSA-PSS, ES256, and EdDSA, including token expiration, claims validation, and defenses against algorithm-confusion, none-algorithm, and key-injection attacks. Use when adding or hardening JWT-based authentication/authorization, or when auditing token verification code for common JWT vulnerabilities.
 
@@ -152043,7 +152043,7 @@ JSON Web Tokens (JWT) defined in RFC 7519 are compact, URL-safe tokens used for 
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-kubernetes-network-policy-with-calico/agent.py) · [`process.py`](scripts/implementing-kubernetes-network-policy-with-calico/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-kubernetes-network-policy-with-calico/agent.py), [`process.py`](scripts/implementing-kubernetes-network-policy-with-calico/process.py)
 
 **Description:** Implements Kubernetes network segmentation using Calico's Kubernetes NetworkPolicy and GlobalNetworkPolicy resources, including default-deny rules, policy ordering, and service-account-based selectors for zero-trust pod-to-pod communication. Use when installing Calico CNI and writing or auditing network policies to restrict east-west traffic within a Kubernetes cluster.
 
@@ -152701,7 +152701,7 @@ EOF
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-kubernetes-pod-security-standards/agent.py) · [`process.py`](scripts/implementing-kubernetes-pod-security-standards/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-kubernetes-pod-security-standards/agent.py), [`process.py`](scripts/implementing-kubernetes-pod-security-standards/process.py)
 
 **Description:** Configures Kubernetes Pod Security Standards (Privileged, Baseline, Restricted) enforced via the built-in Pod Security Admission (PSA) controller (Kubernetes 1.25+), including namespace labeling and enforce/audit/warn modes. Use when hardening pod configurations against privilege escalation, migrating off deprecated PodSecurityPolicy, or setting namespace-level pod security enforcement.
 
@@ -153872,7 +153872,7 @@ for each entry in chain:
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-memory-protection-with-dep-aslr/agent.py) · [`process.py`](scripts/implementing-memory-protection-with-dep-aslr/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-memory-protection-with-dep-aslr/agent.py), [`process.py`](scripts/implementing-memory-protection-with-dep-aslr/process.py)
 
 **Description:** Implements memory protection mechanisms including DEP (Data Execution Prevention), ASLR (Address Space Layout Randomization), CFG (Control Flow Guard), and other exploit mitigations to prevent memory corruption attacks. Use when hardening endpoints against buffer overflow exploits, ROP chains, and code injection. Activates for requests involving memory protection, exploit mitigation, DEP, ASLR, or CFG configuration.
 
@@ -154462,7 +154462,7 @@ PCI CDE ISOLATION:
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/implementing-mimecast-targeted-attack-protection/agent.py) · [`process.py`](scripts/implementing-mimecast-targeted-attack-protection/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-mimecast-targeted-attack-protection/agent.py), [`process.py`](scripts/implementing-mimecast-targeted-attack-protection/process.py)
 
 **Description:** Deploys and configures Mimecast Targeted Threat Protection (TTP) modules -- URL Protect (click-time URL rewriting/analysis), Attachment Protect (sandbox detonation), Impersonation Protect (BEC/whaling detection), and Internal Email Protect -- for Microsoft 365 or Google Workspace. Use when defending against phishing, spearphishing, or business email compromise, or configuring TTP policies in the Mimecast Administration Console.
 
@@ -154781,7 +154781,7 @@ Inbound email arrives
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `RS.MA-01`, `DE.AE-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-mitre-attack-coverage-mapping/agent.py) · [`process.py`](scripts/implementing-mitre-attack-coverage-mapping/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-mitre-attack-coverage-mapping/agent.py), [`process.py`](scripts/implementing-mitre-attack-coverage-mapping/process.py)
 
 **Description:** Implement MITRE ATT&CK coverage mapping to identify detection gaps, prioritize rule development, and measure SOC detection maturity against adversary techniques.
 
@@ -155187,7 +155187,7 @@ Measure --> Report --> Repeat
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/implementing-mobile-application-management/agent.py) · [`process.py`](scripts/implementing-mobile-application-management/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-mobile-application-management/agent.py), [`process.py`](scripts/implementing-mobile-application-management/process.py)
 
 **Description:** Implements Mobile Application Management (MAM) policies to protect enterprise data on managed and unmanaged mobile devices through app-level controls including data loss prevention, selective wipe, app configuration, and containerization. Use when securing corporate apps on BYOD devices, implementing Intune App Protection Policies, or enforcing data separation between personal and work apps. Activates for requests involving MAM deployment, app protection policies, mobile containerization, or BYOD security.
 
@@ -157397,7 +157397,7 @@ suricatasc -c iface-stat eth0
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-network-policies-for-kubernetes/agent.py) · [`process.py`](scripts/implementing-network-policies-for-kubernetes/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-network-policies-for-kubernetes/agent.py), [`process.py`](scripts/implementing-network-policies-for-kubernetes/process.py)
 
 **Description:** Writes Kubernetes NetworkPolicy YAML (default-deny-all, DNS egress, namespace/pod selector rules) enforced via CNI plugins like Calico or Cilium to control ingress and egress traffic between pods, namespaces, and external endpoints. Use when implementing zero-trust microsegmentation inside a Kubernetes cluster to prevent lateral movement between workloads or namespaces.
 
@@ -158551,7 +158551,7 @@ python agent.py --netflow-csv flows.csv --zscore-threshold 2.5 --scan-threshold 
 
 **NIST CSF:** `PR.IR-01`, `DE.CM-01`, `ID.AM-03`, `PR.DS-02`
 
-**Scripts:** [`agent.py`](scripts/implementing-next-generation-firewall-with-palo-alto/agent.py) · [`process.py`](scripts/implementing-next-generation-firewall-with-palo-alto/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-next-generation-firewall-with-palo-alto/agent.py), [`process.py`](scripts/implementing-next-generation-firewall-with-palo-alto/process.py)
 
 **Description:** Configures and deploys Palo Alto Networks next-generation firewalls end-to-end, covering App-ID application-aware policies, User-ID identity-based enforcement, zone-based security rules, SSL decryption for encrypted traffic visibility, and Content-ID threat prevention profiles. Use when moving an enterprise from port-based firewall rules to application- and identity-aware NGFW policy on Palo Alto hardware.
 
@@ -158971,7 +158971,7 @@ Phase 6: Operations
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-opa-gatekeeper-for-policy-enforcement/agent.py) · [`process.py`](scripts/implementing-opa-gatekeeper-for-policy-enforcement/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-opa-gatekeeper-for-policy-enforcement/agent.py), [`process.py`](scripts/implementing-opa-gatekeeper-for-policy-enforcement/process.py)
 
 **Description:** Deploys OPA Gatekeeper via Helm as a Kubernetes admission controller and writes ConstraintTemplates with Rego rules plus instantiated Constraints to validate, mutate, or deny resource requests at admission time. Use when enforcing policy-as-code admission control in a Kubernetes cluster (v1.24+), such as blocking non-compliant workloads before they are scheduled.
 
@@ -161102,7 +161102,7 @@ Approve-WsusUpdate -Update $update -Action Install -TargetGroupName "OT-Test-Rin
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-patch-management-workflow/agent.py) · [`process.py`](scripts/implementing-patch-management-workflow/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-patch-management-workflow/agent.py), [`process.py`](scripts/implementing-patch-management-workflow/process.py)
 
 **Description:** Patch management is the systematic process of identifying, testing, deploying, and verifying software updates to remediate vulnerabilities across an organization's IT infrastructure. An effective patc
 
@@ -161878,7 +161878,7 @@ End
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-pod-security-admission-controller/agent.py) · [`process.py`](scripts/implementing-pod-security-admission-controller/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-pod-security-admission-controller/agent.py), [`process.py`](scripts/implementing-pod-security-admission-controller/process.py)
 
 **Description:** Implement Kubernetes Pod Security Admission (PSA), the built-in admission controller stable since v1.25, to enforce Privileged, Baseline, and Restricted Pod Security Standards at the namespace level with enforce, audit, and warn modes, replacing the deprecated PodSecurityPolicy. Use when hardening Kubernetes namespaces, migrating off PodSecurityPolicy, or enforcing pod-level security baselines.
 
@@ -162370,7 +162370,7 @@ kubectl label namespace production \
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/implementing-policy-as-code-with-open-policy-agent/agent.py) · [`process.py`](scripts/implementing-policy-as-code-with-open-policy-agent/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-policy-as-code-with-open-policy-agent/agent.py), [`process.py`](scripts/implementing-policy-as-code-with-open-policy-agent/process.py)
 
 **Description:** Implements policy-as-code enforcement with Open Policy Agent (OPA) and Gatekeeper for Kubernetes and CI/CD pipelines, covering writing Rego policies, deploying OPA Gatekeeper as a Kubernetes admission controller, testing policies in development, and integrating policy evaluation into deployment pipelines. Use when writing Rego policies, deploying Gatekeeper admission control, or gating CI/CD pipelines with policy-as-code checks.
 
@@ -162904,7 +162904,7 @@ API Request → Kubernetes API Server → Gatekeeper Webhook
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-privileged-access-management-with-cyberark/agent.py) · [`process.py`](scripts/implementing-privileged-access-management-with-cyberark/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-privileged-access-management-with-cyberark/agent.py), [`process.py`](scripts/implementing-privileged-access-management-with-cyberark/process.py)
 
 **Description:** Deploy CyberArk Privileged Access Management to discover, vault, rotate, and monitor privileged credentials across enterprise infrastructure, covering vault architecture, session isolation, credential rotation policies, and integration with NIST 800-53 access control requirements. Use when standing up CyberArk PAM, vaulting privileged credentials, or designing credential rotation policies.
 
@@ -163785,7 +163785,7 @@ curl -H "Authorization: $CYBERARK_TOKEN" \
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/implementing-proofpoint-email-security-gateway/agent.py) · [`process.py`](scripts/implementing-proofpoint-email-security-gateway/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-proofpoint-email-security-gateway/agent.py), [`process.py`](scripts/implementing-proofpoint-email-security-gateway/process.py)
 
 **Description:** Deploy and configure Proofpoint Email Protection as a secure email gateway to detect and block phishing, malware, BEC, and spam before messages reach user inboxes.
 
@@ -164427,7 +164427,7 @@ pip install scapy requests
 
 **NIST CSF:** `PR.DS-11`, `RS.MA-01`, `RC.RP-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-ransomware-backup-strategy/agent.py) · [`process.py`](scripts/implementing-ransomware-backup-strategy/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-ransomware-backup-strategy/agent.py), [`process.py`](scripts/implementing-ransomware-backup-strategy/process.py)
 
 **Description:** Designs a ransomware-resilient backup strategy using the 3-2-1-1-0 methodology (3 copies, 2 media types, 1 offsite, 1 immutable/air-gapped, 0 restore errors), configuring RPO/RTO-aligned schedules, isolating backup credentials, and automating restore testing. Use when planning ransomware backup resilience or air-gapped/immutable backup architecture.
 
@@ -165348,7 +165348,7 @@ Scripts (Startup/Shutdown) → Startup → Add Script
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-rapid7-insightvm-for-scanning/agent.py) · [`process.py`](scripts/implementing-rapid7-insightvm-for-scanning/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-rapid7-insightvm-for-scanning/agent.py), [`process.py`](scripts/implementing-rapid7-insightvm-for-scanning/process.py)
 
 **Description:** Deploy and configure Rapid7 InsightVM Security Console and Scan Engines, including scan templates, credentialed scanning, and Insight Agent integration, for authenticated and unauthenticated vulnerability scanning across enterprise environments. Use when standing up InsightVM infrastructure, configuring credentialed vulnerability scans, or integrating continuous asset assessment via the Insight Agent.
 
@@ -165851,7 +165851,7 @@ For each scheduled scan:
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-rbac-hardening-for-kubernetes/agent.py) · [`process.py`](scripts/implementing-rbac-hardening-for-kubernetes/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-rbac-hardening-for-kubernetes/agent.py), [`process.py`](scripts/implementing-rbac-hardening-for-kubernetes/process.py)
 
 **Description:** Harden Kubernetes RBAC by implementing least-privilege Roles and ClusterRoles, auditing RoleBindings, eliminating cluster-admin sprawl, separating service accounts, and integrating external identity providers (OIDC). Use when reviewing or tightening Kubernetes access control, removing excessive ClusterRoleBindings, or hardening service-account permissions against privilege escalation and lateral movement.
 
@@ -166244,7 +166244,7 @@ kubectl access-matrix --namespace production
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/implementing-rsa-key-pair-management/agent.py) · [`process.py`](scripts/implementing-rsa-key-pair-management/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-rsa-key-pair-management/agent.py), [`process.py`](scripts/implementing-rsa-key-pair-management/process.py)
 
 **Description:** Generates, stores, rotates, and manages RSA key pairs following NIST SP 800-57 guidelines, covering serialization formats (PEM, DER, PKCS#8), passphrase protection, and key strength validation. Use when creating or rotating RSA keys for signatures, key exchange, or encryption, or when auditing existing keys for proper storage and NIST-compliant strength.
 
@@ -166715,7 +166715,7 @@ log:
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-runtime-security-with-tetragon/agent.py) · [`process.py`](scripts/implementing-runtime-security-with-tetragon/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-runtime-security-with-tetragon/agent.py), [`process.py`](scripts/implementing-runtime-security-with-tetragon/process.py)
 
 **Description:** Implement eBPF-based runtime security observability and enforcement in Kubernetes clusters using Cilium Tetragon, monitoring process execution, file access, network connections, and syscalls at the kernel level. Use when deploying Tetragon to detect or block dangerous syscalls (ptrace, mount, unshare), enforce kernel-level Kubernetes security policy, or add low-overhead runtime threat detection to a cluster.
 
@@ -167171,7 +167171,7 @@ tetra getevents --process-pid <pid> --ancestors 5 -o compact
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-saml-sso-with-okta/agent.py) · [`process.py`](scripts/implementing-saml-sso-with-okta/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-saml-sso-with-okta/agent.py), [`process.py`](scripts/implementing-saml-sso-with-okta/process.py)
 
 **Description:** Implement SAML 2.0 Single Sign-On using Okta as the Identity Provider, covering SP-initiated and IdP-initiated flows, attribute mapping, certificate management, SHA-256 signature enforcement, and Single Logout. Use when configuring Okta SAML SSO for an application, hardening SAML certificate rotation and signing, or testing and troubleshooting SAML assertion flows with a tracer tool.
 
@@ -167501,7 +167501,7 @@ IdP-initiated SSO is less secure because it cannot validate InResponseTo, making
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-scim-provisioning-with-okta/agent.py) · [`process.py`](scripts/implementing-scim-provisioning-with-okta/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-scim-provisioning-with-okta/agent.py), [`process.py`](scripts/implementing-scim-provisioning-with-okta/process.py)
 
 **Description:** Implement automated user lifecycle provisioning and deprovisioning using the SCIM 2.0 protocol with Okta as the identity provider. Use when automating account creation, attribute sync, or deactivation across downstream applications through Okta SCIM integration, or when troubleshooting SCIM provisioning failures.
 
@@ -167925,7 +167925,7 @@ pip install requests
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/implementing-secret-scanning-with-gitleaks/agent.py) · [`process.py`](scripts/implementing-secret-scanning-with-gitleaks/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-secret-scanning-with-gitleaks/agent.py), [`process.py`](scripts/implementing-secret-scanning-with-gitleaks/process.py)
 
 **Description:** This skill covers implementing Gitleaks for detecting and preventing hardcoded secrets in git repositories. It addresses configuring pre-commit hooks, CI/CD pipeline integration, custom rule authoring for organization-specific secrets, baseline management for existing repositories, and remediation workflows for exposed credentials.
 
@@ -171858,7 +171858,7 @@ POST /incident/investigate
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `RS.MA-01`, `DE.AE-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-soar-playbook-with-palo-alto-xsoar/agent.py) · [`process.py`](scripts/implementing-soar-playbook-with-palo-alto-xsoar/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-soar-playbook-with-palo-alto-xsoar/agent.py), [`process.py`](scripts/implementing-soar-playbook-with-palo-alto-xsoar/process.py)
 
 **Description:** Build automated incident response playbooks in Cortex XSOAR (Demisto) using its YAML playbook structure, integration commands, and task types to orchestrate phishing, malware, account-compromise, and DDoS response workflows across SOC tools. Use when authoring or wiring up an XSOAR playbook, adding custom XSOAR integration commands or Python automation scripts, or reducing manual SOC response time via orchestration.
 
@@ -172416,7 +172416,7 @@ After SOAR:
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-05`, `DE.CM-01`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/implementing-stix-taxii-feed-integration/agent.py) · [`process.py`](scripts/implementing-stix-taxii-feed-integration/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-stix-taxii-feed-integration/agent.py), [`process.py`](scripts/implementing-stix-taxii-feed-integration/process.py)
 
 **Description:** Implements a STIX 2.1/TAXII 2.1 threat-intelligence feed consumer and producer in Python, covering TAXII server discovery, collection polling, parsing STIX bundles with the stix2 library, and standing up a local TAXII server with Medallion. Use when integrating a STIX/TAXII CTI feed into a SIEM or TIP, writing a TAXII client to poll for new indicators, or setting up TAXII collections for indicator exchange.
 
@@ -172746,7 +172746,7 @@ pip install taxii2-client stix2 requests
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-supply-chain-security-with-in-toto/agent.py) · [`process.py`](scripts/implementing-supply-chain-security-with-in-toto/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-supply-chain-security-with-in-toto/agent.py), [`process.py`](scripts/implementing-supply-chain-security-with-in-toto/process.py)
 
 **Description:** Implement software supply chain integrity verification for container builds using the in-toto framework, covering signing-key generation, defining a supply chain layout, recording pipeline steps as signed link metadata, verifying before deployment, Kubernetes admission control, and SLSA integration. Use when generating in-toto attestations for CI/CD pipeline steps, verifying that a container image followed an approved build process, or enforcing supply chain provenance at admission time.
 
@@ -174351,7 +174351,7 @@ Metrics:
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-usb-device-control-policy/agent.py) · [`process.py`](scripts/implementing-usb-device-control-policy/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-usb-device-control-policy/agent.py), [`process.py`](scripts/implementing-usb-device-control-policy/process.py)
 
 **Description:** Implements USB device control policies to restrict unauthorized removable media access on endpoints, preventing data exfiltration and malware introduction via USB devices. Use when deploying device control via Group Policy, Intune, or EDR platforms to enforce USB restrictions. Activates for requests involving USB control, removable media policy, device control, or data loss prevention via USB.
 
@@ -174611,7 +174611,7 @@ Computer Configuration → Administrative Templates → System → Device Instal
 
 **NIST CSF:** `RS.MA-01`, `RS.MA-02`, `RS.AN-03`, `RC.RP-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-velociraptor-for-ir-collection/agent.py) · [`process.py`](scripts/implementing-velociraptor-for-ir-collection/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-velociraptor-for-ir-collection/agent.py), [`process.py`](scripts/implementing-velociraptor-for-ir-collection/process.py)
 
 **Description:** Deploy and configure Velociraptor for scalable endpoint forensic artifact collection during incident response using VQL queries, hunts, and pre-built artifact packs across Windows, Linux, and macOS environments.
 
@@ -175338,7 +175338,7 @@ python agent.py --input scan_results.json --host gvm-server --username admin --p
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-vulnerability-remediation-sla/agent.py) · [`process.py`](scripts/implementing-vulnerability-remediation-sla/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-vulnerability-remediation-sla/agent.py), [`process.py`](scripts/implementing-vulnerability-remediation-sla/process.py)
 
 **Description:** Design a vulnerability remediation SLA program covering asset tiering, a severity-based SLA matrix, exception processes, escalation chains, ticketing-system integration, and remediation KPIs/trending metrics. Use when defining mandatory patching timeframes by severity and asset criticality, building an SLA policy document, or setting up escalation and KPI tracking for vulnerability remediation.
 
@@ -175667,7 +175667,7 @@ Exception Request Submitted
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-vulnerability-sla-breach-alerting/agent.py) · [`process.py`](scripts/implementing-vulnerability-sla-breach-alerting/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-vulnerability-sla-breach-alerting/agent.py), [`process.py`](scripts/implementing-vulnerability-sla-breach-alerting/process.py)
 
 **Description:** Build an automated SLA breach alerting system for vulnerability remediation, including a database schema for SLA tracking, breach detection logic, notification dispatch, a scheduled check runner, and a KPI/compliance metrics dashboard. Use when implementing severity-based SLA timelines (critical/high/medium/low), detecting and escalating SLA breaches, or building vulnerability remediation compliance reporting.
 
@@ -176405,7 +176405,7 @@ Verifier:
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/implementing-zero-standing-privilege-with-cyberark/agent.py) · [`process.py`](scripts/implementing-zero-standing-privilege-with-cyberark/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-zero-standing-privilege-with-cyberark/agent.py), [`process.py`](scripts/implementing-zero-standing-privilege-with-cyberark/process.py)
 
 **Description:** Deploy CyberArk Secure Cloud Access (SCA) to eliminate standing privileges in AWS, Azure, and GCP by provisioning ephemeral, scoped roles on a just-in-time basis governed by the TEA framework (Time, Entitlements, Approvals). Use when designing or implementing zero standing privilege / just-in-time privileged access models with CyberArk, or when replacing persistent cloud admin roles with time-bound, approval-gated sessions.
 
@@ -176856,7 +176856,7 @@ CyberArk SCA unavailable or network issue
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-zero-trust-dns-with-nextdns/agent.py) · [`process.py`](scripts/implementing-zero-trust-dns-with-nextdns/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-zero-trust-dns-with-nextdns/agent.py), [`process.py`](scripts/implementing-zero-trust-dns-with-nextdns/process.py)
 
 **Description:** Configure NextDNS as an encrypted (DoH/DoT) zero trust DNS resolver that blocks malicious, phishing, and cryptojacking domains via real-time threat intelligence, detects DNS rebinding and CNAME cloaking, and enforces organizational DNS policy across endpoints. Use when deploying DNS-layer threat blocking and acceptable-use enforcement, or when extending zero trust controls (including Windows 11 Zero Trust DNS) to the DNS resolution path.
 
@@ -178587,7 +178587,7 @@ MIGRATION STATUS:
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-zero-trust-network-access-with-zscaler/agent.py) · [`process.py`](scripts/implementing-zero-trust-network-access-with-zscaler/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-zero-trust-network-access-with-zscaler/agent.py), [`process.py`](scripts/implementing-zero-trust-network-access-with-zscaler/process.py)
 
 **Description:** Configures Zero Trust Network Access using Zscaler Private Access (ZPA) to broker identity-based, context-aware connections between authenticated users and internal applications through the Zscaler Zero Trust Exchange, without placing users on the corporate network. Use when replacing traditional VPN architectures with ZTNA, or when brokering secure per-application access for remote and hybrid users via Zscaler.
 
@@ -179277,7 +179277,7 @@ protoPayload.authenticationInfo.principalEmail!=""
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-05`, `PR.IR-01`, `GV.PO-01`
 
-**Scripts:** [`agent.py`](scripts/implementing-zero-trust-with-hashicorp-boundary/agent.py) · [`process.py`](scripts/implementing-zero-trust-with-hashicorp-boundary/process.py)
+**Scripts:** [`agent.py`](scripts/implementing-zero-trust-with-hashicorp-boundary/agent.py), [`process.py`](scripts/implementing-zero-trust-with-hashicorp-boundary/process.py)
 
 **Description:** Installs and configures HashiCorp Boundary as a default-deny, identity-aware proxy for infrastructure access, including controller/worker setup, Vault-backed credential brokering, session recording, and OIDC/LDAP auth across an org/project scope hierarchy. Use when replacing VPN or direct network access with just-in-time, credential-less Boundary sessions, or standing up Boundary controllers and workers.
 
@@ -180000,7 +180000,7 @@ Step 3: Compliance Reporting
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/integrating-dast-with-owasp-zap-in-pipeline/agent.py) · [`process.py`](scripts/integrating-dast-with-owasp-zap-in-pipeline/process.py)
+**Scripts:** [`agent.py`](scripts/integrating-dast-with-owasp-zap-in-pipeline/agent.py), [`process.py`](scripts/integrating-dast-with-owasp-zap-in-pipeline/process.py)
 
 **Description:** Integrates OWASP ZAP (Zed Attack Proxy) into GitHub Actions and GitLab CI pipelines, covering baseline, full, and API scan configuration against running applications, ZAP finding interpretation, scan policy tuning, and DAST quality gates. Use when testing running web apps or REST/GraphQL APIs for XSS, SQLi, CSRF, and auth/authz flaws, or when SAST alone is insufficient and runtime DAST is required for compliance or release gating.
 
@@ -180446,7 +180446,7 @@ context:
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/integrating-sast-into-github-actions-pipeline/agent.py) · [`process.py`](scripts/integrating-sast-into-github-actions-pipeline/process.py)
+**Scripts:** [`agent.py`](scripts/integrating-sast-into-github-actions-pipeline/agent.py), [`process.py`](scripts/integrating-sast-into-github-actions-pipeline/process.py)
 
 **Description:** Integrates CodeQL and Semgrep SAST scanning into GitHub Actions, covering scans on pull requests/pushes, rule tuning to cut false positives, SARIF upload to GitHub Advanced Security, and merge-blocking quality gates for high-severity findings. Use when adding automated code vulnerability detection to CI, enforcing consistent SAST org-wide, or producing SOC 2/PCI DSS/NIST SSDF compliance evidence.
 
@@ -181040,7 +181040,7 @@ Developer Push/PR
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/intercepting-mobile-traffic-with-burpsuite/agent.py) · [`process.py`](scripts/intercepting-mobile-traffic-with-burpsuite/process.py)
+**Scripts:** [`agent.py`](scripts/intercepting-mobile-traffic-with-burpsuite/agent.py), [`process.py`](scripts/intercepting-mobile-traffic-with-burpsuite/process.py)
 
 **Description:** Intercepts and analyzes HTTP/HTTPS traffic from mobile applications using Burp Suite proxy to identify insecure API communications, authentication flaws, data leakage, and server-side vulnerabilities. Use when performing mobile application penetration testing, assessing API security, or evaluating client-server communication patterns. Activates for requests involving mobile traffic interception, Burp Suite mobile proxy, API security testing, or mobile HTTPS analysis.
 
@@ -186814,7 +186814,7 @@ GUI CSV viewer: `TimelineExplorer.exe`. Loads EZ Tools CSVs; supports column fil
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-access-recertification-with-saviynt/agent.py) · [`process.py`](scripts/performing-access-recertification-with-saviynt/process.py)
+**Scripts:** [`agent.py`](scripts/performing-access-recertification-with-saviynt/agent.py), [`process.py`](scripts/performing-access-recertification-with-saviynt/process.py)
 
 **Description:** Configure and execute access recertification campaigns in Saviynt Enterprise Identity Cloud to validate user entitlements, revoke excessive access, and maintain compliance with SOX, SOC 2, and HIPAA. Use when launching or managing certification campaigns for users/entitlements, remediating access review findings, or documenting identity governance evidence for an audit.
 
@@ -187229,7 +187229,7 @@ Campaign completes with revoked items
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-access-review-and-certification/agent.py) · [`process.py`](scripts/performing-access-review-and-certification/process.py)
+**Scripts:** [`agent.py`](scripts/performing-access-review-and-certification/agent.py), [`process.py`](scripts/performing-access-review-and-certification/process.py)
 
 **Description:** Designs and runs access review and certification campaigns-scoping, reviewer selection, risk-based prioritization, micro-certification, and remediation tracking-to verify user access matches job roles for SOX, HIPAA, and PCI DSS compliance. Use when planning or executing periodic access recertification or preparing evidence for an IAM compliance audit.
 
@@ -187503,7 +187503,7 @@ jsmith,Admin,SAP,mjones,active,2025-01-15T00:00:00Z,8
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/performing-active-directory-bloodhound-analysis/agent.py) · [`process.py`](scripts/performing-active-directory-bloodhound-analysis/process.py)
+**Scripts:** [`agent.py`](scripts/performing-active-directory-bloodhound-analysis/agent.py), [`process.py`](scripts/performing-active-directory-bloodhound-analysis/process.py)
 
 **Description:** Use BloodHound and SharpHound (or AzureHound) to enumerate Active Directory relationships and graph attack paths from a compromised user to Domain Admin. Use when performing AD red-team reconnaissance, mapping privilege-escalation chains from group memberships, ACLs, and trusts, or auditing AD for exploitable misconfigurations.
 
@@ -188001,7 +188001,7 @@ BloodHound Shows Path to DA
 
 **NIST CSF:** `RS.MA-01`, `RS.MA-02`, `RS.AN-03`, `RC.RP-01`
 
-**Scripts:** [`agent.py`](scripts/performing-active-directory-compromise-investigation/agent.py) · [`process.py`](scripts/performing-active-directory-compromise-investigation/process.py)
+**Scripts:** [`agent.py`](scripts/performing-active-directory-compromise-investigation/agent.py), [`process.py`](scripts/performing-active-directory-compromise-investigation/process.py)
 
 **Description:** Investigate Active Directory compromise by analyzing authentication logs, replication metadata, Group Policy changes, and Kerberos ticket anomalies to identify attacker persistence and lateral movement paths.
 
@@ -188630,7 +188630,7 @@ Scoring: +40 SID filtering disabled, +20 RC4 encryption, +15 bidirectional trust
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-06`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/performing-active-directory-penetration-test/agent.py) · [`process.py`](scripts/performing-active-directory-penetration-test/process.py)
+**Scripts:** [`agent.py`](scripts/performing-active-directory-penetration-test/agent.py), [`process.py`](scripts/performing-active-directory-penetration-test/process.py)
 
 **Description:** Conduct a focused Active Directory penetration test using BloodHound, Impacket, Certipy, Rubeus, and NetExec to enumerate domain objects, discover attack paths, exploit Kerberos weaknesses, escalate privileges via ADCS/DCSync, and demonstrate domain compromise. Use when running an authorized AD pentest from a standard domain user foothold toward Domain Admin or Enterprise Admin.
 
@@ -189063,7 +189063,7 @@ Domain User Credentials
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-active-directory-vulnerability-assessment/agent.py) · [`process.py`](scripts/performing-active-directory-vulnerability-assessment/process.py)
+**Scripts:** [`agent.py`](scripts/performing-active-directory-vulnerability-assessment/agent.py), [`process.py`](scripts/performing-active-directory-vulnerability-assessment/process.py)
 
 **Description:** Assess Active Directory security posture using PingCastle, BloodHound, and Purple Knight to identify misconfigurations, privilege escalation paths, and attack vectors.
 
@@ -189483,7 +189483,7 @@ python agent.py --pingcastle-xml report.xml --server ldaps://dc.example.com --us
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/performing-adversary-in-the-middle-phishing-detection/agent.py) · [`process.py`](scripts/performing-adversary-in-the-middle-phishing-detection/process.py)
+**Scripts:** [`agent.py`](scripts/performing-adversary-in-the-middle-phishing-detection/agent.py), [`process.py`](scripts/performing-adversary-in-the-middle-phishing-detection/process.py)
 
 **Description:** Detect and respond to Adversary-in-the-Middle (AiTM) phishing attacks that use reverse proxy kits like EvilProxy, Evilginx, and Tycoon 2FA to bypass MFA and steal session tokens, correlating Azure AD/Entra sign-in logs, SIEM alerts, and EDR telemetry. Use when investigating suspected MFA-bypass phishing or session token theft, or building detection and response playbooks against reverse-proxy phishing kits.
 
@@ -189804,7 +189804,7 @@ AiTM compromise confirmed
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-agentless-vulnerability-scanning/agent.py) · [`process.py`](scripts/performing-agentless-vulnerability-scanning/process.py)
+**Scripts:** [`agent.py`](scripts/performing-agentless-vulnerability-scanning/agent.py), [`process.py`](scripts/performing-agentless-vulnerability-scanning/process.py)
 
 **Description:** Configure and execute agentless vulnerability scanning using network protocols, cloud snapshot analysis, and API-based discovery to assess systems without installing endpoint agents.
 
@@ -190692,7 +190692,7 @@ curl -s -H "hibp-api-key: ${HIBP_KEY}" -H "User-Agent: OSINT-Agent" \
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `RS.MA-01`, `DE.AE-06`
 
-**Scripts:** [`agent.py`](scripts/performing-alert-triage-with-elastic-siem/agent.py) · [`process.py`](scripts/performing-alert-triage-with-elastic-siem/process.py)
+**Scripts:** [`agent.py`](scripts/performing-alert-triage-with-elastic-siem/agent.py), [`process.py`](scripts/performing-alert-triage-with-elastic-siem/process.py)
 
 **Description:** Perform systematic alert triage in Elastic Security SIEM—classifying, prioritizing, and investigating alerts using Kibana, ES|QL queries, and ECS-normalized data—to drive SOC analyst workflows. Use when triaging incoming Elastic Security detections, prioritizing an analyst's alert queue, or investigating alerts during SOC operations.
 
@@ -191121,7 +191121,7 @@ Triage aligns with NIST incident handling phases:
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/performing-android-app-static-analysis-with-mobsf/agent.py) · [`process.py`](scripts/performing-android-app-static-analysis-with-mobsf/process.py)
+**Scripts:** [`agent.py`](scripts/performing-android-app-static-analysis-with-mobsf/agent.py), [`process.py`](scripts/performing-android-app-static-analysis-with-mobsf/process.py)
 
 **Description:** Performs automated static analysis of Android applications using Mobile Security Framework (MobSF) to identify hardcoded secrets, insecure permissions, vulnerable components, weak cryptography, and code-level security flaws without executing the application. Use when assessing Android APK/AAB files for security vulnerabilities before deployment, during penetration testing, or as part of CI/CD security gates. Activates for requests involving Android static analysis, MobSF scanning, APK security assessment, or mobile application code review.
 
@@ -193071,7 +193071,7 @@ arp -a
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-asset-criticality-scoring-for-vulns/agent.py) · [`process.py`](scripts/performing-asset-criticality-scoring-for-vulns/process.py)
+**Scripts:** [`agent.py`](scripts/performing-asset-criticality-scoring-for-vulns/agent.py), [`process.py`](scripts/performing-asset-criticality-scoring-for-vulns/process.py)
 
 **Description:** Build a multi-factor asset criticality scoring model—incorporating data sensitivity, business function dependency, regulatory scope, network exposure, and recoverability—to produce a 1-5 criticality tier that weights vulnerability prioritization and remediation SLAs. Use when prioritizing vulnerability remediation by business impact or aligning CMDB asset data with risk-based patching timelines.
 
@@ -193285,7 +193285,7 @@ Quarter Start:
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-authenticated-scan-with-openvas/agent.py) · [`process.py`](scripts/performing-authenticated-scan-with-openvas/process.py)
+**Scripts:** [`agent.py`](scripts/performing-authenticated-scan-with-openvas/agent.py), [`process.py`](scripts/performing-authenticated-scan-with-openvas/process.py)
 
 **Description:** Configure and execute authenticated (credentialed) vulnerability scans using OpenVAS/Greenbone Vulnerability Management (GVM) with SSH, SMB, or ESXi credentials to detect local vulnerabilities, missing patches, and misconfigurations on target hosts. Use when a host-level scan needs to log into systems for deep inspection, since authenticated scans typically surface 10-50x more findings than unauthenticated scans.
 
@@ -193767,7 +193767,7 @@ Monthly or upon security policy requirement.
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-authenticated-vulnerability-scan/agent.py) · [`process.py`](scripts/performing-authenticated-vulnerability-scan/process.py)
+**Scripts:** [`agent.py`](scripts/performing-authenticated-vulnerability-scan/agent.py), [`process.py`](scripts/performing-authenticated-vulnerability-scan/process.py)
 
 **Description:** Plan and run authenticated (credentialed) vulnerability scans with scanners such as Nessus, Qualys, OpenVAS, or Rapid7 InsightVM, using SSH, SMB, WinRM, or SNMPv3 credentials to inspect installed software, patches, and configurations on Linux, Windows, and network devices. Use when a scan must catch vulnerabilities unauthenticated scanning misses, or when choosing and managing credential types for a credentialed scan.
 
@@ -194367,7 +194367,7 @@ See SKILL.md for detailed step-by-step procedures.
 
 **NIST CSF:** `PR.IR-01`, `ID.AM-08`, `GV.SC-06`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/performing-aws-account-enumeration-with-scout-suite/agent.py) · [`process.py`](scripts/performing-aws-account-enumeration-with-scout-suite/process.py)
+**Scripts:** [`agent.py`](scripts/performing-aws-account-enumeration-with-scout-suite/agent.py), [`process.py`](scripts/performing-aws-account-enumeration-with-scout-suite/process.py)
 
 **Description:** Run the agentless, open-source ScoutSuite tool (via pip install and the `scout` CLI) against an AWS account to enumerate resources across services, identify misconfigurations, and generate an interactive HTML security report. Use when assessing an AWS account's overall security posture with read-only IAM credentials, such as during a cloud security audit or compliance review.
 
@@ -196922,7 +196922,7 @@ An OAuth consent screen allows framing. The attacker embeds the consent page and
 
 **NIST CSF:** `PR.IR-01`, `ID.AM-08`, `GV.SC-06`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/performing-cloud-asset-inventory-with-cartography/agent.py) · [`process.py`](scripts/performing-cloud-asset-inventory-with-cartography/process.py)
+**Scripts:** [`agent.py`](scripts/performing-cloud-asset-inventory-with-cartography/agent.py), [`process.py`](scripts/performing-cloud-asset-inventory-with-cartography/process.py)
 
 **Description:** Run Cartography to sync AWS, GCP, or Azure resources into a Neo4j graph database, mapping relationships such as IAM permission chains, network paths, and cross-account trust. Use when building a cloud asset inventory, querying the graph to identify attack paths, or generating security reports across multi-cloud infrastructure.
 
@@ -197941,7 +197941,7 @@ ORDER BY eventtime;
 
 **NIST CSF:** `RS.MA-01`, `RS.MA-02`, `RS.AN-03`, `RC.RP-01`
 
-**Scripts:** [`agent.py`](scripts/performing-cloud-incident-containment-procedures/agent.py) · [`process.py`](scripts/performing-cloud-incident-containment-procedures/process.py)
+**Scripts:** [`agent.py`](scripts/performing-cloud-incident-containment-procedures/agent.py), [`process.py`](scripts/performing-cloud-incident-containment-procedures/process.py)
 
 **Description:** Execute cloud-native incident containment across AWS, Azure, and GCP using platform CLIs to revoke or disable compromised IAM credentials, isolate resources with security groups and network ACLs, and preserve forensic evidence via snapshots. Use when responding to a cloud security incident that requires stopping lateral movement while keeping evidence intact for later investigation.
 
@@ -200007,7 +200007,7 @@ RECOMMENDATIONS:
 
 **NIST CSF:** `RS.AN-03`, `DE.AE-02`, `RS.MA-01`
 
-**Scripts:** [`agent.py`](scripts/performing-cloud-storage-forensic-acquisition/agent.py) · [`process.py`](scripts/performing-cloud-storage-forensic-acquisition/process.py)
+**Scripts:** [`agent.py`](scripts/performing-cloud-storage-forensic-acquisition/agent.py), [`process.py`](scripts/performing-cloud-storage-forensic-acquisition/process.py)
 
 **Description:** Perform forensic acquisition of cloud storage services including Google Drive, OneDrive, Dropbox, and Box by pulling API-based remote data such as revision history and audit logs, and collecting local sync-client artifacts including KAPE targets and OneDrive databases from endpoints. Use during incident response or e-discovery when evidence resides in cloud-synced storage and both cloud-side and endpoint-side artifacts must be preserved.
 
@@ -200397,7 +200397,7 @@ DAC_READ_SEARCH, NET_ADMIN, NET_RAW
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/performing-container-image-hardening/agent.py) · [`process.py`](scripts/performing-container-image-hardening/process.py)
+**Scripts:** [`agent.py`](scripts/performing-container-image-hardening/agent.py), [`process.py`](scripts/performing-container-image-hardening/process.py)
 
 **Description:** Harden container images by minimizing attack surface, stripping unnecessary packages, implementing multi-stage builds, configuring non-root users, and applying CIS Docker Benchmark recommendations to produce secure, production-ready images. Use when building production container images, when compliance requires CIS Docker Benchmark adherence, or when shrinking image size to reduce vulnerability exposure from unused packages.
 
@@ -201320,7 +201320,7 @@ pip install requests
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/performing-credential-access-with-lazagne/agent.py) · [`process.py`](scripts/performing-credential-access-with-lazagne/process.py)
+**Scripts:** [`agent.py`](scripts/performing-credential-access-with-lazagne/agent.py), [`process.py`](scripts/performing-credential-access-with-lazagne/process.py)
 
 **Description:** Extract stored credentials from compromised endpoints using the LaZagne post-exploitation tool to recover passwords from browsers, databases, system vaults, and applications during authorized red team operations.
 
@@ -201792,7 +201792,7 @@ Low Priority:
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/performing-cryptographic-audit-of-application/agent.py) · [`process.py`](scripts/performing-cryptographic-audit-of-application/process.py)
+**Scripts:** [`agent.py`](scripts/performing-cryptographic-audit-of-application/agent.py), [`process.py`](scripts/performing-cryptographic-audit-of-application/process.py)
 
 **Description:** A cryptographic audit systematically reviews an application's use of cryptographic primitives, protocols, and key management to identify vulnerabilities such as weak algorithms, insecure modes, hardco
 
@@ -202482,7 +202482,7 @@ A settings page changes state via GET request (`/settings?disable_2fa=true`). Si
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-cve-prioritization-with-kev-catalog/agent.py) · [`process.py`](scripts/performing-cve-prioritization-with-kev-catalog/process.py)
+**Scripts:** [`agent.py`](scripts/performing-cve-prioritization-with-kev-catalog/agent.py), [`process.py`](scripts/performing-cve-prioritization-with-kev-catalog/process.py)
 
 **Description:** Fetch and parse the CISA Known Exploited Vulnerabilities (KEV) catalog, enrich it with EPSS scores and CVSS metrics, and build a multi-factor prioritization engine and report that ranks CVE remediation by real-world exploitation evidence and BOD 22-01 deadlines. Use when triaging a vulnerability backlog, deciding patch order across many CVEs, or building an automated KEV+EPSS prioritization workflow.
 
@@ -202791,7 +202791,7 @@ When new CVE added to KEV:
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-05`, `DE.CM-01`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/performing-dark-web-monitoring-for-threats/agent.py) · [`process.py`](scripts/performing-dark-web-monitoring-for-threats/process.py)
+**Scripts:** [`agent.py`](scripts/performing-dark-web-monitoring-for-threats/agent.py), [`process.py`](scripts/performing-dark-web-monitoring-for-threats/process.py)
 
 **Description:** Dark web monitoring involves systematically scanning Tor hidden services, underground forums, paste sites, and dark web marketplaces to identify threats targeting an organization, including leaked cre
 
@@ -204083,7 +204083,7 @@ TOOLS USED
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/performing-dmarc-policy-enforcement-rollout/agent.py) · [`process.py`](scripts/performing-dmarc-policy-enforcement-rollout/process.py)
+**Scripts:** [`agent.py`](scripts/performing-dmarc-policy-enforcement-rollout/agent.py), [`process.py`](scripts/performing-dmarc-policy-enforcement-rollout/process.py)
 
 **Description:** Execute a phased DMARC rollout by inventorying sending sources, configuring SPF/DKIM alignment, and progressing DNS policy from p=none monitoring through p=quarantine to p=reject enforcement, ensuring all legitimate email sources authenticate before unauthorized senders are blocked. Use when deploying or advancing an organization's DMARC anti-spoofing posture, or when meeting bulk-sender authentication requirements from Google and Yahoo.
 
@@ -204843,7 +204843,7 @@ Key detection indicators:
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/performing-docker-bench-security-assessment/agent.py) · [`process.py`](scripts/performing-docker-bench-security-assessment/process.py)
+**Scripts:** [`agent.py`](scripts/performing-docker-bench-security-assessment/agent.py), [`process.py`](scripts/performing-docker-bench-security-assessment/process.py)
 
 **Description:** Run Docker Bench for Security, the open-source CIS Docker Benchmark audit script, to check host configuration, Docker daemon settings, container images, and runtime configurations, then interpret pass/fail/warn results and remediate common failures. Use when auditing Docker hosts for CIS Benchmark compliance, scheduling recurring container security assessments, or validating container runtime hardening controls.
 
@@ -205076,7 +205076,7 @@ Docker must be installed and accessible. No Python packages required beyond stdl
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/performing-dynamic-analysis-of-android-app/agent.py) · [`process.py`](scripts/performing-dynamic-analysis-of-android-app/process.py)
+**Scripts:** [`agent.py`](scripts/performing-dynamic-analysis-of-android-app/agent.py), [`process.py`](scripts/performing-dynamic-analysis-of-android-app/process.py)
 
 **Description:** Performs runtime dynamic analysis of Android applications using Frida, Objection, and Android Debug Bridge to observe application behavior during execution, intercept function calls, modify runtime values, and identify vulnerabilities that static analysis misses. Use when testing Android apps for runtime security flaws, hooking sensitive methods, bypassing client-side protections, or analyzing obfuscated applications. Activates for requests involving Android dynamic analysis, runtime hooking, Frida Android instrumentation, or live app behavior analysis.
 
@@ -205825,7 +205825,7 @@ config.dat   SHA-256: def456... (encrypted configuration)
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/performing-endpoint-forensics-investigation/agent.py) · [`process.py`](scripts/performing-endpoint-forensics-investigation/process.py)
+**Scripts:** [`agent.py`](scripts/performing-endpoint-forensics-investigation/agent.py), [`process.py`](scripts/performing-endpoint-forensics-investigation/process.py)
 
 **Description:** Performs digital forensics investigation on compromised endpoints including memory acquisition, disk imaging, artifact analysis, and timeline reconstruction. Use when investigating security incidents, collecting evidence for legal proceedings, or analyzing endpoint compromise scope. Activates for requests involving endpoint forensics, memory analysis, disk forensics, or incident investigation.
 
@@ -206254,7 +206254,7 @@ No external packages — uses Windows built-in commands and Python standard libr
 
 **NIST CSF:** `PR.PS-01`, `PR.PS-02`, `DE.CM-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/performing-endpoint-vulnerability-remediation/agent.py) · [`process.py`](scripts/performing-endpoint-vulnerability-remediation/process.py)
+**Scripts:** [`agent.py`](scripts/performing-endpoint-vulnerability-remediation/agent.py), [`process.py`](scripts/performing-endpoint-vulnerability-remediation/process.py)
 
 **Description:** Performs vulnerability remediation on endpoints by prioritizing CVEs based on risk scoring, deploying patches, applying configuration changes, and validating fixes. Use when remediating findings from vulnerability scans, responding to critical CVE advisories, or maintaining endpoint compliance with patch management SLAs. Activates for requests involving vulnerability remediation, CVE patching, endpoint vulnerability management, or security fix deployment.
 
@@ -207250,7 +207250,7 @@ Authorization: Basic base64(username:password)
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-06`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/performing-external-network-penetration-test/agent.py) · [`process.py`](scripts/performing-external-network-penetration-test/process.py)
+**Scripts:** [`agent.py`](scripts/performing-external-network-penetration-test/agent.py), [`process.py`](scripts/performing-external-network-penetration-test/process.py)
 
 **Description:** Conduct a comprehensive external network penetration test to identify vulnerabilities in internet-facing infrastructure using PTES methodology, reconnaissance, scanning, exploitation, and reporting.
 
@@ -207799,7 +207799,7 @@ For each successful exploitation:
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `RS.MA-01`, `DE.AE-06`
 
-**Scripts:** [`agent.py`](scripts/performing-false-positive-reduction-in-siem/agent.py) · [`process.py`](scripts/performing-false-positive-reduction-in-siem/process.py)
+**Scripts:** [`agent.py`](scripts/performing-false-positive-reduction-in-siem/agent.py), [`process.py`](scripts/performing-false-positive-reduction-in-siem/process.py)
 
 **Description:** Reduces SIEM false positives through systematic rule tuning, threshold adjustment, correlation logic refinement, allowlisting, and threat intelligence enrichment. Use when SOC analysts are overwhelmed by alert noise, when tuning noisy detection rules, or during a quarterly SIEM rule review to cut alert fatigue.
 
@@ -210934,7 +210934,7 @@ ECDSA, ECDSA_SHA256, AES_CBC, AES_GCM, SHA256, SHA384, SHA512
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/performing-hash-cracking-with-hashcat/agent.py) · [`process.py`](scripts/performing-hash-cracking-with-hashcat/process.py)
+**Scripts:** [`agent.py`](scripts/performing-hash-cracking-with-hashcat/agent.py), [`process.py`](scripts/performing-hash-cracking-with-hashcat/process.py)
 
 **Description:** Cracks password hashes with Hashcat, covering hash-type identification, dictionary/brute-force/rule-based attack modes, custom rule creation, GPU benchmarking, and password-strength/compliance reporting. Use for authorized penetration testing or security audits that need to evaluate password strength or crack captured hashes.
 
@@ -211666,7 +211666,7 @@ pip install requests
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-05`, `DE.CM-01`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/performing-indicator-lifecycle-management/agent.py) · [`process.py`](scripts/performing-indicator-lifecycle-management/process.py)
+**Scripts:** [`agent.py`](scripts/performing-indicator-lifecycle-management/agent.py), [`process.py`](scripts/performing-indicator-lifecycle-management/process.py)
 
 **Description:** Tracks IOCs through discovery, enrichment/validation (VirusTotal, Shodan, passive DNS), deployment to SIEM/IDS watchlists, hit-rate and false-positive monitoring, confidence-score decay, and automated expiration using MISP/OpenCTI and STIX. Use when building or maintaining a threat intelligence indicator lifecycle process, aging out stale IOCs, or reducing analyst fatigue from low-quality indicators.
 
@@ -211864,7 +211864,7 @@ No external packages — Python standard library only.
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/performing-initial-access-with-evilginx3/agent.py) · [`process.py`](scripts/performing-initial-access-with-evilginx3/process.py)
+**Scripts:** [`agent.py`](scripts/performing-initial-access-with-evilginx3/agent.py), [`process.py`](scripts/performing-initial-access-with-evilginx3/process.py)
 
 **Description:** Perform authorized initial access using EvilGinx3 adversary-in-the-middle phishing framework to capture session tokens and bypass multi-factor authentication during red team engagements.
 
@@ -213617,7 +213617,7 @@ pip install requests  # optional, for endpoint testing
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/performing-kerberoasting-attack/agent.py) · [`process.py`](scripts/performing-kerberoasting-attack/process.py)
+**Scripts:** [`agent.py`](scripts/performing-kerberoasting-attack/agent.py), [`process.py`](scripts/performing-kerberoasting-attack/process.py)
 
 **Description:** Perform Kerberoasting, a post-exploitation technique that enumerates Active Directory service accounts with Service Principal Names (SPNs), requests their Kerberos TGS tickets, and cracks the NTLM-encrypted tickets offline to recover service account credentials. Use during authorized red team engagements or penetration tests to assess AD privilege escalation and credential access risk from weak service account passwords.
 
@@ -213983,7 +213983,7 @@ impacket-secretsdump targetdomain.local/svc_sql:'CrackedPassword123!'@10.0.0.1
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/performing-kubernetes-cis-benchmark-with-kube-bench/agent.py) · [`process.py`](scripts/performing-kubernetes-cis-benchmark-with-kube-bench/process.py)
+**Scripts:** [`agent.py`](scripts/performing-kubernetes-cis-benchmark-with-kube-bench/agent.py), [`process.py`](scripts/performing-kubernetes-cis-benchmark-with-kube-bench/process.py)
 
 **Description:** Audit Kubernetes cluster security posture against the CIS Kubernetes Benchmark using kube-bench, running automated pass/fail/warn checks against the control plane, etcd, worker nodes, and RBAC/policy configuration. Use when performing compliance audits, cluster hardening reviews, or scheduled security assessments of a Kubernetes environment.
 
@@ -214391,7 +214391,7 @@ Compare PASS/FAIL/WARN counts across scans to measure security posture improveme
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/performing-kubernetes-etcd-security-assessment/agent.py) · [`process.py`](scripts/performing-kubernetes-etcd-security-assessment/process.py)
+**Scripts:** [`agent.py`](scripts/performing-kubernetes-etcd-security-assessment/agent.py), [`process.py`](scripts/performing-kubernetes-etcd-security-assessment/process.py)
 
 **Description:** Assess the security posture of Kubernetes etcd clusters by evaluating encryption at rest, TLS transport configuration, access controls, backup encryption, and network isolation for the cluster's backing key-value store. Use when auditing or hardening a Kubernetes control plane, since etcd holds Secrets, RBAC policies, and ConfigMaps in plaintext by default and is a high-value target if left unassessed.
 
@@ -214709,7 +214709,7 @@ No Python packages required.
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/performing-kubernetes-penetration-testing/agent.py) · [`process.py`](scripts/performing-kubernetes-penetration-testing/process.py)
+**Scripts:** [`agent.py`](scripts/performing-kubernetes-penetration-testing/agent.py), [`process.py`](scripts/performing-kubernetes-penetration-testing/process.py)
 
 **Description:** Systematically evaluate Kubernetes cluster security by simulating attacker techniques against the API server, kubelet, etcd, pods, RBAC, network policies, and secrets, using tools like kube-hunter, Kubescape, peirates, and manual kubectl exploitation to identify misconfigurations leading to cluster compromise. Use for authorized penetration tests or hands-on validation of Kubernetes security controls.
 
@@ -215542,7 +215542,7 @@ Containment:      All 5 hosts isolated at 14:45 UTC
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/performing-lateral-movement-with-wmiexec/agent.py) · [`process.py`](scripts/performing-lateral-movement-with-wmiexec/process.py)
+**Scripts:** [`agent.py`](scripts/performing-lateral-movement-with-wmiexec/agent.py), [`process.py`](scripts/performing-lateral-movement-with-wmiexec/process.py)
 
 **Description:** Perform lateral movement across Windows networks using WMI-based remote execution techniques including Impacket wmiexec.py, CrackMapExec, and native WMI commands for stealthy post-exploitation during red team engagements.
 
@@ -215845,7 +215845,7 @@ Fallback3: smbexec.py (uses SMB service, noisier but reliable)
 
 **NIST CSF:** `RS.AN-03`, `DE.AE-02`, `RS.MA-01`
 
-**Scripts:** [`agent.py`](scripts/performing-linux-log-forensics-investigation/agent.py) · [`process.py`](scripts/performing-linux-log-forensics-investigation/process.py)
+**Scripts:** [`agent.py`](scripts/performing-linux-log-forensics-investigation/agent.py), [`process.py`](scripts/performing-linux-log-forensics-investigation/process.py)
 
 **Description:** Perform forensic investigation of Linux system logs including syslog, auth.log, systemd journal (via journalctl), kern.log, auditd, and application logs to reconstruct user sessions, identify unauthorized access and privilege escalation, trace lateral movement, and establish event timelines. Use when investigating a suspected compromise of a Linux system and needing to analyze SSH, sudo, cron, or kernel-level activity from plain-text or systemd journal logs.
 
@@ -216484,7 +216484,7 @@ Log Analysis Summary:
 
 **NIST CSF:** `DE.CM-01`, `DE.AE-02`, `RS.MA-01`, `DE.AE-06`
 
-**Scripts:** [`agent.py`](scripts/performing-log-source-onboarding-in-siem/agent.py) · [`process.py`](scripts/performing-log-source-onboarding-in-siem/process.py)
+**Scripts:** [`agent.py`](scripts/performing-log-source-onboarding-in-siem/agent.py), [`process.py`](scripts/performing-log-source-onboarding-in-siem/process.py)
 
 **Description:** Perform structured log source onboarding into SIEM platforms (Splunk, Elastic, Sentinel, QRadar, or similar) by prioritizing sources with a tiered value framework, configuring collectors, building parsers, normalizing fields to a common schema (e.g. CIM), and validating data quality. Use when planning or executing the integration of new log sources — such as Active Directory, firewalls, EDR, VPN, DNS, or cloud audit logs — into a SIEM for security monitoring and detection.
 
@@ -217061,7 +217061,7 @@ pip install requests
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-05`, `DE.CM-01`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/performing-malware-ioc-extraction/agent.py) · [`process.py`](scripts/performing-malware-ioc-extraction/process.py)
+**Scripts:** [`agent.py`](scripts/performing-malware-ioc-extraction/agent.py), [`process.py`](scripts/performing-malware-ioc-extraction/process.py)
 
 **Description:** Malware IOC extraction is the process of analyzing malicious software to identify actionable indicators of compromise including file hashes, network indicators (C2 domains, IP addresses, URLs), regist
 
@@ -218607,7 +218607,7 @@ Memory Forensics Analysis:
 
 **NIST CSF:** `DE.AE-02`, `RS.AN-03`, `ID.RA-01`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/performing-memory-forensics-with-volatility3-plugins/agent.py) · [`process.py`](scripts/performing-memory-forensics-with-volatility3-plugins/process.py)
+**Scripts:** [`agent.py`](scripts/performing-memory-forensics-with-volatility3-plugins/agent.py), [`process.py`](scripts/performing-memory-forensics-with-volatility3-plugins/process.py)
 
 **Description:** Analyze memory dumps using Volatility3 plugins to detect injected code, rootkits, credential theft, and malware artifacts in Windows, Linux, and macOS memory images.
 
@@ -218787,7 +218787,7 @@ pip install volatility3
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/performing-mobile-app-certificate-pinning-bypass/agent.py) · [`process.py`](scripts/performing-mobile-app-certificate-pinning-bypass/process.py)
+**Scripts:** [`agent.py`](scripts/performing-mobile-app-certificate-pinning-bypass/agent.py), [`process.py`](scripts/performing-mobile-app-certificate-pinning-bypass/process.py)
 
 **Description:** Bypasses SSL/TLS certificate pinning implementations in Android and iOS applications to enable traffic interception during authorized security assessments. Covers OkHttp, TrustManager, NSURLSession, and third-party pinning library bypass techniques using Frida, Objection, and custom scripts. Activates for requests involving certificate pinning bypass, SSL pinning defeat, mobile TLS interception, or proxy-resistant app testing.
 
@@ -219895,7 +219895,7 @@ Network Forensics Summary:
 
 **NIST CSF:** `RS.AN-03`, `DE.AE-02`, `RS.MA-01`
 
-**Scripts:** [`agent.py`](scripts/performing-network-packet-capture-analysis/agent.py) · [`process.py`](scripts/performing-network-packet-capture-analysis/process.py)
+**Scripts:** [`agent.py`](scripts/performing-network-packet-capture-analysis/agent.py), [`process.py`](scripts/performing-network-packet-capture-analysis/process.py)
 
 **Description:** Perform forensic analysis of network packet captures (PCAP/PCAPNG) using Wireshark, tshark, and tcpdump to reconstruct network communications, extract transferred files, identify malicious traffic, and establish evidence of data exfiltration or command-and-control activity. Use when a PCAP file from an incident needs to be examined to prove lateral movement, malware delivery, or unauthorized access.
 
@@ -220737,7 +220737,7 @@ No Python packages required.
 
 **NIST CSF:** `GV.OC-01`, `GV.RM-01`, `GV.PO-01`, `ID.RA-01`, `GV.OV-01`
 
-**Scripts:** [`agent.py`](scripts/performing-nist-csf-maturity-assessment/agent.py) · [`process.py`](scripts/performing-nist-csf-maturity-assessment/process.py)
+**Scripts:** [`agent.py`](scripts/performing-nist-csf-maturity-assessment/agent.py), [`process.py`](scripts/performing-nist-csf-maturity-assessment/process.py)
 
 **Description:** Conduct a NIST Cybersecurity Framework (CSF) 2.0 maturity assessment across the six core Functions (Govern, Identify, Protect, Detect, Respond, Recover), scoring organizational posture against the four Implementation Tiers (Partial, Risk-Informed, Repeatable, Adaptive) and producing an improvement roadmap. Use when benchmarking an organization's cybersecurity program maturity or preparing a CSF-based gap analysis and remediation plan.
 
@@ -221638,7 +221638,7 @@ No external packages — Python standard library only.
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/performing-open-source-intelligence-gathering/agent.py) · [`process.py`](scripts/performing-open-source-intelligence-gathering/process.py)
+**Scripts:** [`agent.py`](scripts/performing-open-source-intelligence-gathering/agent.py), [`process.py`](scripts/performing-open-source-intelligence-gathering/process.py)
 
 **Description:** Open Source Intelligence (OSINT) gathering is the first active phase of a red team engagement, where operators collect publicly available information about the target organization to identify attack s
 
@@ -222297,7 +222297,7 @@ python agent.py --list-modules --server http://spiderfoot:5001
 
 **NIST CSF:** `PR.IR-01`, `DE.CM-01`, `ID.AM-05`, `GV.OC-02`
 
-**Scripts:** [`agent.py`](scripts/performing-ot-network-security-assessment/agent.py) · [`process.py`](scripts/performing-ot-network-security-assessment/process.py)
+**Scripts:** [`agent.py`](scripts/performing-ot-network-security-assessment/agent.py), [`process.py`](scripts/performing-ot-network-security-assessment/process.py)
 
 **Description:** This skill covers conducting comprehensive security assessments of Operational Technology (OT) networks including SCADA systems, DCS architectures, and industrial control system communication paths. It addresses the Purdue Reference Model layers, identifies IT/OT convergence risks, evaluates firewall rules between zones, and maps industrial protocol traffic (Modbus, DNP3, OPC UA, EtherNet/IP) to detect misconfigurations, unauthorized connections, and attack surfaces in critical infrastructure.
 
@@ -223483,7 +223483,7 @@ pip install requests
 
 **NIST CSF:** `PR.AT-01`, `DE.CM-09`, `RS.CO-02`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/performing-phishing-simulation-with-gophish/agent.py) · [`process.py`](scripts/performing-phishing-simulation-with-gophish/process.py)
+**Scripts:** [`agent.py`](scripts/performing-phishing-simulation-with-gophish/agent.py), [`process.py`](scripts/performing-phishing-simulation-with-gophish/process.py)
 
 **Description:** Deploy and run authorized phishing awareness campaigns with GoPhish, covering admin panel setup, SMTP sending profiles, email template and landing page creation, target user groups, and campaign reporting to measure click and credential-submission rates. Use when planning or executing a phishing simulation for employee security-awareness testing or measuring susceptibility to social engineering.
 
@@ -223851,7 +223851,7 @@ Campaign Results Available
 
 **NIST CSF:** `ID.RA-01`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/performing-physical-intrusion-assessment/agent.py) · [`process.py`](scripts/performing-physical-intrusion-assessment/process.py)
+**Scripts:** [`agent.py`](scripts/performing-physical-intrusion-assessment/agent.py), [`process.py`](scripts/performing-physical-intrusion-assessment/process.py)
 
 **Description:** Conduct authorized physical penetration testing against facilities, server rooms, and restricted areas using tailgating, RFID badge cloning, lock bypassing, rogue network device deployment, and security-guard procedure testing. Use as part of a full-scope red team engagement to evaluate physical security controls and their path to network access, always under signed client authorization.
 
@@ -226086,7 +226086,7 @@ chmod +x /tmp/command_name
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-privileged-account-access-review/agent.py) · [`process.py`](scripts/performing-privileged-account-access-review/process.py)
+**Scripts:** [`agent.py`](scripts/performing-privileged-account-access-review/agent.py), [`process.py`](scripts/performing-privileged-account-access-review/process.py)
 
 **Description:** Conducts systematic reviews of privileged accounts to validate access rights, identify excessive or stale permissions, and enforce least privilege across PAM infrastructure. Use when auditing privileged access for compliance, periodic access recertification, or investigating whether privileged entitlements are still justified.
 
@@ -227908,7 +227908,7 @@ POST-INCIDENT ACTIONS
 
 **NIST CSF:** `PR.DS-11`, `RS.MA-01`, `RC.RP-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/performing-ransomware-tabletop-exercise/agent.py) · [`process.py`](scripts/performing-ransomware-tabletop-exercise/process.py)
+**Scripts:** [`agent.py`](scripts/performing-ransomware-tabletop-exercise/agent.py), [`process.py`](scripts/performing-ransomware-tabletop-exercise/process.py)
 
 **Description:** Plans and facilitates tabletop exercises simulating ransomware incidents, using realistic scenarios based on threat actors like LockBit and ALPHV/BlackCat with injects covering double extortion and backup destruction, then evaluates responses against NIST CSF and CISA guidelines. Use when planning or running a ransomware tabletop exercise or incident response readiness drill.
 
@@ -228856,7 +228856,7 @@ python agent.py --pcap capture.pcap --brute-threshold 10 --output report.json
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/performing-sca-dependency-scanning-with-snyk/agent.py) · [`process.py`](scripts/performing-sca-dependency-scanning-with-snyk/process.py)
+**Scripts:** [`agent.py`](scripts/performing-sca-dependency-scanning-with-snyk/agent.py), [`process.py`](scripts/performing-sca-dependency-scanning-with-snyk/process.py)
 
 **Description:** This skill covers implementing Software Composition Analysis (SCA) using Snyk to detect vulnerable open-source dependencies in CI/CD pipelines. It addresses scanning package manifests and lockfiles, automated fix pull request generation, license compliance checking, continuous monitoring of deployed applications, and integration with GitHub, GitLab, and Jenkins pipelines.
 
@@ -230634,7 +230634,7 @@ Orchestrates the full review across all functions. Returns structured report dic
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-service-account-audit/agent.py) · [`process.py`](scripts/performing-service-account-audit/process.py)
+**Scripts:** [`agent.py`](scripts/performing-service-account-audit/agent.py), [`process.py`](scripts/performing-service-account-audit/process.py)
 
 **Description:** Audit service accounts across enterprise infrastructure to identify orphaned, over-privileged, and non-compliant accounts. This skill covers discovery of service accounts in Active Directory, cloud pl
 
@@ -230870,7 +230870,7 @@ Audit service accounts across enterprise infrastructure to identify orphaned, ov
 
 **NIST CSF:** `PR.AA-01`, `PR.AA-02`, `PR.AA-05`, `PR.AA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-service-account-credential-rotation/agent.py) · [`process.py`](scripts/performing-service-account-credential-rotation/process.py)
+**Scripts:** [`agent.py`](scripts/performing-service-account-credential-rotation/agent.py), [`process.py`](scripts/performing-service-account-credential-rotation/process.py)
 
 **Description:** Automates credential rotation for service accounts across Active Directory, cloud platforms, and application databases to eliminate stale secrets and reduce compromise risk. Use when rotating or automating rotation of service account passwords, API keys, or secrets stored in a vault.
 
@@ -231842,7 +231842,7 @@ Produces the formal after-action report document.
 
 **NIST CSF:** `GV.OC-01`, `GV.RM-01`, `GV.PO-01`, `GV.OV-01`
 
-**Scripts:** [`agent.py`](scripts/performing-soc2-type2-audit-preparation/agent.py) · [`process.py`](scripts/performing-soc2-type2-audit-preparation/process.py)
+**Scripts:** [`agent.py`](scripts/performing-soc2-type2-audit-preparation/agent.py), [`process.py`](scripts/performing-soc2-type2-audit-preparation/process.py)
 
 **Description:** Automates SOC 2 Type II audit preparation including gap assessment against AICPA Trust Services Criteria (CC1-CC9), evidence collection from cloud providers and identity systems, control testing validation, remediation tracking, and continuous compliance monitoring. Covers all five TSC categories (Security, Availability, Processing Integrity, Confidentiality, Privacy) with automated evidence gathering from AWS, Azure, GCP, Okta, GitHub, and Jira. Use when preparing for or maintaining SOC 2 Type II certification.
 
@@ -232451,7 +232451,7 @@ End
 
 **NIST CSF:** `RS.AN-03`, `DE.AE-02`, `RS.MA-01`
 
-**Scripts:** [`agent.py`](scripts/performing-sqlite-database-forensics/agent.py) · [`process.py`](scripts/performing-sqlite-database-forensics/process.py)
+**Scripts:** [`agent.py`](scripts/performing-sqlite-database-forensics/agent.py), [`process.py`](scripts/performing-sqlite-database-forensics/process.py)
 
 **Description:** Performs forensic analysis of SQLite databases by examining B-tree page structures, recovering deleted records from freelist pages and Write-Ahead Log (WAL) files, decoding encoded timestamps, and extracting evidence from browser history, messaging apps, and mobile device databases. Use when recovering deleted or unallocated data from a SQLite database during digital forensics or mobile/browser evidence analysis.
 
@@ -232772,7 +232772,7 @@ Carve recoverable records
 
 **NIST CSF:** `PR.DS-01`, `PR.DS-02`, `PR.DS-10`
 
-**Scripts:** [`agent.py`](scripts/performing-ssl-certificate-lifecycle-management/agent.py) · [`process.py`](scripts/performing-ssl-certificate-lifecycle-management/process.py)
+**Scripts:** [`agent.py`](scripts/performing-ssl-certificate-lifecycle-management/agent.py), [`process.py`](scripts/performing-ssl-certificate-lifecycle-management/process.py)
 
 **Description:** Automates the full SSL/TLS certificate lifecycle, including generating Certificate Signing Requests, issuing, deploying, monitoring, renewing, and revoking X.509 certificates, using Python and ACME protocol tools. Use when managing certificate issuance or renewal, preventing certificate-expiry outages, or building automated PKI/ACME workflows.
 
@@ -234689,7 +234689,7 @@ python agent.py suspect_image.png
 
 **NIST CSF:** `PR.PS-01`, `ID.RA-01`, `PR.DS-10`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/performing-subdomain-enumeration-with-subfinder/agent.py) · [`process.py`](scripts/performing-subdomain-enumeration-with-subfinder/process.py)
+**Scripts:** [`agent.py`](scripts/performing-subdomain-enumeration-with-subfinder/agent.py), [`process.py`](scripts/performing-subdomain-enumeration-with-subfinder/process.py)
 
 **Description:** Enumerate subdomains of target domains using ProjectDiscovery's Subfinder passive reconnaissance tool to map the attack surface during security assessments.
 
@@ -235219,7 +235219,7 @@ pypi-scan --package numpy --edit-distance 2
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-06`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/performing-thick-client-application-penetration-test/agent.py) · [`process.py`](scripts/performing-thick-client-application-penetration-test/process.py)
+**Scripts:** [`agent.py`](scripts/performing-thick-client-application-penetration-test/agent.py), [`process.py`](scripts/performing-thick-client-application-penetration-test/process.py)
 
 **Description:** Conduct a thick client application penetration test to identify insecure local storage, hardcoded credentials, DLL hijacking, memory manipulation, and insecure API communication in desktop applications using dnSpy, Procmon, and Burp Suite.
 
@@ -236649,7 +236649,7 @@ Sector-specific intelligence comes from ISACs (Information Sharing and Analysis 
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/performing-threat-modeling-with-owasp-threat-dragon/agent.py) · [`process.py`](scripts/performing-threat-modeling-with-owasp-threat-dragon/process.py)
+**Scripts:** [`agent.py`](scripts/performing-threat-modeling-with-owasp-threat-dragon/agent.py), [`process.py`](scripts/performing-threat-modeling-with-owasp-threat-dragon/process.py)
 
 **Description:** Uses OWASP Threat Dragon (web or desktop) to build data flow diagrams, identify threats with STRIDE, LINDDUN, CIA, DIE, or PLOT4ai methodologies via its auto-generation rule engine, and produce PDF threat model reports. Use during secure design review of an application architecture to build a formal threat model and document mitigations for GRC compliance.
 
@@ -238999,7 +238999,7 @@ python agent.py https://target-app.example.com
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/performing-web-application-scanning-with-nikto/agent.py) · [`process.py`](scripts/performing-web-application-scanning-with-nikto/process.py)
+**Scripts:** [`agent.py`](scripts/performing-web-application-scanning-with-nikto/agent.py), [`process.py`](scripts/performing-web-application-scanning-with-nikto/process.py)
 
 **Description:** Runs Nikto, an open-source web server and web application scanner, to test over 7,000 potentially dangerous files/programs, check for outdated versions across 1,250+ servers, and identify XSS, SQL injection, misconfigurations, default credentials, and vulnerable CGI scripts. Use when performing web application vulnerability scanning, security assessments, scheduled security testing, or validating web server security controls.
 
@@ -240703,7 +240703,7 @@ sudo python agent.py wlan0
 
 **NIST CSF:** `RS.AN-03`, `DE.AE-02`, `RS.MA-01`
 
-**Scripts:** [`agent.py`](scripts/performing-windows-artifact-analysis-with-eric-zimmerman-tools/agent.py) · [`process.py`](scripts/performing-windows-artifact-analysis-with-eric-zimmerman-tools/process.py)
+**Scripts:** [`agent.py`](scripts/performing-windows-artifact-analysis-with-eric-zimmerman-tools/agent.py), [`process.py`](scripts/performing-windows-artifact-analysis-with-eric-zimmerman-tools/process.py)
 
 **Description:** Performs comprehensive Windows forensic artifact analysis using Eric Zimmerman's open-source EZ Tools suite (KAPE, MFTECmd, PECmd, LECmd, JLECmd, Timeline Explorer) to parse registry hives, prefetch files, event logs, and file system metadata. Use during DFIR investigations that need a timeline of program execution, file access, and persistence built from Windows artifacts.
 
@@ -241207,7 +241207,7 @@ Step 6: Correlate with Event Logs (Microsoft-Windows-Partition/Diagnostic)
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-06`, `GV.OV-02`, `DE.AE-07`
 
-**Scripts:** [`agent.py`](scripts/performing-wireless-network-penetration-test/agent.py) · [`process.py`](scripts/performing-wireless-network-penetration-test/process.py)
+**Scripts:** [`agent.py`](scripts/performing-wireless-network-penetration-test/agent.py), [`process.py`](scripts/performing-wireless-network-penetration-test/process.py)
 
 **Description:** Execute a wireless network penetration test to assess WiFi security by capturing handshakes, cracking WPA2/WPA3 keys, detecting rogue access points, and testing wireless segmentation using Aircrack-ng and related tools.
 
@@ -241849,7 +241849,7 @@ Compare discovered APs against authorized inventory:
 
 **NIST CSF:** `DE.AE-02`, `RS.AN-03`, `ID.RA-01`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/performing-yara-rule-development-for-detection/agent.py) · [`process.py`](scripts/performing-yara-rule-development-for-detection/process.py)
+**Scripts:** [`agent.py`](scripts/performing-yara-rule-development-for-detection/agent.py), [`process.py`](scripts/performing-yara-rule-development-for-detection/process.py)
 
 **Description:** Develops precise YARA and YARA-X rules for malware detection by identifying unique strings, byte sequences, PE header traits, and behavioral indicators in unpacked malware artifacts while minimizing false positives. Use when building detection signatures for threat hunting, classifying malware families, or authoring rules from IOCs such as C2 URLs, mutex names, and encryption constants.
 
@@ -242404,7 +242404,7 @@ GraphRunner activity surfaces in `MicrosoftGraphActivityLogs` and `AADGraphActiv
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/prioritizing-vulnerabilities-with-cvss-scoring/agent.py) · [`process.py`](scripts/prioritizing-vulnerabilities-with-cvss-scoring/process.py)
+**Scripts:** [`agent.py`](scripts/prioritizing-vulnerabilities-with-cvss-scoring/agent.py), [`process.py`](scripts/prioritizing-vulnerabilities-with-cvss-scoring/process.py)
 
 **Description:** The Common Vulnerability Scoring System (CVSS) is the industry standard framework maintained by FIRST (Forum of Incident Response and Security Teams) for assessing vulnerability severity. CVSS v4.0 (r
 
@@ -243429,7 +243429,7 @@ python agent.py /cases/evidence.dd /cases/recovered/ jpg,pdf,doc
 
 **NIST CSF:** `PR.DS-11`, `RS.MA-01`, `RC.RP-01`, `PR.IR-01`
 
-**Scripts:** [`agent.py`](scripts/recovering-from-ransomware-attack/agent.py) · [`process.py`](scripts/recovering-from-ransomware-attack/process.py)
+**Scripts:** [`agent.py`](scripts/recovering-from-ransomware-attack/agent.py), [`process.py`](scripts/recovering-from-ransomware-attack/process.py)
 
 **Description:** Executes structured ransomware incident recovery following NIST/CISA frameworks: environment isolation, forensic evidence preservation, clean infrastructure rebuild, prioritized restoration from verified backups, credential reset, and Active Directory/database recovery in dependency order. Use when recovering from a ransomware attack, performing post-encryption restoration, or executing disaster recovery after ransomware encryption.
 
@@ -245700,7 +245700,7 @@ python agent.py suspect.exe
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/reverse-engineering-ios-app-with-frida/agent.py) · [`process.py`](scripts/reverse-engineering-ios-app-with-frida/process.py)
+**Scripts:** [`agent.py`](scripts/reverse-engineering-ios-app-with-frida/agent.py), [`process.py`](scripts/reverse-engineering-ios-app-with-frida/process.py)
 
 **Description:** Reverse engineers iOS applications using Frida dynamic instrumentation to understand internal logic, extract encryption keys, bypass security controls, and discover hidden functionality without source code access. Use when performing authorized iOS penetration testing, analyzing proprietary protocols, understanding obfuscated logic, or extracting runtime secrets from iOS binaries. Activates for requests involving iOS reverse engineering, Frida iOS hooking, Objective-C/Swift method tracing, or iOS binary analysis.
 
@@ -246428,7 +246428,7 @@ python agent.py malware.exe /opt/ghidra
 
 **NIST CSF:** `DE.AE-02`, `RS.AN-03`, `ID.RA-01`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/reverse-engineering-ransomware-encryption-routine/agent.py) · [`process.py`](scripts/reverse-engineering-ransomware-encryption-routine/process.py)
+**Scripts:** [`agent.py`](scripts/reverse-engineering-ransomware-encryption-routine/agent.py), [`process.py`](scripts/reverse-engineering-ransomware-encryption-routine/process.py)
 
 **Description:** Reverse engineer ransomware encryption routines to identify cryptographic algorithms, key generation flaws, and potential decryption opportunities using static and dynamic analysis.
 
@@ -246794,7 +246794,7 @@ See SKILL.md for detailed step-by-step procedures.
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/scanning-container-images-with-grype/agent.py) · [`process.py`](scripts/scanning-container-images-with-grype/process.py)
+**Scripts:** [`agent.py`](scripts/scanning-container-images-with-grype/agent.py), [`process.py`](scripts/scanning-container-images-with-grype/process.py)
 
 **Description:** Scans container images, filesystems, and SBOMs for known CVEs using Anchore Grype, matching Syft-generated SBOM packages against NVD, GitHub Advisories, and OS-specific vulnerability feeds with configurable severity thresholds. Use when running a security assessment or incident-response check that requires scanning container images for known vulnerabilities with Grype.
 
@@ -247308,7 +247308,7 @@ jobs:
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/scanning-containers-with-trivy-in-cicd/agent.py) · [`process.py`](scripts/scanning-containers-with-trivy-in-cicd/process.py)
+**Scripts:** [`agent.py`](scripts/scanning-containers-with-trivy-in-cicd/agent.py), [`process.py`](scripts/scanning-containers-with-trivy-in-cicd/process.py)
 
 **Description:** Integrates Aqua Security's Trivy scanner into CI/CD pipelines to detect OS package and application dependency CVEs, Dockerfile misconfigurations, and issues in filesystems or git repositories, and to enforce severity-based quality gates that block vulnerable images from being deployed. Use when building Docker images in CI/CD and needing automated vulnerability scanning and pass/fail gates before registry push or production deployment.
 
@@ -247893,7 +247893,7 @@ trivy image --download-java-db-only --cache-dir /shared/trivy-cache
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/scanning-docker-images-with-trivy/agent.py) · [`process.py`](scripts/scanning-docker-images-with-trivy/process.py)
+**Scripts:** [`agent.py`](scripts/scanning-docker-images-with-trivy/agent.py), [`process.py`](scripts/scanning-docker-images-with-trivy/process.py)
 
 **Description:** Scans Docker container images with Trivy, Aqua Security's open-source scanner, to detect vulnerabilities in OS packages and language-specific dependencies, misconfigurations, exposed secrets, and license violations, outputting results in formats like SARIF, CycloneDX, or SPDX. Use when assessing, auditing, or scheduling a security scan of Docker images, including as part of CI/CD or incident-response investigations.
 
@@ -248797,7 +248797,7 @@ generic-api-key
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/scanning-infrastructure-with-nessus/agent.py) · [`process.py`](scripts/scanning-infrastructure-with-nessus/process.py)
+**Scripts:** [`agent.py`](scripts/scanning-infrastructure-with-nessus/agent.py), [`process.py`](scripts/scanning-infrastructure-with-nessus/process.py)
 
 **Description:** Tenable Nessus is the industry-leading vulnerability scanner used to identify security weaknesses across network infrastructure including servers, workstations, network devices, and operating systems.
 
@@ -249152,7 +249152,7 @@ For large enterprises with multiple Nessus scanners:
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/scanning-kubernetes-manifests-with-kubesec/agent.py) · [`process.py`](scripts/scanning-kubernetes-manifests-with-kubesec/process.py)
+**Scripts:** [`agent.py`](scripts/scanning-kubernetes-manifests-with-kubesec/agent.py), [`process.py`](scripts/scanning-kubernetes-manifests-with-kubesec/process.py)
 
 **Description:** Perform security risk analysis on Kubernetes resource manifests using Kubesec to identify misconfigurations, privilege escalation risks, and deviations from security best practices.
 
@@ -252148,7 +252148,7 @@ Formats: `spdx-json`, `cyclonedx-json`, `table`, `json`
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/securing-container-registry-with-harbor/agent.py) · [`process.py`](scripts/securing-container-registry-with-harbor/process.py)
+**Scripts:** [`agent.py`](scripts/securing-container-registry-with-harbor/agent.py), [`process.py`](scripts/securing-container-registry-with-harbor/process.py)
 
 **Description:** Configures the Harbor open-source container registry's security features — integrated Trivy vulnerability scanning, Notary/Cosign image signing and content trust policies, project-level RBAC, immutable tag retention rules, and OIDC authentication — to enforce image provenance and block vulnerable image deployment. Use when deploying or hardening a Harbor registry, or when access control and compliance requirements call for signed, scanned images.
 
@@ -252505,7 +252505,7 @@ Step 10: Test with vulnerability gate check
 
 **NIST CSF:** `PR.PS-01`, `GV.SC-07`, `ID.IM-04`, `PR.PS-04`
 
-**Scripts:** [`agent.py`](scripts/securing-github-actions-workflows/agent.py) · [`process.py`](scripts/securing-github-actions-workflows/process.py)
+**Scripts:** [`agent.py`](scripts/securing-github-actions-workflows/agent.py), [`process.py`](scripts/securing-github-actions-workflows/process.py)
 
 **Description:** Hardens GitHub Actions workflows against supply chain attacks, credential theft, and privilege escalation: pinning actions to SHA digests, minimizing GITHUB_TOKEN permissions, protecting secrets, preventing script injection in workflow expressions, and requiring reviewers for workflow changes. Use when hardening GitHub Actions workflows that handle secrets, deploy to production, or run with elevated permissions.
 
@@ -252898,7 +252898,7 @@ run: echo "${TITLE}"
 
 **NIST CSF:** `PR.PS-01`, `PR.IR-01`, `ID.AM-08`, `DE.CM-01`
 
-**Scripts:** [`agent.py`](scripts/securing-helm-chart-deployments/agent.py) · [`process.py`](scripts/securing-helm-chart-deployments/process.py)
+**Scripts:** [`agent.py`](scripts/securing-helm-chart-deployments/agent.py), [`process.py`](scripts/securing-helm-chart-deployments/process.py)
 
 **Description:** Secures Helm chart deployments by verifying chart signatures and provenance, rendering and scanning templates for misconfigurations with helm lint, enforcing pod security contexts in values.yaml, managing secrets via external stores instead of Helm values, and scoping RBAC for Helm operations in a CI/CD pipeline. Use when deploying Helm charts to Kubernetes or when a security review of chart provenance, templates, or release RBAC is needed.
 
@@ -254537,7 +254537,7 @@ pip install boto3
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/testing-android-intents-for-vulnerabilities/agent.py) · [`process.py`](scripts/testing-android-intents-for-vulnerabilities/process.py)
+**Scripts:** [`agent.py`](scripts/testing-android-intents-for-vulnerabilities/agent.py), [`process.py`](scripts/testing-android-intents-for-vulnerabilities/process.py)
 
 **Description:** Tests Android inter-process communication (IPC) through intents for vulnerabilities including intent injection, unauthorized component access, broadcast sniffing, pending intent hijacking, and content provider data leakage. Use when assessing Android app attack surface through exported components, testing intent-based data flows, or evaluating IPC security. Activates for requests involving Android intent security, IPC testing, exported component analysis, or Drozer assessment.
 
@@ -260776,7 +260776,7 @@ base64url({"alg":"HS256","typ":"JWT"}).base64url({"sub":"1","role":"user"}).HMAC
 
 **NIST CSF:** `PR.PS-01`, `PR.AA-05`, `ID.RA-01`, `DE.CM-09`
 
-**Scripts:** [`agent.py`](scripts/testing-mobile-api-authentication/agent.py) · [`process.py`](scripts/testing-mobile-api-authentication/process.py)
+**Scripts:** [`agent.py`](scripts/testing-mobile-api-authentication/agent.py), [`process.py`](scripts/testing-mobile-api-authentication/process.py)
 
 **Description:** Tests authentication and authorization mechanisms in mobile application APIs to identify broken authentication, insecure token management, session fixation, privilege escalation, and IDOR vulnerabilities. Use when performing API security assessments against mobile app backends, testing JWT implementations, evaluating OAuth flows, or assessing session management. Activates for requests involving mobile API auth testing, token security assessment, OAuth mobile flow testing, or API authorization bypass.
 
@@ -262149,7 +262149,7 @@ and typing indicators for any user who visits the attacker's page.
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-05`, `DE.CM-01`, `DE.AE-02`
 
-**Scripts:** [`agent.py`](scripts/tracking-threat-actor-infrastructure/agent.py) · [`process.py`](scripts/tracking-threat-actor-infrastructure/process.py)
+**Scripts:** [`agent.py`](scripts/tracking-threat-actor-infrastructure/agent.py), [`process.py`](scripts/tracking-threat-actor-infrastructure/process.py)
 
 **Description:** Discovers and maps adversary-controlled infrastructure (C2 servers, phishing domains, exploit-kit hosts, bulletproof hosting) by pivoting across passive DNS, certificate transparency logs, Shodan/Censys scans, WHOIS records, and network fingerprints (JARM/JA3S). Use when tracking threat actor infrastructure, expanding a known IOC into related assets, or producing STIX-based threat intelligence during a CTI investigation.
 
@@ -262964,7 +262964,7 @@ SLA Target:      [Containment deadline]
 
 **NIST CSF:** `RS.MA-01`, `RS.MA-02`, `RS.AN-03`, `RC.RP-01`
 
-**Scripts:** [`agent.py`](scripts/triaging-security-incident-with-ir-playbook/agent.py) · [`process.py`](scripts/triaging-security-incident-with-ir-playbook/process.py)
+**Scripts:** [`agent.py`](scripts/triaging-security-incident-with-ir-playbook/agent.py), [`process.py`](scripts/triaging-security-incident-with-ir-playbook/process.py)
 
 **Description:** Classifies and prioritizes security incidents using structured IR playbooks and SIEM/case-management queries (Splunk, TheHive) to determine severity, assign response teams, and initiate the appropriate response procedures. Use when a new SOC alert needs triage, multiple concurrent incidents require prioritization, or automated triage rules need validation or tuning.
 
@@ -263417,7 +263417,7 @@ Route to appropriate team with playbook
 
 **NIST CSF:** `ID.RA-01`, `ID.RA-02`, `ID.IM-02`, `ID.RA-06`
 
-**Scripts:** [`agent.py`](scripts/triaging-vulnerabilities-with-ssvc-framework/agent.py) · [`process.py`](scripts/triaging-vulnerabilities-with-ssvc-framework/process.py)
+**Scripts:** [`agent.py`](scripts/triaging-vulnerabilities-with-ssvc-framework/agent.py), [`process.py`](scripts/triaging-vulnerabilities-with-ssvc-framework/process.py)
 
 **Description:** Triages and prioritizes vulnerabilities with CISA's Stakeholder-Specific Vulnerability Categorization (SSVC) decision tree, weighing exploitation status (via the CISA KEV catalog and FIRST EPSS API), technical impact, automatability, and mission prevalence to output Track/Track*/Attend/Act decisions. Use when prioritizing vulnerability scan results (OpenVAS, Nessus, Qualys) for remediation planning beyond raw CVSS scores.
 

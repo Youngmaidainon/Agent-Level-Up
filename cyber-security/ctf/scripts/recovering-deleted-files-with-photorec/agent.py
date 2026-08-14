@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Deleted file recovery agent using PhotoRec subprocess wrapper."""
 
 import subprocess

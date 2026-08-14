@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for securing container registry with Harbor.
 
 Audits Harbor registry security configuration including RBAC,

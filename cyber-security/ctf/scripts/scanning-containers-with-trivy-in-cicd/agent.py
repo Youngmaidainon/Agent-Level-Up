@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for scanning containers with Trivy in CI/CD pipelines.
 
 Runs Trivy vulnerability and misconfiguration scans against

@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for monitoring and managing Microsoft Defender for Cloud security posture."""
 
 import subprocess

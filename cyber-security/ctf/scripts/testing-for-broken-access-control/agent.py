@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for testing broken access control vulnerabilities during authorized assessments."""
 
 import requests

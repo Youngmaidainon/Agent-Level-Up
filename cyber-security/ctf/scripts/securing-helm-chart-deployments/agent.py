@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for securing Helm chart deployments.
 
 Validates chart provenance, renders and scans templates for

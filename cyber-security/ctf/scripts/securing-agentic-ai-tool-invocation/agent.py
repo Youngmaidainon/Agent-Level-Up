@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # Defensive AI-security control. Deploy on agents you own/operate.
 """Agentic AI tool-invocation policy gate.
 

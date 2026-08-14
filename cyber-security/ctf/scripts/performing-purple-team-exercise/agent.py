@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """Agent for performing purple team exercises.
 
 Coordinates red team technique execution with blue team detection
