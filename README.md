@@ -9,18 +9,18 @@
 </p>
 
 <p align="center">
-  <strong>คลังรวม Skills และคู่มือปฏิบัติการสำหรับ AI Coding Agents ระดับ Production</strong><br/>
-  รองรับ <em>Google Antigravity IDE, Claude Code, Cursor, Windsurf, Copilot</em>
+  <strong>A collection of Skills and operational guides for production-grade AI Coding Agents</strong><br/>
+  <em>Supports Google Antigravity IDE, Claude Code, Cursor, Windsurf, Copilot</em>
 </p>
 
 ---
 
-## ⚡ เริ่มต้นใช้งานด่วน (Quick Start in 30 Seconds)
+## ⚡ Quick Start in 30 Seconds
 
 ```bash
-# 1. คัดลอกโฟลเดอร์ Skill ที่ต้องการไปไว้ในโปรเจกต์ของคุณ
-mkdir -p .agents/skills   # สำหรับ Antigravity IDE
-# หรือ mkdir -p .claude/skills  # สำหรับ Claude Code
+# 1. Copy the desired Skill folder into your project
+mkdir -p .agents/skills   # for Antigravity IDE
+# or mkdir -p .claude/skills  # for Claude Code
 
 cp -r ./caveman .agents/skills/
 cp -r ./cyber-security .agents/skills/
@@ -28,168 +28,168 @@ cp -r ./fullstack-dev .agents/skills/
 ```
 
 ```text
-# 2. เรียกใช้งานใน Prompt ของ AI Agent ได้ทันที
-> /caveman "อธิบายวิธีแก้ React memory leak สั้นๆ"
-> "ช่วยทำ Threat Modeling สำหรับ API นี้ตามแนวทางใน cyber-security"
-> "สร้างโครงสร้าง REST API ตาม 5-step workflow ใน fullstack-dev"
+# 2. Invoke it directly in your AI Agent's prompt
+> /caveman "briefly explain how to fix a React memory leak"
+> "Help me do Threat Modeling for this API following the cyber-security guidelines"
+> "Build a REST API structure following the 5-step workflow in fullstack-dev"
 ```
 
 ---
 
-## 🧭 3 เสาหลักของ Repository
+## 🧭 The 3 Pillars of the Repository
 
-| เสาหลัก | จุดเด่น | ผลลัพธ์ที่ได้ |
+| Pillar | Highlight | Result |
 | :--- | :--- | :--- |
-| **⚡ 1. Caveman Suite** | ตัดคำฟุ่มเฟือย บีบอัด Context Memory | **ประหยัด Token สูงสุด 65%** ทำงานไวขึ้น |
-| **🛡️ 2. Cyber Security** | คลังความปลอดภัยและ CTF Playbook **817 Skills** | มีคู่มือและ **1,095 สคริปต์** พร้อมใช้งาน |
-| **🚀 3. Full-Stack Dev** | สถาปัตยกรรม Clean Architecture & 12-Factor | โค้ดมีโครงสร้าง พร้อมขึ้น **Production** |
+| **⚡ 1. Caveman Suite** | Cuts filler words, compresses context memory | **Saves up to 65% in tokens**, faster workflow |
+| **🛡️ 2. Cyber Security** | Security and CTF playbook library with **817 Skills** | Guides plus **1,095 ready-to-use scripts** |
+| **🚀 3. Full-Stack Dev** | Clean Architecture & 12-Factor structure | Well-structured code, **Production**-ready |
 
 ---
 
-## 📂 โครงสร้างโฟลเดอร์ (Directory Map)
+## 📂 Directory Map
 
 ```text
 Up-Skill-For-Agent/
 │
-├── ⚡ caveman/               # โหมดพูดแบบ Caveman (ลด Output Token 65%)
-├── ⚡ caveman-commit/        # เขียน Git Commit สั้น ตรงประเด็น (≤50 chars)
-├── ⚡ caveman-compress/      # สคริปต์ Python บีบอัดไฟล์ Memory (.md) ถาวร
-├── ⚡ caveman-review/        # สรุป Code Review 1 บรรทัดต่อจุดตรวจ
+├── ⚡ caveman/               # Caveman speech mode (reduces Output Tokens by 65%)
+├── ⚡ caveman-commit/        # Writes short, on-point Git Commit messages (≤50 chars)
+├── ⚡ caveman-compress/      # Python script that permanently compresses Memory (.md) files
+├── ⚡ caveman-review/        # Summarizes Code Review in 1 line per checkpoint
 │
-├── 🛡️ cyber-security/       # คลังความปลอดภัยไซเบอร์และ CTF (817 Skills)
-│   ├── dev/                 # คู่มือ SSDLC 6 เฟส & Secure Coding 8 ข้อ
-│   └── ctf/                 # CTF Field Manual & คลังสคริปต์ 1,095 ไฟล์
+├── 🛡️ cyber-security/       # Cyber security & CTF library (817 Skills)
+│   ├── dev/                 # 6-phase SSDLC guide & 8 Secure Coding rules
+│   └── ctf/                 # CTF Field Manual & library of 1,095 scripts
 │
-└── 🚀 fullstack-dev/         # คู่มือสถาปัตยกรรม Full-Stack ระดับ Enterprise
+└── 🚀 fullstack-dev/         # Enterprise-grade full-stack architecture guide
     ├── SKILL.md             # Mandatory 5-Step Workflow
-    └── references/          # คู่มืออ้างอิงเชิงลึก 8 ฉบับ (API, DB, Auth, Deploy)
+    └── references/          # 8 in-depth reference guides (API, DB, Auth, Deploy)
 ```
 
 ---
 
-## 🧩 เจาะลึกแต่ละโมดูล (Core Modules)
+## 🧩 Deep Dive into Each Module (Core Modules)
 
-### 1. ⚡ Caveman Suite — ตัวช่วยประหยัด Token
+### 1. ⚡ Caveman Suite — Token-Saving Helper
 
-ช่วยลดการสร้างคำพูดฟุ่มเฟือยของ AI โดยคงเนื้อหาโค้ด, Error, และคำสั่งสำคัญไว้ครบถ้วน 100%
+Reduces the AI's tendency to generate filler wording while keeping code, errors, and important commands 100% intact.
 
-* **`caveman/`**: ปรับสไตล์คำตอบให้สั้นกระชับ มี 4 ระดับความเข้มข้น:
-  * `lite`: ตัดคำเกริ่น แต่ประโยคยังสมบูรณ์
-  * `full` *(ค่าเริ่มต้น)*: ตัด Articles ใช้คำสั้น ประหยัด Token 65%
-  * `ultra`: สั้นขั้นสุด เน้นข้อเท็จจริงแบบ Bullet
-  * `wenyan`: โหมดภาษาจีนโบราณ บีบอัดตัวอักษรสูงสุด
-* **`caveman-commit/`**: สรุปข้อความ Commit สไตล์ Conventional Commits ที่เน้นบอก "Why" มากกว่า "What"
-* **`caveman-compress/`**: รันสคริปต์ Python ย่อไฟล์ Memory (`CLAUDE.md`, TODOs) ลด Token ลง ~46% โดยมีระบบ Backup ไฟล์เดิมเสมอ
-* **`caveman-review/`**: แจ้งผล Code Review 1 บรรทัด (`L<line>: <problem>. <fix>.`) พร้อมแท็กความรุนแรง (`🔴 bug`, `🟡 risk`, `🔵 nit`, `❓ q`)
+* **`caveman/`**: Adjusts response style to be short and concise, with 4 intensity levels:
+  * `lite`: Cuts intros, but sentences remain complete
+  * `full` *(default)*: Drops articles, uses short words, saves 65% tokens
+  * `ultra`: Maximally terse, bullet-point facts only
+  * `wenyan`: Classical Chinese mode, maximum character compression
+* **`caveman-commit/`**: Summarizes commit messages in Conventional Commits style, emphasizing "Why" over "What"
+* **`caveman-compress/`**: Runs a Python script to shrink Memory files (`CLAUDE.md`, TODOs), reducing tokens by ~46%, always backing up the original file
+* **`caveman-review/`**: Reports Code Review results in 1 line each (`L<line>: <problem>. <fix>.`) with severity tags (`🔴 bug`, `🟡 risk`, `🔵 nit`, `❓ q`)
 
-> 🛡️ **Auto-Clarity Safety**: Caveman จะคืนค่าเป็นภาษาปกติทันทีเมื่อเจองานที่มีความเสี่ยงสูง เช่น คำสั่งลบฐานข้อมูล (`DROP TABLE`) หรือข้อความเตือนความปลอดภัย
+> 🛡️ **Auto-Clarity Safety**: Caveman automatically switches back to normal language whenever it encounters high-risk tasks, such as database deletion commands (`DROP TABLE`) or security warning messages
 
 ---
 
 ### 2. 🛡️ Cyber Security & CTF (817 Skills)
 
-รวบรวมทักษะปฏิบัติการความปลอดภัยทั้งฝั่งป้องกัน (Blue Team), โจมตี (Red Team/CTF), และ DevSecOps
+A collection of security operations skills spanning defense (Blue Team), offense (Red Team/CTF), and DevSecOps.
 
-#### โครงสร้างเนื้อหา
-* **`dev/SKILL.md`**: คู่มือ **Secure Software Development Lifecycle (SSDLC)** ครอบคลุม 6 ขั้นตอน:
+#### Content Structure
+* **`dev/SKILL.md`**: A **Secure Software Development Lifecycle (SSDLC)** guide covering 6 stages:
   `Threat Modeling` ➔ `Architecture` ➔ `Scaffolding` ➔ `Secure Coding` ➔ `SAST/DAST` ➔ `Hardening`
-* **`ctf/SKILL.md`**: ดัชนีทักษะ CTF เชื่อมโยงกับ Framework ระดับสากล (MITRE ATT&CK, OWASP)
-* **`ctf/scripts/`**: คลัง Automation Scripts ปฏิบัติการจริง **1,095 สคริปต์** แยกตามหมวดหมู่
+* **`ctf/SKILL.md`**: A CTF skills index linked to international frameworks (MITRE ATT&CK, OWASP)
+* **`ctf/scripts/`**: A library of **1,095** real-world automation scripts, sorted by category
 
-#### ครอบคลุม 10 หมวดหมู่ความปลอดภัย
-1. **AI & LLM Security**: ป้องกัน Prompt Injection, Jailbreak, RAG Poisoning, ตรวจสอบความปลอดภัย MCP Server
+#### Covers 10 Security Categories
+1. **AI & LLM Security**: Defending against Prompt Injection, Jailbreak, RAG Poisoning; MCP Server security auditing
 2. **Web & API Security**: OWASP Top 10, BOLA/IDOR, GraphQL Injections, JWT Key Confusion
-3. **DevSecOps**: ระบบตรวจจับช่องโหว่ CI/CD (Semgrep, Trivy, Gitleaks), AFL++ Fuzzing
+3. **DevSecOps**: CI/CD vulnerability detection systems (Semgrep, Trivy, Gitleaks), AFL++ Fuzzing
 4. **Active Directory & Red Teaming**: BloodHound, Kerberoasting, DCSync, Shadow Credentials, LOLBAS
 5. **Cloud & Container**: Privilege Escalation (AWS/Azure/GCP), Docker & K8s Escape, Falco Rules
 6. **Pwn, BinExp & Malware**: Reverse Engineering (Ghidra, GDB), ROP Chains, Heap Exploitation, YARA
-7. **Cryptography & Blockchain**: โจมตี RSA/AES/ECC, Post-Quantum, Smart Contract Audit (Slither, Foundry)
+7. **Cryptography & Blockchain**: RSA/AES/ECC attacks, Post-Quantum, Smart Contract Audit (Slither, Foundry)
 8. **Digital Forensics (DFIR)**: Memory Forensics (Volatility 3), Event Logs (Hayabusa), PCAP Analysis
-9. **Threat Hunting & SIEM**: การสร้างกฎ Sigma Rules, Splunk SPL, KQL, Elastic SIEM
-10. **OT / ICS / SCADA**: โปรโตคอลอุตสาหกรรม (Modbus, DNP3, S7comm), สถาปัตยกรรม Purdue Model
+9. **Threat Hunting & SIEM**: Building Sigma Rules, Splunk SPL, KQL, Elastic SIEM
+10. **OT / ICS / SCADA**: Industrial protocols (Modbus, DNP3, S7comm), Purdue Model architecture
 
 ---
 
-### 3. 🚀 Fullstack Dev — สถาปัตยกรรมระดับ Production
+### 3. 🚀 Fullstack Dev — Production-Grade Architecture
 
-วางแบบแผนการพัฒนาตามมาตรฐาน Clean Architecture, Domain-Driven Design (DDD) และ The Twelve-Factor App
+Designs a development approach based on Clean Architecture, Domain-Driven Design (DDD), and The Twelve-Factor App standards.
 
-#### ขั้นตอนการทำงาน 5 ขั้นตอน (Mandatory Workflow)
-1. **Step 0: Gather Requirements** — ระบุ Stack, Database, API Type, Auth Method, และ Real-time Needs
-2. **Step 1: Architectural Decisions** — วางโครงสร้าง Feature-first, Error Hierarchy และ Caching Strategy
-3. **Step 2: Scaffold with Checklist** — จัดเตรียม Boilerplate ตามรายการตรวจสอบให้ครบถ้วน
-4. **Step 3: Implement Patterns** — พัฒนา Service/Repository Layer, Data Validation และ Security
-5. **Step 4: Test & Verify** — ตรวจสอบ Build, Smoke Test (`/health`) และ Integration Endpoints
-6. **Step 5: Handoff Summary** — สรุปวิธีรันโปรเจกต์ ตัวแปร Environment และรายการไฟล์สำคัญ
+#### 5-Step Workflow (Mandatory Workflow)
+1. **Step 0: Gather Requirements** — Identify Stack, Database, API Type, Auth Method, and Real-time Needs
+2. **Step 1: Architectural Decisions** — Lay out Feature-first structure, Error Hierarchy, and Caching Strategy
+3. **Step 2: Scaffold with Checklist** — Prepare Boilerplate per a complete checklist
+4. **Step 3: Implement Patterns** — Build Service/Repository Layer, Data Validation, and Security
+5. **Step 4: Test & Verify** — Check Build, Smoke Test (`/health`), and Integration Endpoints
+6. **Step 5: Handoff Summary** — Summarize how to run the project, Environment variables, and key files
 
-#### เอกสารอ้างอิงเชิงลึก (`references/`)
-* [api-design.md](./fullstack-dev/references/api-design.md) — กฎ 50+ ข้อสำหรับการออกแบบ REST/GraphQL/gRPC
-* [auth-flow.md](./fullstack-dev/references/auth-flow.md) — สถาปัตยกรรมระบบ Auth (JWT Rotation, OAuth2/OIDC, RBAC)
-* [db-schema.md](./fullstack-dev/references/db-schema.md) — การออกแบบ Database Schema, Indexing, Concurrency Locks
-* [django-best-practices.md](./fullstack-dev/references/django-best-practices.md) — Best Practices เพิ่มประสิทธิภาพ Django/DRF
-* [environment-management.md](./fullstack-dev/references/environment-management.md) — จัดการ Config & Secrets ตาม 12-Factor App
-* [release-checklist.md](./fullstack-dev/references/release-checklist.md) — Checklist ตรวจความพร้อมก่อน Deploy (Zero-downtime)
-* [technology-selection.md](./fullstack-dev/references/technology-selection.md) — เกณฑ์การเลือก Tech Stack และ Trade-offs
-* [testing-strategy.md](./fullstack-dev/references/testing-strategy.md) — กลยุทธ์ Testing Pyramid (Unit, Integration, Contract, E2E)
+#### In-Depth Reference Docs (`references/`)
+* [api-design.md](./fullstack-dev/references/api-design.md) — 50+ rules for REST/GraphQL/gRPC design
+* [auth-flow.md](./fullstack-dev/references/auth-flow.md) — Auth system architecture (JWT Rotation, OAuth2/OIDC, RBAC)
+* [db-schema.md](./fullstack-dev/references/db-schema.md) — Database Schema design, Indexing, Concurrency Locks
+* [django-best-practices.md](./fullstack-dev/references/django-best-practices.md) — Best Practices for improving Django/DRF performance
+* [environment-management.md](./fullstack-dev/references/environment-management.md) — Config & Secrets management per 12-Factor App
+* [release-checklist.md](./fullstack-dev/references/release-checklist.md) — Pre-Deploy readiness checklist (Zero-downtime)
+* [technology-selection.md](./fullstack-dev/references/technology-selection.md) — Criteria for choosing Tech Stack and Trade-offs
+* [testing-strategy.md](./fullstack-dev/references/testing-strategy.md) — Testing Pyramid strategy (Unit, Integration, Contract, E2E)
 
 ---
 
-## 🛠️ วิธีติดตั้งในแต่ละแพลตฟอร์ม
+## 🛠️ Installation on Each Platform
 
 ### 1. Google Antigravity IDE
-* **ระดับ Workspace (เฉพาะโปรเจกต์นี้):**
-  คัดลอกโฟลเดอร์ทักษะไปที่ `.agents/skills/`
-* **ระดับ Global (ใช้ได้ทุกโปรเจกต์):**
+* **Workspace Level (this project only):**
+  Copy the skill folder to `.agents/skills/`
+* **Global Level (usable in all projects):**
   * Windows: `%USERPROFILE%\.gemini\config\skills\`
   * macOS / Linux: `~/.gemini/config/skills/`
 
 ### 2. Claude Code
-* คัดลอกโฟลเดอร์ทักษะไปที่ `.claude/skills/`
-* หรือเพิ่มข้อความใน `CLAUDE.md`: `Use caveman mode for concise responses.`
+* Copy the skill folder to `.claude/skills/`
+* Or add to `CLAUDE.md`: `Use caveman mode for concise responses.`
 
 ### 3. Cursor & Windsurf
-* นำเนื้อหาหรือข้อกำหนดจาก `SKILL.md` ไปใส่ใน `.cursorrules` (Cursor) หรือ `.windsurfrules` (Windsurf)
+* Take the content or requirements from `SKILL.md` and put them into `.cursorrules` (Cursor) or `.windsurfrules` (Windsurf)
 
 ---
 
-## 💡 Cheatsheet ตัวอย่างคำสั่งใช้งาน
+## 💡 Example Command Cheatsheet
 
 ```text
-# ⚡ ด้านการประหยัด Token (Caveman)
-/caveman                      # เปิดโหมดประหยัด Token (ลด 65%)
-/caveman ultra                # โหมดสั้นพิเศษ
-/caveman-commit               # ให้ AI เขียน Git Commit สั้นกระชับ
-/caveman-review               # ให้ AI ตรวจ PR แบบ 1 บรรทัดต่อจุด
-/caveman-compress CLAUDE.md   # บีบอัดไฟล์ Memory เพื่อลด Token ถาวร
+# ⚡ Token Savings (Caveman)
+/caveman                      # Enable token-saving mode (65% reduction)
+/caveman ultra                # Extra-short mode
+/caveman-commit               # Have the AI write a short, concise Git Commit
+/caveman-review               # Have the AI review a PR, 1 line per point
+/caveman-compress CLAUDE.md   # Compress a Memory file for permanent token reduction
 
-# 🛡️ ด้านความปลอดภัยและ CTF (Cyber Security)
-"ช่วยทำ Threat Modeling สำหรับระบบนี้ตามแนวทาง SSDLC"
-"ตรวจสอบ API นี้ว่ามีช่องโหว่ BOLA/IDOR หรือไม่ ตามแนวทางใน cyber-security"
-"ช่วยวิเคราะห์ไฟล์ Binary นี้และหาจุดบกพร่องเรื่อง Buffer Overflow"
-"Audit Smart Contract นี้เรื่อง Reentrancy Attack"
+# 🛡️ Security & CTF (Cyber Security)
+"Help me do Threat Modeling for this system following SSDLC guidelines"
+"Check this API for BOLA/IDOR vulnerabilities following the cyber-security guidelines"
+"Help me analyze this binary file and find Buffer Overflow issues"
+"Audit this Smart Contract for Reentrancy Attack"
 
-# 🚀 ด้านการพัฒนาเว็บและ API (Full-Stack)
-"สร้างระบบ REST API ด้วย Express ตาม 5-Step Workflow ใน fullstack-dev"
-"ออกแบบ Database Schema สำหรับระบบ E-Commerce พร้อม Index Strategy ตาม db-schema.md"
-"วางโครงสร้าง Authentication แบบ OAuth2 + JWT Rotation ตาม auth-flow.md"
-"ตรวจสอบความพร้อมของโค้ดก่อน Deploy ตาม release-checklist.md"
+# 🚀 Web & API Development (Full-Stack)
+"Build a REST API system with Express following the 5-Step Workflow in fullstack-dev"
+"Design a Database Schema for an E-Commerce system with an Index Strategy per db-schema.md"
+"Set up OAuth2 + JWT Rotation Authentication structure per auth-flow.md"
+"Check code readiness before Deploy per release-checklist.md"
 ```
 
 ---
 
-## 📊 ตารางเปรียบเทียบฟีเจอร์ (Feature Matrix)
+## 📊 Feature Comparison Table (Feature Matrix)
 
-| โมดูล | ประหยัด Token | ความปลอดภัย | สถาปัตยกรรม | งานที่เหมาะสมที่สุด |
+| Module | Token Savings | Security | Architecture | Best Suited For |
 | :--- | :---: | :---: | :---: | :--- |
-| **`caveman`** | 🟢 **65%** | ⚪ ปกติ | ⚪ ปกติ | ทุกการสนทนาที่ต้องการความเร็วและประหยัด Token |
-| **`caveman-commit`** | 🟢 **70%** | ⚪ ปกติ | ⚪ ปกติ | สร้าง Git Commit Message สั้นกระชับ |
-| **`caveman-compress`** | 🟢 **46%** | ⚪ ปกติ | ⚪ ปกติ | บีบอัด Context Memory (`CLAUDE.md`) ถาวร |
-| **`caveman-review`** | 🟢 **60%** | ⚪ ปกติ | ⚪ ปกติ | ตรวจสอบ Code Review ตรงเป้าหมาย |
-| **`cyber-security`** | ⚪ ปกติ | 🟢 **Master (817)** | 🟢 SSDLC | Pentest, CTF, DevSecOps, Audit ความปลอดภัย |
-| **`fullstack-dev`** | ⚪ ปกติ | 🟢 Best Practice | 🟢 **Enterprise** | สร้าง Web App, พัฒนา API, วางระบบฐานข้อมูล |
+| **`caveman`** | 🟢 **65%** | ⚪ Normal | ⚪ Normal | Any conversation needing speed and token savings |
+| **`caveman-commit`** | 🟢 **70%** | ⚪ Normal | ⚪ Normal | Writing short, concise Git Commit Messages |
+| **`caveman-compress`** | 🟢 **46%** | ⚪ Normal | ⚪ Normal | Permanently compressing Context Memory (`CLAUDE.md`) |
+| **`caveman-review`** | 🟢 **60%** | ⚪ Normal | ⚪ Normal | Focused, targeted Code Review |
+| **`cyber-security`** | ⚪ Normal | 🟢 **Master (817)** | 🟢 SSDLC | Pentest, CTF, DevSecOps, Security Audit |
+| **`fullstack-dev`** | ⚪ Normal | 🟢 Best Practice | 🟢 **Enterprise** | Building Web Apps, developing APIs, designing database systems |
 
 ---
 
-## 📜 สัญญาอนุญาต (License)
+## 📜 License
 
-โปรเจกต์นี้เผยแพร่ภายใต้สัญญาอนุญาตแบบ [MIT License](./LICENSE) สามารถนำไปใช้งาน ปรับแต่ง และประยุกต์ใช้ได้อย่างอิสระ
+This project is released under the [MIT License](./LICENSE) and may be used, modified, and adapted freely.
