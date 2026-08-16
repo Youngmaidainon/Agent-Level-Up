@@ -19,12 +19,12 @@
 
 ```bash
 # Copy desired skill folders into your project workspace
-mkdir -p .agents/skills   # For Google Antigravity IDE
+mkdir -p .gemini/config/skills   # For Google Antigravity IDE
 # or mkdir -p .claude/skills  # For Claude Code
 
-cp -r ./caveman .agents/skills/
-cp -r ./cyber-security .agents/skills/
-cp -r ./fullstack-dev .agents/skills/
+cp -r ./caveman .gemini/config/skills
+cp -r ./cyber-security .gemini/config/skills
+cp -r ./fullstack-dev .gemini/config/skills
 ```
 
 ```text
