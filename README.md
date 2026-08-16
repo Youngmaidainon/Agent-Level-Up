@@ -153,7 +153,7 @@ Architectural guidelines rooted in Clean Architecture, Domain-Driven Design (DDD
 ## 🛠️ Platform Installation Guide
 
 ### 1. Google Antigravity IDE
-* Copy skill folders to `.agents/skills/`
+* Copy skill folders to `.gemini/config/skills`
 
 ### 2. Claude Code
 * Copy skill folders to `.claude/skills/`
