@@ -177,7 +177,3 @@ Architectural guidelines rooted in Clean Architecture, Domain-Driven Design (DDD
 | **`fullstack-dev`** | ⚪ Standard | 🟢 Best Practice | 🟢 **Enterprise** | Building web applications, scalable APIs, and database models |
 
 ---
-
-## 📜 License
-
-This project is open-source software licensed under the [MIT License](./LICENSE). Feel free to use, modify, and distribute.
