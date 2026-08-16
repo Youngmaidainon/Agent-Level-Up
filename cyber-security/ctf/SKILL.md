@@ -8,9 +8,8 @@ description: |
 license: MIT
 metadata:
   category: cybersecurity-ctf
-  version: "1.0.0"
+  version: "2.4.0"
   skills_count: 817
-  author: "Antigravity Cybersecurity Intelligence"
 ---
 
 # 🚩 CTF & Cybersecurity Master Playbook Orchestrator (817 Skills)
