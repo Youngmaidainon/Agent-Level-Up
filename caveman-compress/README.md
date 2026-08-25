@@ -62,7 +62,7 @@ preserved exactly.
 </td>
 <td width="50%">
 
-### <img src="../../docs/assets/dancing-rock.svg" width="20" height="20" alt="rock"/> Caveman (285 tokens)
+### 🪨 Caveman (285 tokens)
 
 > "Prefer TypeScript strict mode always. No `any` unless unavoidable; comment why if used. Proper types catch bugs early."
 
@@ -81,12 +81,12 @@ these operations exist and how paths are constrained.
 
 ## Install
 
-Compress is built in with the `caveman` plugin. Install `caveman` once, then use `/caveman-compress`.
+Compress is built in with the `caveman` suite. Copy or install the skill into your agent configuration, then use `/caveman-compress`.
 
-If you need local files, the compress skill lives at:
+The compress skill folder lives at:
 
 ```bash
-skills/caveman-compress/
+caveman-compress/
 ```
 
 Requires Python 3.10 or newer.
@@ -168,9 +168,15 @@ general semantic or task-quality equivalence.
 └────────────────────────────────────────────┘
 ```
 
-## Part of Caveman
-
-This skill is part of the [caveman](https://github.com/JuliusBrussee/caveman) toolkit.
-
-- `caveman`: ask Claude to answer in shorter prose
-- `caveman-compress`: shorten supported project-memory files with backups and validation
+## Part of Caveman Suite
+ 
+ This skill is part of the [Up-Skill For Agent Hub](../README.md).
+ 
+ - `caveman`: ask AI models to answer in concise prose
+ - `caveman-compress`: shorten supported project-memory files with backups and validation
+ 
+## See also
+ 
+- [`SKILL.md`](./SKILL.md) — full LLM-facing instructions
+- [`SECURITY.md`](./SECURITY.md) — security architecture and path sandbox
+- [Master README](../README.md) — repository overview and skill hub

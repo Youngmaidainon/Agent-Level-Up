@@ -33,3 +33,8 @@ not edit user or repository config.
 Everything is `inferred` — no currency, no "verified". Every edit is consent-gated and
 reversible, and an offload that would leave the agent unable to recall the content is
 rejected. The analyzer never edits your files; this skill does, only with your yes.
+
+## See also
+
+- [`SKILL.md`](./SKILL.md) — full LLM-facing instructions and outcome store mechanics
+- [Master README](../README.md) — repository overview and skill hub

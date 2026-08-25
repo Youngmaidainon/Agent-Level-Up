@@ -106,3 +106,4 @@ HTTP Request ──► [ Controller Layer ]   (Parse input, validate DTO, format
 
 - [`SKILL.md`](./SKILL.md) — Master Full-Stack Development Skill Specification
 - [`references/`](./references/) — Complete Reference Manuals Directory
+- [Master README](../README.md) — repository overview and skill hub
